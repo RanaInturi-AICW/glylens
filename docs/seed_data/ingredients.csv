@@ -1,0 +1,7 @@
+canonicalName,aliases,category,region,availableCarbohydrates,GI,GL,GIStatus,evidenceLevel,source,trustScore,confidence
+Jamun,"Jamun Fruit|Indian Blackberry",Fruit,India,unavailable,unavailable,unavailable,unavailable,B,"India Food Composition Tables (IFCT) / National Institute of Nutrition India (expected)",88,"80-86"
+Banana,Banana Fruit,Fruit,India / US,unavailable,unavailable,unavailable,unavailable,A,"USDA FoodData Central / FAO/WHO Glycemic Index tables (expected)",90,"85-89"
+White Rice,"White Rice (cooked)|Polished Rice",Grain,India / US,unavailable,unavailable,unavailable,unavailable,A,"FAO/WHO Glycemic Index tables / USDA FoodData Central (expected)",91,"86-90"
+Brown Rice,"Whole Grain Brown Rice",Grain,US / India,unavailable,55,unavailable,Published,A,FAO/WHO Glycemic Index tables,91,"86-90"
+Oats,"Rolled Oats|Old Fashioned Oats",Grain,US,unavailable,55,unavailable,Published,A,USDA FoodData Central,90,"85-89"
+Chickpea,"Garbanzo Bean",Legume,US / India,unavailable,28,unavailable,Published,A,FAO/WHO Glycemic Index tables,92,"88-92"

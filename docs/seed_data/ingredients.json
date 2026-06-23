@@ -1,0 +1,101 @@
+[
+    {
+        "canonicalName": "Jamun",
+        "aliases": [
+            "Jamun Fruit",
+            "Indian Blackberry"
+        ],
+        "category": "Fruit",
+        "region": "India",
+        "availableCarbohydrates": "unavailable",
+        "GI": "unavailable",
+        "GL": "unavailable",
+        "GIStatus": "unavailable",
+        "evidenceLevel": "B",
+        "source": "India Food Composition Tables (IFCT) / National Institute of Nutrition India (expected)",
+        "trustScore": 88,
+        "confidence": "80-86"
+    },
+    {
+        "canonicalName": "Banana",
+        "aliases": [
+            "Banana Fruit"
+        ],
+        "category": "Fruit",
+        "region": "India / US",
+        "availableCarbohydrates": "unavailable",
+        "GI": "unavailable",
+        "GL": "unavailable",
+        "GIStatus": "unavailable",
+        "evidenceLevel": "A",
+        "source": "USDA FoodData Central / FAO/WHO Glycemic Index tables (expected)",
+        "trustScore": 90,
+        "confidence": "85-89"
+    },
+    {
+        "canonicalName": "White Rice",
+        "aliases": [
+            "White Rice (cooked)",
+            "Polished Rice"
+        ],
+        "category": "Grain",
+        "region": "India / US",
+        "availableCarbohydrates": "unavailable",
+        "GI": "unavailable",
+        "GL": "unavailable",
+        "GIStatus": "unavailable",
+        "evidenceLevel": "A",
+        "source": "FAO/WHO Glycemic Index tables / USDA FoodData Central (expected)",
+        "trustScore": 91,
+        "confidence": "86-90"
+    },
+    {
+        "canonicalName": "Brown Rice",
+        "aliases": [
+            "Whole Grain Brown Rice"
+        ],
+        "category": "Grain",
+        "region": "US / India",
+        "availableCarbohydrates": "unavailable",
+        "GI": 55,
+        "GL": "unavailable",
+        "GIStatus": "Published",
+        "evidenceLevel": "A",
+        "source": "FAO/WHO Glycemic Index tables",
+        "trustScore": 91,
+        "confidence": "86-90"
+    },
+    {
+        "canonicalName": "Oats",
+        "aliases": [
+            "Rolled Oats",
+            "Old Fashioned Oats"
+        ],
+        "category": "Grain",
+        "region": "US",
+        "availableCarbohydrates": "unavailable",
+        "GI": 55,
+        "GL": "unavailable",
+        "GIStatus": "Published",
+        "evidenceLevel": "A",
+        "source": "USDA FoodData Central",
+        "trustScore": 90,
+        "confidence": "85-89"
+    },
+    {
+        "canonicalName": "Chickpea",
+        "aliases": [
+            "Garbanzo Bean"
+        ],
+        "category": "Legume",
+        "region": "US / India",
+        "availableCarbohydrates": "unavailable",
+        "GI": 28,
+        "GL": "unavailable",
+        "GIStatus": "Published",
+        "evidenceLevel": "A",
+        "source": "FAO/WHO Glycemic Index tables",
+        "trustScore": 92,
+        "confidence": "88-92"
+    }
+]

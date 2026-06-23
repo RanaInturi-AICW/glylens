@@ -1,0 +1,97 @@
+[
+    {
+        "brand": "Coca-Cola",
+        "productName": "Coke Zero",
+        "productCategory": "Beverage",
+        "barcode": "placeholder-0001",
+        "nutritionSource": "Manufacturer nutrition label",
+        "marketingClaims": [
+            "zero sugar",
+            "zero calories"
+        ],
+        "availableCarbohydrates": 0,
+        "GI": 0,
+        "GL": 0,
+        "GIStatus": "Published",
+        "evidenceLevel": "C",
+        "source": "Manufacturer nutrition label / product composition",
+        "trustScore": 75,
+        "confidence": "70-76"
+    },
+    {
+        "brand": "PepsiCo",
+        "productName": "Pepsi Zero",
+        "productCategory": "Beverage",
+        "barcode": "placeholder-0002",
+        "nutritionSource": "Manufacturer nutrition label",
+        "marketingClaims": [
+            "zero sugar",
+            "zero calories"
+        ],
+        "availableCarbohydrates": 0,
+        "GI": 0,
+        "GL": 0,
+        "GIStatus": "Published",
+        "evidenceLevel": "C",
+        "source": "Manufacturer nutrition label / product composition",
+        "trustScore": 75,
+        "confidence": "70-76"
+    },
+    {
+        "brand": "Britannia",
+        "productName": "Britannia NutriChoice",
+        "productCategory": "Snack",
+        "barcode": "placeholder-0003",
+        "nutritionSource": "Manufacturer nutrition label",
+        "marketingClaims": [
+            "high fiber",
+            "whole grain"
+        ],
+        "availableCarbohydrates": "unavailable",
+        "GI": "unavailable",
+        "GL": "unavailable",
+        "GIStatus": "Estimated",
+        "evidenceLevel": "C",
+        "source": "Manufacturer nutrition label",
+        "trustScore": 75,
+        "confidence": "70-76"
+    },
+    {
+        "brand": "RiteBite",
+        "productName": "RiteBite Protein Bar",
+        "productCategory": "Snack",
+        "barcode": "placeholder-0004",
+        "nutritionSource": "Manufacturer nutrition label",
+        "marketingClaims": [
+            "high protein",
+            "low sugar"
+        ],
+        "availableCarbohydrates": "unavailable",
+        "GI": "unavailable",
+        "GL": "unavailable",
+        "GIStatus": "Estimated",
+        "evidenceLevel": "C",
+        "source": "Manufacturer nutrition label",
+        "trustScore": 75,
+        "confidence": "70-76"
+    },
+    {
+        "brand": "Yoga Bar",
+        "productName": "Yoga Bar Protein Bar",
+        "productCategory": "Snack",
+        "barcode": "placeholder-0005",
+        "nutritionSource": "Manufacturer nutrition label",
+        "marketingClaims": [
+            "high protein",
+            "low sugar"
+        ],
+        "availableCarbohydrates": "unavailable",
+        "GI": "unavailable",
+        "GL": "unavailable",
+        "GIStatus": "Estimated",
+        "evidenceLevel": "C",
+        "source": "Manufacturer nutrition label",
+        "trustScore": 75,
+        "confidence": "70-76"
+    }
+]

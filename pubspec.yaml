@@ -1,0 +1,7 @@
+name: glylens
+description: GlyLens domain package for Sprint 0
+version: 0.1.0
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+dev_dependencies:
+  test: ^1.24.0

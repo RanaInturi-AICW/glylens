@@ -1,0 +1,90 @@
+[
+    {
+        "itemName": "Chicken Biryani",
+        "itemType": "food",
+        "ingredientList": [
+            {
+                "name": "Basmati Rice",
+                "percentage": 60
+            },
+            {
+                "name": "Chicken",
+                "percentage": 20
+            },
+            {
+                "name": "Yogurt",
+                "percentage": 10
+            },
+            {
+                "name": "Oil",
+                "percentage": 5
+            },
+            {
+                "name": "Spices",
+                "percentage": 5
+            }
+        ],
+        "preparationMethod": "Slow cooked rice and chicken with yogurt, spices, and rendered oil",
+        "preparationNotes": "Mixed meal prepared using basmati rice, chicken, yogurt, oil, and common biryani spices.",
+        "evidenceLevel": "B",
+        "source": "India Food Composition Tables (IFCT) / National Institute of Nutrition India (expected)",
+        "trustScore": 88,
+        "confidence": "80-86"
+    },
+    {
+        "itemName": "Masala Dosa",
+        "itemType": "food",
+        "ingredientList": [
+            {
+                "name": "Rice Batter",
+                "percentage": 55
+            },
+            {
+                "name": "Urad Dal Batter",
+                "percentage": 25
+            },
+            {
+                "name": "Potato Masala",
+                "percentage": 15
+            },
+            {
+                "name": "Oil",
+                "percentage": 5
+            }
+        ],
+        "preparationMethod": "Fermented rice and dal batter cooked on a griddle, filled with potato masala",
+        "preparationNotes": "Traditional South Indian dosa prepared from fermented rice/urad dal batter and stuffed with potato-seasoned masala.",
+        "evidenceLevel": "B",
+        "source": "India Food Composition Tables (IFCT) / FAO/WHO Glycemic Index tables (expected)",
+        "trustScore": 88,
+        "confidence": "80-86"
+    },
+    {
+        "itemName": "Pongal",
+        "itemType": "food",
+        "ingredientList": [
+            {
+                "name": "Rice",
+                "percentage": 60
+            },
+            {
+                "name": "Moong Dal",
+                "percentage": 25
+            },
+            {
+                "name": "Ghee",
+                "percentage": 10
+            },
+            {
+                "name": "Black Pepper",
+                "percentage": 5
+            }
+        ],
+        "preparationMethod": "Boiled rice and split moong dal tempered with ghee and black pepper",
+        "preparationNotes": "South Indian savory pongal with cooked rice, dal, ghee, and seasoning.",
+        "evidenceLevel": "B",
+        "source": "India Food Composition Tables (IFCT) / National Institute of Nutrition India (expected)",
+        "trustScore": 88,
+        "confidence": "80-86"
+    }
+]

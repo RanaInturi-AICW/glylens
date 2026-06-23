@@ -1,0 +1,2020 @@
+ Volume in drive D is Akshaj
+ Volume Serial Number is B031-F079
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens
+
+[.]                   flylens_folders.txt   README.md
+[..]                  [lib]                 [test]
+[docs]                pubspec.yaml          
+               3 File(s)            183 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git
+
+[..]          FETCH_HEAD    index         [objects]     
+config        HEAD          [info]        packed-refs   
+description   [hooks]       [logs]        [refs]        
+               6 File(s)          4,282 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\hooks
+
+[.]                         pre-push.sample
+applypatch-msg.sample       pre-rebase.sample
+commit-msg.sample           pre-receive.sample
+fsmonitor-watchman.sample   prepare-commit-msg.sample
+post-update.sample          push-to-checkout.sample
+pre-applypatch.sample       sendemail-validate.sample
+pre-commit.sample           update.sample
+pre-merge-commit.sample     
+              14 File(s)         26,788 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\info
+
+[.]       exclude   
+               1 File(s)            240 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\logs
+
+[.]    HEAD   [refs] 
+               1 File(s)            181 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\logs\refs
+
+[.]       [..]      [heads]   [remotes] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\logs\refs\heads
+
+[.]    [..]   main   
+               1 File(s)            181 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\logs\refs\remotes
+
+[.]      [..]     [origin] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\logs\refs\remotes\origin
+
+[.]    [..]   HEAD   
+               1 File(s)            181 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects
+
+[.]    [15]   [32]   [4d]   [65]   [7f]   [98]   [ae]   [c6]   [dc]   [f4]
+[00]   [17]   [35]   [4e]   [66]   [80]   [99]   [af]   [c7]   [de]   [f5]
+[01]   [1a]   [36]   [4f]   [67]   [82]   [9a]   [b0]   [c8]   [df]   [f6]
+[03]   [1e]   [38]   [50]   [68]   [83]   [9c]   [b1]   [c9]   [e0]   [f7]
+[04]   [20]   [3a]   [51]   [69]   [86]   [9e]   [b2]   [ca]   [e1]   [f8]
+[07]   [22]   [3c]   [52]   [6a]   [87]   [a0]   [b3]   [cb]   [e2]   [f9]
+[08]   [23]   [3d]   [55]   [6d]   [88]   [a1]   [b8]   [cc]   [e3]   [fa]
+[09]   [25]   [3e]   [56]   [6e]   [89]   [a2]   [b9]   [cd]   [e4]   [fc]
+[0a]   [26]   [3f]   [57]   [70]   [8a]   [a4]   [ba]   [ce]   [e5]   [fd]
+[0b]   [27]   [40]   [58]   [71]   [8c]   [a5]   [bb]   [cf]   [e6]   [fe]
+[0d]   [28]   [42]   [59]   [73]   [8e]   [a6]   [bc]   [d0]   [e7]   [info]
+[0e]   [2a]   [45]   [5a]   [74]   [8f]   [a7]   [be]   [d2]   [ea]   [pack]
+[0f]   [2c]   [46]   [5c]   [76]   [91]   [a8]   [bf]   [d3]   [eb]   
+[10]   [2d]   [47]   [60]   [77]   [92]   [a9]   [c1]   [d4]   [ed]   
+[11]   [2e]   [49]   [61]   [78]   [93]   [aa]   [c2]   [d5]   [ef]   
+[12]   [2f]   [4a]   [62]   [7b]   [94]   [ab]   [c3]   [d7]   [f1]   
+[13]   [30]   [4b]   [63]   [7c]   [95]   [ac]   [c4]   [d9]   [f2]   
+[14]   [31]   [4c]   [64]   [7e]   [96]   [ad]   [c5]   [da]   [f3]   
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\00
+
+[.]
+[..]
+11601caa6edcac05187426bc0a87537cde0695
+
+               1 File(s)             47 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\01
+
+[.]
+[..]
+0895f433f83a2933900ef2ed43ac3e46d2009e
+a7da6db8e3bf20abf0f259675594784024da6d
+
+               2 File(s)            643 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\03
+
+[.]
+[..]
+2be5f53f08ba9caaeda713e33c8e50cb26d851
+b3b711337fe577f00e3fdb79dff5217a4c3479
+
+               2 File(s)            131 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\04
+
+[.]
+[..]
+8de863ab093adf2cdfe69d09a5507b0dcb2d85
+978cefabba60ae5e842f857893c1e6a70f90fe
+
+               2 File(s)            851 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\07
+
+[.]
+[..]
+0677875a98777f57d1b0eb66799ce5834b8225
+
+               1 File(s)            146 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\08
+
+[.]
+[..]
+868e9edbc6bbef228d5aa836440aef0d57b64f
+
+               1 File(s)             55 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\09
+
+[.]
+[..]
+203b8c632c02d961c04a2e0f953db85392e06e
+6d5a5f08c89606e2c7a9d8ea340da18012adbd
+
+               2 File(s)             92 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\0a
+
+[.]
+[..]
+571992906a085f43eec4205db0e86b1ba05670
+
+               1 File(s)            112 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\0b
+
+[.]
+[..]
+78f864242eeb8d80c42f6d1bf87cb35d41e601
+7997b7497e00e4a02aa50f35fb187f0377a123
+
+               2 File(s)            342 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\0d
+
+[.]
+[..]
+2cb3c6dafb1485485c7a80f40cfcb56d138a7b
+c2edc4b364c44b9be56135e510d69d503966b3
+
+               2 File(s)            147 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\0e
+
+[.]
+[..]
+b160b076bd901bed65ee55209d60013f3ee6d8
+cf48f18f97e9970439e1c75164cfe383f3dd80
+
+               2 File(s)            232 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\0f
+
+[.]
+[..]
+4effe43f443e9e6da4acefaad9c2a8ba880c49
+800f153ab5280f01839c236d05ab07a759f659
+ea159df6a0ddd1f892b2e7a9d057b3d6e986e5
+f52cf1b4db0d955af95f5f3d9ac6255dd41923
+
+               4 File(s)            903 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\10
+
+[.]
+[..]
+7af7ee0aa79a4943ecc9dffcfba9727c450b6b
+
+               1 File(s)            383 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\11
+
+[.]
+[..]
+02db2bfec8a2199e287515c5b9678bdbe4dc9e
+06dddc02e9517b4ec3b362463131913850e0b3
+
+               2 File(s)            270 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\12
+
+[.]
+[..]
+435b72ffa2b5d124d2b644b85887f5a5b90010
+
+               1 File(s)            149 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\13
+
+[.]
+[..]
+08fd2b4338145807d224c14e34c147278d220e
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\14
+
+[.]
+[..]
+7d63b25b58a1b71429a71c3d986e72d815e103
+dd39abee88fe433a84e54ba2f7a1c35bc5cb6a
+ef47cf632e74e15a227725ff89b478fb05e526
+
+               3 File(s)            483 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\15
+
+[.]
+[..]
+2c82af778d23b2461b23fb5c51d58f26bc07ae
+52d9d0231a26b64f639e005bfaaf402fbeed38
+
+               2 File(s)            391 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\17
+
+[.]
+[..]
+013f05d874dfa80c71cdc4fae9d4cea8c8ac0e
+85e6578ea1ff5147c67123efa109c5813b33e1
+b66ccf7d520163aa4ef2483bff0298e6c0af9d
+
+               3 File(s)            309 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\1a
+
+[.]
+[..]
+577683b03784cb17cd2fc1822de06c3de80448
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\1e
+
+[.]
+[..]
+349312e6633d9f1880d9ec1ab21103a751074c
+651fdfde5d400553dc6d08d90b4730d506d38c
+
+               2 File(s)            565 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\20
+
+[.]
+[..]
+23a26c39eb728893a09b3fa9361f37c99c42c3
+
+               1 File(s)            121 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\22
+
+[.]
+[..]
+e5d39d5b1ddf547dbbe1aec6b9d84da4224254
+
+               1 File(s)            122 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\23
+
+[.]
+[..]
+24916fb7c14b79d1145c3094d217021f205ad4
+c81f14272206db7ad76ea306ed4dad16f57e3a
+
+               2 File(s)             94 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\25
+
+[.]
+[..]
+1ecc39d2e526410938e24c184965c1afd42757
+5dee557ba9f02b23b954cbc0cccd688abec8fe
+5f1e2d63bad30bbebee9d8d9cbf9a9c60206c8
+a953f8c208be635ca8f804699284494f2d48b9
+
+               4 File(s)          1,153 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\26
+
+[.]
+[..]
+6427786627b60f8af53bac18a690ef9a750254
+
+               1 File(s)            148 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\27
+
+[.]
+[..]
+24bce31b578f96cb857a4b171701d77986eb82
+a071b9952f7507f6c7af324307bd4fdba48635
+
+               2 File(s)            349 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\28
+
+[.]
+[..]
+1673cc2f5db0389a72c1fc135b0602be3a93d3
+5c9507217e5781cc6427f24ac730b9515c5b5c
+
+               2 File(s)            446 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\2a
+
+[.]
+[..]
+d36b2846fe71fd0356b829bceb48805307a6ea
+
+               1 File(s)            255 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\2c
+
+[.]
+[..]
+c094a44312449fae9ba3f2f3af6e7a309652df
+
+               1 File(s)            139 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\2d
+
+[.]
+[..]
+225c7df18e5e367bdd2b79fd6d9e937cfaaa03
+
+               1 File(s)            736 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\2e
+
+[.]
+[..]
+f378284320be38b90889e002e00798f268f5a2
+
+               1 File(s)             46 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\2f
+
+[.]
+[..]
+57e45a6eb3a0633ea636fd7fffbe77b900f8ee
+be738988136e39c67eaf825770dfc10e045e13
+bec274c6d1bbb81974d3bdb98cd25726eecf0b
+
+               3 File(s)            992 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\30
+
+[.]
+[..]
+22d9864099fe633efdbb9fb12e80c784fc5e80
+9d280ff194736e4d522633b78e468445748f44
+e67347cdcb346389bc02ae55723a5db8106c94
+
+               3 File(s)            871 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\31
+
+[.]
+[..]
+2b26caa9d85dc27c291ef505238d39ca08dac6
+
+               1 File(s)            112 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\32
+
+[.]
+[..]
+68d2e234bdd80972d8f9823c0cf873dcfd16c3
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\35
+
+[.]
+[..]
+7430878c0a28c7b5f8b62935ace59a89bec678
+ced3dd0ae55e62fd1ca270d05b5a689c0ce744
+
+               2 File(s)            158 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\36
+
+[.]
+[..]
+9c8bf77b19707359fba36b1327a88ffb984913
+cf440725ab53d59c386cfe9dd9c3a24bd78526
+f56b3f19e4c2a4f7002234b9ccff8f16040307
+
+               3 File(s)            484 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\38
+
+[.]
+[..]
+f8749f83040b47c23eb7dcaf670d96e39e21ef
+
+               1 File(s)             66 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\3a
+
+[.]
+[..]
+4d084f60d41dc6d793ba3ec4007f347637878a
+76671cfc03aac2171880005387da832a1961bf
+c084eb08c86881f3af30feb570028de2368842
+efd78b36c1a31a6c9c8ab165014f7720becbf4
+
+               4 File(s)            363 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\3c
+
+[.]
+[..]
+d111dcc6a1b8104169ed87fcad06f917d2da62
+
+               1 File(s)            198 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\3d
+
+[.]
+[..]
+efe4d5f22131a70f548b9e27b89de79d6414a1
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\3e
+
+[.]
+[..]
+5908e9ac48493609208691995b939fd7c82ba5
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\3f
+
+[.]
+[..]
+fc8ab82b85ce9b32d22988943d93c0076f76bb
+
+               1 File(s)             46 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\40
+
+[.]
+[..]
+ceefb9948c4b499305fe740d9b596c89cab699
+f2ee49daac9ecd9ee2eefb3288f9ca86396173
+
+               2 File(s)            224 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\42
+
+[.]
+[..]
+5f7088c7f410b1dcc7a1a052ac13e1a9e55049
+71b769168b3e3d3e25a1303d970b7d705b4179
+de3f08df7f24df00a474b7a85cf28de4f05d13
+
+               3 File(s)            332 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\45
+
+[.]
+[..]
+0bd00b89411bde7904da6e49d9a94e460bf803
+f8b14b4a1a1d2996b24cbfac2d6a51c40e9615
+
+               2 File(s)          1,586 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\46
+
+[.]
+[..]
+84732d266ef44825586a164453ade9981296c9
+
+               1 File(s)             46 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\47
+
+[.]
+[..]
+78e2e4e5027a42a7aeb488204fec31fbb545b6
+b57a1519ae5936f4aa0f6113eb764f6d0246dc
+
+               2 File(s)            132 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\49
+
+[.]
+[..]
+e24d9a501fdd50990b361a0b3f846c48edc01d
+
+               1 File(s)            177 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\4a
+
+[.]
+[..]
+54b89aa5f338a55f7c01cbf166234ed82f63f7
+
+               1 File(s)             58 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\4b
+
+[.]
+[..]
+4abb66e238cc4488644ee1671de19b4cd7d47a
+57f52fcb057d55ab3183b3a3b90b57203f8dd9
+fccd761ce7c85782b49ba85031692aea904619
+
+               3 File(s)            321 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\4c
+
+[.]
+[..]
+08d2f452cc916917c23a38b51eb10a8da8b26e
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\4d
+
+[.]
+[..]
+3e0de0b06e51998643aa7cf3e2d23f49d2553d
+c060f11cc25efbcd01543508ecb507d79b3c7a
+
+               2 File(s)            150 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\4e
+
+[.]
+[..]
+558a735b45f4e25bd6b68afb567ff10f7da669
+5dda3dd179e286dc1c3c0eeac6ad497e5966b4
+b4dd78ad37a99f501447a4577bd4bc2745725e
+c2d667a156b4102b51f9233447c60d12ac2d60
+f041fdc7f6bf1bb49592b25bdc456ae88c12c5
+
+               5 File(s)            368 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\4f
+
+[.]
+[..]
+800c5b40830ec2de0ff386fcf5a1bb7a7f878b
+
+               1 File(s)            215 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\50
+
+[.]
+[..]
+293e097ff45507a93b70629d446975f5b2fce0
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\51
+
+[.]
+[..]
+3fd6b1be5c16d60656ea371be68147ee77501f
+4553ac62c09e6236a781fe39f5358fff482a82
+b7a5a6479fd51a28359076b4e64b0868821e2d
+d2968c5854d4f8c66b7d69b9632544ce197285
+
+               4 File(s)          1,418 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\52
+
+[.]
+[..]
+396d399aff446c99006ca9a0696cd2bbff7cae
+
+               1 File(s)             89 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\55
+
+[.]
+[..]
+16a54be6e7ebece6ab4cbee0e2a8a952fe5d84
+a085a03f640381e364c7baabda9b7eab65b07a
+
+               2 File(s)            219 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\56
+
+[.]
+[..]
+b166e6c247fd699df3040e7dac15cafcf1a09d
+
+               1 File(s)            197 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\57
+
+[.]
+[..]
+1bcc22fa665fcf80d32bed5af130e1e9f6690e
+97053e6d2459de84b9e5865a5a1060d99d193a
+fdef4148ae55c441f60656835ec6e8da6076a6
+
+               3 File(s)            395 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\58
+
+[.]
+[..]
+611ef45a1def9c5c8a907a01b884d8465706c1
+
+               1 File(s)             75 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\59
+
+[.]
+[..]
+62f3c7f6d73452b803d77aae32a63844de4bb6
+
+               1 File(s)            148 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\5a
+
+[.]
+[..]
+0953dbea2038e20e552fefaff9a280460b0718
+b2ad7c30f7df34cf45a65954ffe72806660cab
+
+               2 File(s)            188 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\5c
+
+[.]
+[..]
+84940bb08a2bca84d3907e04829e53ab3030b6
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\60
+
+[.]
+[..]
+1672c04b32136104ffb76a4ef030ed91bd6927
+d39f69a43b18570aa40bbd0c438e24450b144b
+
+               2 File(s)            752 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\61
+
+[.]
+[..]
+32030c65d68b9ba3a084a51a461c94acb6b706
+6ea00f423199a7ba2b28f861bdcd902af72efa
+8dfae1b7b8315bb36ba13ef5afae6139ff69f1
+
+               3 File(s)            547 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\62
+
+[.]
+[..]
+3edcc5eb84366ac7ebdb83f8074064766fdb7a
+
+               1 File(s)            138 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\63
+
+[.]
+[..]
+0debb38266152b328b4e48321997adb29e3fb1
+3ab75f97ed6256017316141708bb7e93ce8b33
+3dfda88bc19f940d6d28c0f36192adf6582823
+4931ce05bfee29f23705c59f71aba43056572f
+5206c0aea389adc0ee5b2ac1d155bd9b753e78
+
+               5 File(s)          1,512 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\64
+
+[.]
+[..]
+3f10808e6ba28dbcf7eb39ee330a32a1dbbfd3
+48b0b680b4979e9fe7b8e335b3474a9322279c
+7a5a683600108d8f487db020de365ffbe35c58
+
+               3 File(s)          1,597 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\65
+
+[.]
+[..]
+a66ee36331aeb45215d6932977600a74387972
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\66
+
+[.]
+[..]
+75a05df2d53d77bf3fb195d33cc82447bb3252
+
+               1 File(s)            136 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\67
+
+[.]
+[..]
+8a5d9c3317ca00b25e9699c9a1b96cac35930e
+d0a15c35f265f934d572acc9ed3bbf023564fe
+
+               2 File(s)            107 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\68
+
+[.]
+[..]
+b4e2169fb793996c536b6f91c4ae90b7d65831
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\69
+
+[.]
+[..]
+595e744b81ff8845435d6bf9db85c401b31b8d
+
+               1 File(s)            139 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\6a
+
+[.]
+[..]
+265d129cf64512d1238a78cc110e586a6f7915
+4aa10ef49ec89b95b09898db8382a42e2e588c
+59875b23c788eb64ae01a75e8ed537469192be
+6d4ed60e9e02f3ae8af34133beb4c302638483
+f43112f81938a1a1803c145eb9c56a2388f76a
+
+               5 File(s)          1,076 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\6d
+
+[.]
+[..]
+3b5bf4965aaf9378c28c9052e47829137b5811
+690a7e12f02afde2aa84ec9d467cefe6b2fa9d
+9c7559700b73e894c58171e2f04c885dd6aeb0
+
+               3 File(s)            181 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\6e
+
+[.]
+[..]
+1f9565ea21d55d897d6e89226cf37bf15c1bf8
+
+               1 File(s)            133 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\70
+
+[.]
+[..]
+bf8ca9ae28c445575fbb91de006c29a14888a7
+
+               1 File(s)             75 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\71
+
+[.]
+[..]
+be5c852a1860a60b8d01d9656a8021b7e23d3e
+eb6b70341e7582fa918d0b6aa9c4c616f57c40
+
+               2 File(s)            398 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\73
+
+[.]
+[..]
+04a1bb146cf0cc5bd0179e6817972de384d7e9
+
+               1 File(s)             60 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\74
+
+[.]
+[..]
+5c9d015ab9d79411411e48ab0b2a997f77c4f3
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\76
+
+[.]
+[..]
+56a6ff55be459a256d71b239e3c791dfbd6793
+91bd7285215d3be1b230cffaf0a1d8ee7dcaef
+
+               2 File(s)            440 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\77
+
+[.]
+[..]
+cbb67af2d9df1c49b99a29a0737bf8a081c08d
+
+               1 File(s)            187 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\78
+
+[.]
+[..]
+0e1d1a4c4913620c67d3ea6db83b82c09f6cbf
+1416adbd141ae7223c50452aa4a7b6083a7c20
+301197f92e38efcc488bc95a6a079842452244
+
+               3 File(s)            695 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\7b
+
+[.]
+[..]
+f8ef9e168c255186ba036971015227d6c2bf5d
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\7c
+
+[.]
+[..]
+3381f099434c3dfd483f98d53e2997766a8470
+
+               1 File(s)            139 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\7e
+
+[.]
+[..]
+2d6ccc27ec12dcc907066f3b6258a29115f565
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\7f
+
+[.]
+[..]
+51fb159420a780ba6a4754add82d083ea7a62a
+9cd2e225fff488fcfa8ad5db72bc7c3d525c43
+
+               2 File(s)         11,615 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\80
+
+[.]
+[..]
+d82b19dcf2b904ade3218640fca063ef3e612e
+ef06d62a13f0825d6c831ebdf4b5fc037e88a3
+
+               2 File(s)            186 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\82
+
+[.]
+[..]
+7f609427c92cbe903ea1be2abbf4258814e45f
+9fc6d883cd1d502ac8ad27c31208ace2837d10
+
+               2 File(s)            135 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\83
+
+[.]
+[..]
+f2ff7e6900f2cdfbfd0d36e877e9043e1e80ea
+
+               1 File(s)             50 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\86
+
+[.]
+[..]
+af068dee02156349586c8b8e9cbab9895b69c3
+b5310d393204a912cd730c74a1298b61bc1056
+
+               2 File(s)            186 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\87
+
+[.]
+[..]
+14e536261fad851ced0c3d4e3995594c7a1ee3
+4445f14e0201a925233342d784d8fcf1c09ea8
+
+               2 File(s)            121 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\88
+
+[.]
+[..]
+40488c64e44255208bbafd674ab89160f8e6ee
+d75137ad03a24621653c233d5f87e132bce6dc
+e21788631b624ab1d72f30eb05f0d3a7f9e70e
+
+               3 File(s)            393 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\89
+
+[.]
+[..]
+c0c5c05eac0126698d055a6e1b51f288b82876
+c201fa7f018b85e34a4566c631b9cada47d2de
+
+               2 File(s)            243 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\8a
+
+[.]
+[..]
+57fde2c1939c03c526b6b8ab3d4650fcc2ad14
+
+               1 File(s)             47 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\8c
+
+[.]
+[..]
+86b51af2ffdf98c5970eac04806f678e0f5fe3
+
+               1 File(s)             49 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\8e
+
+[.]
+[..]
+90a2bb179822158649e31576ecac3a6bfea03a
+d42649cac1bc269c236fc3d7379a40f1109180
+
+               2 File(s)            180 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\8f
+
+[.]
+[..]
+d03823d8718611d6d500107fa72b3a80b83069
+
+               1 File(s)             47 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\91
+
+[.]
+[..]
+7e011585e1584946a104f801ae93763aba6a68
+bcf984dcbed640ec7508c2a9b6be03ee3f87ad
+
+               2 File(s)            158 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\92
+
+[.]
+[..]
+e30f07ce0aba7bbe733d8505dbb600fadee19b
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\93
+
+[.]
+[..]
+31f356e8d7d56000af30b7c57b825f2176fe52
+
+               1 File(s)             84 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\94
+
+[.]
+[..]
+6d24d966be5fec5ea940ef8377dc4aa29d9e4d
+a166c34a28b78abc80d24d191add762e274c6b
+eaaff58fe9ea6a0bbe4e00bceb2dbc4516f029
+
+               3 File(s)            352 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\95
+
+[.]
+[..]
+40316c40d25aaa901f2f8871be43d397de6f2e
+7c19b0d741fadd340aee8d90badc941a7bcdc8
+ad0ad4fbf0083af1926a163967488c2524acaf
+ffd5c1bfa46567241dae28892bd4e5aae4b36d
+
+               4 File(s)            321 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\96
+
+[.]
+[..]
+2699cf049e713178be50c6fdbf3da7170b2dd6
+d71e71f05c925bfde65000c99bd9e96c6f2151
+e366f1f6899824ec3148d40c929475a73bf05f
+
+               3 File(s)          1,624 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\98
+
+[.]
+[..]
+4ed46fa1c3ba10a6947fa136515a7eb9ee9cdc
+6a1bef898f8ce60c91f53f3f41ec79fdf93906
+
+               2 File(s)            152 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\99
+
+[.]
+[..]
+3017109eb6c57e16fd574737a2d456b73c8162
+ffc4b7bad7e20661e7a871b112fd2f560c310b
+
+               2 File(s)             98 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\9a
+
+[.]
+[..]
+3f7bbf4db646f21bf0c0e1d52320f55df64336
+6531773f5cef09ee037cf6e968d77db5796433
+b9aaa4297636a82a26137b6388ce64f3e51496
+
+               3 File(s)            268 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\9c
+
+[.]
+[..]
+5a3b48dd8a20fe02ffb0f7186fcc60d4232f26
+
+               1 File(s)             97 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\9e
+
+[.]
+[..]
+34cdf8c434788812225348a1c6e891a943398b
+700a6d9aa08cc6df613659b6aa756044a42cc2
+
+               2 File(s)          2,305 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a0
+
+[.]
+[..]
+1d097becf615885a60c17ce604044205c177c9
+53128fb0ad8866515f939447157b8e9faa7b76
+c8fe5669b0a5f25a986529f15d1daa207be5c8
+fd2c3c6c58856d3ff9ea98a9def0e335e6dbfe
+
+               4 File(s)            783 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a1
+
+[.]
+[..]
+c8733296d0fd9745ff06092deff2b6c8739f73
+d6ed74bcc01c7aeb404487b065682827adb454
+
+               2 File(s)            853 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a2
+
+[.]
+[..]
+5849d238312f97eb0e36183d5c1b3527ed5317
+59ce4d21e527238875ef37082784f818aeab8f
+dd5f24b0d075bfb56976fbb449048a558e397f
+
+               3 File(s)            338 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a4
+
+[.]
+[..]
+d311b2bbc351ef273d2f2a3eab621e04eb1c74
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a5
+
+[.]
+[..]
+8ea23a1efa0b42b001bab81cc9323fe269af24
+fe0a0d02872aab6fab1988a749a2e439eb1f7c
+
+               2 File(s)            222 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a6
+
+[.]
+[..]
+b1f0bb37d765f382bdfb2decfc2c2983570eef
+b9b1eef334cdadd43aa2bab9e917b5a4982846
+
+               2 File(s)            444 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a7
+
+[.]
+[..]
+8525627e965cc4cf1ca81d10b14cd9e2449cd5
+b7d029e34ac25a356caf42b4262dd9d819e156
+
+               2 File(s)            197 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a8
+
+[.]
+[..]
+5069a076e9b8799473cad2b0fc7c1e84200616
+
+               1 File(s)            265 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\a9
+
+[.]
+[..]
+415a30bab7a4863cb6583a5c285715261e2982
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\aa
+
+[.]
+[..]
+4546dd27e77509350586277a8959ded1e70c72
+d6a78e55365b6d30f730415aed72e7c7e720df
+
+               2 File(s)            187 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ab
+
+[.]
+[..]
+47e0b3cb63041df8ff41dca8ea3378523b90e9
+fb82baa880d0100a7958f0187751dc30f14198
+
+               2 File(s)            101 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ac
+
+[.]
+[..]
+182e4cd4c6d7dabe0a809197cf62c1db563441
+52f9a532c2bb5d5f85cab8cd0e40a5fc756617
+bfd2546fbf9921b1753165900e477572b959c5
+cda36390c3d2aa960ae0dc8b3e7a0468c3775b
+d66f494f3a453b130c91d4428e3da33de65d66
+d7cf248be713d9f86dbe4f37918f556d1b29dd
+e8af6fd214094cb0b41ca51248c96e238eceea
+
+               7 File(s)          1,003 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ad
+
+[.]
+[..]
+145b83b74178f2e2542c2cbfb2ce1dccb732ca
+eb5c7c07e6642817dac474142334e52bbbfcda
+
+               2 File(s)            185 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ae
+
+[.]
+[..]
+ea7aa9f44569b75470697542d3d6345e2b1685
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\af
+
+[.]
+[..]
+6412ec6ee89009a34d0c208af4ed2fe98b5ad8
+f52eac662d4e042f813df7fcaa549cba3f2b93
+
+               2 File(s)            169 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\b0
+
+[.]
+[..]
+f3419d12a988fbd393b100e5248df351541bc4
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\b1
+
+[.]
+[..]
+849a84eb6bb11f7c0d1236062c64225934d36a
+
+               1 File(s)            139 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\b2
+
+[.]
+[..]
+3e7d393267e97f529c3fc2eaa2479b1deede42
+
+               1 File(s)            237 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\b3
+
+[.]
+[..]
+00b38fe0665f9c5bf5d9ef99468192a9318c53
+e4aee5b087df96adbdabf7865e94428e7cfeb4
+
+               2 File(s)            135 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\b8
+
+[.]
+[..]
+0b8d58e36a7a7ef98d0d9d6ecbeee08345fc0b
+af995f55208225ceea34b1cf8af2f79bc14069
+ee7aca85c114b84f3fb0804788299d5dfd6e8c
+
+               3 File(s)            395 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\b9
+
+[.]
+[..]
+855c3f422723144f9e00d5b2ad48d784942108
+cb740551f6f80c73ec99bbc5d8e4f85589062d
+d40dbc123271dc6f3ad96b31b9e8be8680328b
+
+               3 File(s)            776 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ba
+
+[.]
+[..]
+2289fd7e78d18d5fb50bc08ce375164287a389
+c1e2a0d24657387b827eeeed75eec904f191eb
+
+               2 File(s)            288 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\bb
+
+[.]
+[..]
+d8371a32a234342864c1ab4ebd80adce5363b2
+
+               1 File(s)            731 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\bc
+
+[.]
+[..]
+5cb9adc98880103e45978d19065dee30bed993
+b2c7e1fe5500d87e73d9a81b22303208419df8
+
+               2 File(s)            323 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\be
+
+[.]
+[..]
+14911141bd148e887a57e409f4ef4845b6f659
+9da07ac90126e8735e7dce5364af3411a092da
+
+               2 File(s)            223 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\bf
+
+[.]
+[..]
+68aa84246bed3c9f7ec5cb586a10027851bdc1
+
+               1 File(s)             76 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c1
+
+[.]
+[..]
+0f2f38e91e6efb0c5958d481e714c79e53d773
+
+               1 File(s)            178 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c2
+
+[.]
+[..]
+ca30e21816a2897958eac91fecf0b7031021b8
+
+               1 File(s)            210 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c3
+
+[.]
+[..]
+128e4ab8bef3834b668daa404a8ec4e6e927b3
+cf1757ca3a79afbdc4fb887894bb2468fd4407
+
+               2 File(s)          1,289 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c4
+
+[.]
+[..]
+85640f406cdef359cf881fd6e2d1261edae580
+c790e9b94d5db1dd1ad7adc01e8beb9e2dc0ff
+
+               2 File(s)            109 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c5
+
+[.]
+[..]
+dfe7191396684f7e7de5017a68021705ddb81f
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c6
+
+[.]
+[..]
+f1c8d230ff7463b0651fb4b818ba366d41c281
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c7
+
+[.]
+[..]
+0c77ed5ab4024e8f05f0592905d8c92f5d20ef
+583f446c69f412adc522fc3e532f3b124117aa
+cddb2cf78853586d2d1483018a1f528bb04e0c
+
+               3 File(s)            243 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c8
+
+[.]
+[..]
+13a5aafccc88b90f7f6f8941e826836847fa04
+
+               1 File(s)             49 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\c9
+
+[.]
+[..]
+23354292ee30d5d73924323349c3359cc4c07b
+6229ea5f75649a58af059406526e298d190ced
+bbe853ab371e71df5bed3a593e4e8fbac4d01b
+
+               3 File(s)            140 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ca
+
+[.]
+[..]
+88a30b174cd58600d3d0590b6f2d055b005636
+964e921d7f2064fce72d8d809aa1ad450ad246
+a541e659eae2d13ff48c8aad3029ea079a36ad
+
+               3 File(s)            289 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\cb
+
+[.]
+[..]
+099dcc1157ac10b135196d1143ab05e08cd19f
+31346447ce6150c039582d9d0e53795e9df5b2
+
+               2 File(s)             98 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\cc
+
+[.]
+[..]
+81ff1c8633b0d513111fb9965a8081cf9b7b06
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\cd
+
+[.]
+[..]
+1eb7e380de3f6e177c49432e86441e4e4f02e4
+480c0be9d39bec1369d0e4a3a8e7c2535dd387
+
+               2 File(s)            318 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ce
+
+[.]
+[..]
+432c4f5f324f4598a5ec42aeb463a4e653e7f8
+e14f7d652876c54b7fe5975f32af397cca91f4
+
+               2 File(s)            157 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\cf
+
+[.]
+[..]
+afaffa6cfe90eb9475a61a016d67f4de485f3e
+
+               1 File(s)             46 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\d0
+
+[.]
+[..]
+c642d926e263024ec8b0586d2f770913828571
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\d2
+
+[.]
+[..]
+617d19783f598c43d99997a118d35720525ba9
+66918aabc7aaa2d5206f49844ea0a93bcae8fa
+82e13603211d1a54c8105fcb4060937d4bb976
+
+               3 File(s)            169 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\d3
+
+[.]
+[..]
+0634c5bc1f1c703414229755587035ef225bfe
+412f4a0ef54b574bbe6b43aa46850de6af4670
+c902d40d351e324713be246668f541b657b2c7
+
+               3 File(s)         12,990 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\d4
+
+[.]
+[..]
+3700f9f6bc97b265d723a00e0bb6c6227d3c1c
+c707735c1de3f1257ae1ad32717e3675f5b801
+
+               2 File(s)          1,026 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\d5
+
+[.]
+[..]
+b81a5b55e9cd68d3ef11e0eeb21d14cec65d27
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\d7
+
+[.]
+[..]
+82b3368dbfc76ae83196a4212599c76de7d05a
+fbaae28300e62a7a8eeae483c83813387fa5d9
+
+               2 File(s)            325 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\d9
+
+[.]
+[..]
+07027e5ba67c286389b0aac98293d4fe5e46b0
+d2c24beb3cda2b670767bcc06456ca299a41ea
+
+               2 File(s)            620 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\da
+
+[.]
+[..]
+0a667ef3e479eeb85b4f1d8f84ffe3ad8e2072
+
+               1 File(s)             46 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\dc
+
+[.]
+[..]
+080b724ef86d8c81d97d2b6bfe66cc91fa0619
+7ba1618a3621c41693b283b9d4a973228dc9a3
+fa4ce8e17459037f001c446d82e4027d1f5962
+
+               3 File(s)          1,391 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\de
+
+[.]
+[..]
+6328b96e889c3549c11e133416c065f9b4adc6
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\df
+
+[.]
+[..]
+43eb052f27ff302225bfc3f8b8383a5a8e7f0a
+5562ada5814649805f5b6bf0b007d7fd73cec7
+d7844340df7607b14829814839a818d6965890
+da037b87278d88985fd4ff7ff2a761075b228a
+
+               4 File(s)            345 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e0
+
+[.]
+[..]
+21a618dd9064558bd78642f921aedcaf1d89da
+719215d20c4259174248daa86a9d1475d69352
+72b2698013ab11e00e5e9c0d5e1a39702dcbaa
+
+               3 File(s)            357 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e1
+
+[.]
+[..]
+1db49604bd963ca2f7901d933de122c71b5c03
+34162837d361f5d1cf63ee1f807b86d6961846
+cd99228625cd8adf1feab7bddb248843c818a7
+
+               3 File(s)            548 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e2
+
+[.]
+[..]
+5f0ff48c8dc44c0b3df2f5cc02353d91ba19e7
+
+               1 File(s)            238 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e3
+
+[.]
+[..]
+fcd54070399da3514f963a930be27516a39015
+
+               1 File(s)            157 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e4
+
+[.]
+[..]
+9d6b9c64d55a3c2b48511f5c0a63bf5e5bf2a0
+
+               1 File(s)             75 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e5
+
+[.]
+[..]
+844b461036835247186a06e0c45cf69fcc0b18
+
+               1 File(s)            237 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e6
+
+[.]
+[..]
+9883576adbced5c864dabd89db088b6194fdc3
+
+               1 File(s)             47 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\e7
+
+[.]
+[..]
+060def0d25ae193ae12e4da627ea07b8951f45
+c783ca2a8507b2ea0e711b6f663c5972e8c519
+
+               2 File(s)             92 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ea
+
+[.]
+[..]
+48ef8f7b7fc975d88c9d957ac00fa2bf019d74
+
+               1 File(s)             66 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\eb
+
+[.]
+[..]
+655c3517ee10fd5b7c8c77f90c5a2733575cd5
+
+               1 File(s)             49 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ed
+
+[.]
+[..]
+543ed1c6fc39a04fb31f50af8c138f21676caf
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\ef
+
+[.]
+[..]
+021c3ec2c56af556c6f1d3674acd3fef503827
+f0cf9fbc9e54151805b6c2dd0261f357bd674e
+
+               2 File(s)            222 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f1
+
+[.]
+[..]
+4f9eacac7dd8519f4df21aa2d766aab6ee3e4c
+
+               1 File(s)             48 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f2
+
+[.]
+[..]
+09f5675391e9e982b7aa9fb46b09174da22b45
+2160d6b6ed46ba72da87c83fcc164c5c2b0f4b
+2d442758b90ebb5bbec696420704489ca23e3e
+47accc8e27a78554aa28c0d8a1560644f6a413
+ad0d61e431e2c9740c0f9024a35019492e85a0
+
+               5 File(s)            362 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f3
+
+[.]
+[..]
+55f14adef39b112772b6694c722b30413d6b38
+
+               1 File(s)            174 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f4
+
+[.]
+[..]
+b087c4b5a8239ee04e4baa3eb87162e9fbd13f
+
+               1 File(s)            112 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f5
+
+[.]
+[..]
+3f0d22cf4f9e37b9694f5cb76b5a7ee28d107f
+
+               1 File(s)            111 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f6
+
+[.]
+[..]
+9c36e80f440e47c29005b8201eb7acf4556d44
+
+               1 File(s)            146 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f7
+
+[.]
+[..]
+9e4e912b1d50e0736d5214d6de32e9dccf01e8
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f8
+
+[.]
+[..]
+605cfb639cdf3bf47e5a9b92fc2a900f16cd97
+92db1fc70356928829400064af4b3bcbff5e44
+
+               2 File(s)            326 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\f9
+
+[.]
+[..]
+ad381c7915eb96313db51e60f550b0171651d3
+
+               1 File(s)            176 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\fa
+
+[.]
+[..]
+0aca882a3ca82172d9a0d88eafaef57c238315
+9365ad58b5668eb6b65c74210abd068a5b2197
+98456fca8eeaf0a7e1794b63bcd2a255e621e3
+
+               3 File(s)            743 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\fc
+
+[.]
+[..]
+9eb9ce23dc6267847834d93cf58aeee1ac6984
+ad056376c7a31fe8349ca23b90b076e422db4b
+
+               2 File(s)          1,309 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\fd
+
+[.]
+[..]
+97aabec6ca971c89c930f0b9760425e4a9ff6e
+b141a90b08519097823580514e11b50ff57f0a
+
+               2 File(s)            109 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\fe
+
+[.]
+[..]
+a8c08306147624194fbaaa26dcbb2c6fdf9a3e
+
+               1 File(s)            149 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\info
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\objects\pack
+
+[.]
+[..]
+pack-686fb9b6b59334281b4bd1d25f213c66b27e6e5e.idx
+pack-686fb9b6b59334281b4bd1d25f213c66b27e6e5e.pack
+pack-686fb9b6b59334281b4bd1d25f213c66b27e6e5e.rev
+
+               3 File(s)         22,787 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs
+
+[.]       [codex]   [heads]   [remotes] [tags]    
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex
+
+[.]          [..]         [turn-diffs] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs
+
+[.]           [..]          [checkpoints] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints
+
+[.]
+[..]
+[db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080]
+
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080
+
+[.]
+[..]
+[19db414b5d36110422fdd81765db54daecec5de7c76fd8e53dbd2cc2f24c524f]
+[8431af461f88872bf04405da27e1147dbcd1845d0ef8ec1082ac3dfe08f6923b]
+[94d07182c691b69bf5a405761cfe70c2ba9efa3ff9ffce1959ba28811741823e]
+[fb65bbe8dfd1864978a1fde9eb140c7f9de005943752896d608e1ff05b051c51]
+
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\19db414b5d36110422fdd81765db54daecec5de7c76fd8e53dbd2cc2f24c524f
+
+[.]             [..]            [1781941584343] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\19db414b5d36110422fdd81765db54daecec5de7c76fd8e53dbd2cc2f24c524f\1781941584343
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\8431af461f88872bf04405da27e1147dbcd1845d0ef8ec1082ac3dfe08f6923b
+
+[.]             [..]            [1781941994669] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\8431af461f88872bf04405da27e1147dbcd1845d0ef8ec1082ac3dfe08f6923b\1781941994669
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\94d07182c691b69bf5a405761cfe70c2ba9efa3ff9ffce1959ba28811741823e
+
+[.]             [..]            [1781941338385] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\94d07182c691b69bf5a405761cfe70c2ba9efa3ff9ffce1959ba28811741823e\1781941338385
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\fb65bbe8dfd1864978a1fde9eb140c7f9de005943752896d608e1ff05b051c51
+
+[.]             [..]            [1781941049597] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\codex\turn-diffs\checkpoints\db021e8614e829f94f32d92e186b13beed56991a7fc4b8b1fce4e176f1bee080\fb65bbe8dfd1864978a1fde9eb140c7f9de005943752896d608e1ff05b051c51\1781941049597
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\heads
+
+[.]    [..]   main   
+               1 File(s)             41 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\remotes
+
+[.]      [..]     [origin] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\remotes\origin
+
+[.]    [..]   HEAD   
+               1 File(s)             30 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\.git\refs\tags
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\docs
+
+[.]
+[..]
+GlyLens_30_Day_Execution_Plan_v1.md
+GlyLens_ADR_Repository_v1 (1).md
+GlyLens_ADR_Repository_v1.md
+GlyLens_Architecture_Blueprint_v1 (1).md
+GlyLens_Architecture_Blueprint_v1 (2).md
+GlyLens_Architecture_Blueprint_v1.md
+GlyLens_Codex_Feasibility_Assessment_v1.md
+GlyLens_Codex_Kickoff_Package_v1.md
+GlyLens_Codex_Ultra_Prompt_v1.md
+GlyLens_Cursor_Codex_Prompt_Library_v1.md
+GlyLens_Cursor_Engineering_Constitution_v1_1 (1).md
+GlyLens_Cursor_Engineering_Constitution_v1_1.md
+GlyLens_Data_Acquisition_FIG_Seeding_Strategy_v1.md
+GlyLens_Developer_Onboarding_Guide_v1.md
+GlyLens_Firebase_Security_Rules_Spec_v1.md
+GlyLens_Firestore_Physical_Schema_v1.md
+GlyLens_First_Codex_Execution_Workflow_v1.md
+GlyLens_Flutter_Module_Blueprint_v1.md
+GlyLens_Food_Benchmark_Dataset_Framework_v1.md
+GlyLens_Food_Intelligence_Graph_v1_1 (1).md
+GlyLens_Food_Intelligence_Graph_v1_1 (2).md
+GlyLens_Food_Intelligence_Graph_v1_1 (3).md
+GlyLens_Food_Intelligence_Graph_v1_1.md
+GlyLens_Master_Documentation_Index_v1.md
+GlyLens_MVP_Success_Metrics_v1.md
+GlyLens_README_v1.md
+GlyLens_Repository_Structure_v1.md
+GlyLens_Sprint0_Acceptance_Criteria_v1.md
+GlyLens_Sprint0_Specification_v1 (1).md
+GlyLens_Sprint0_Specification_v1 (2).md
+GlyLens_Sprint0_Specification_v1.md
+readme.md
+Sprint 0 Resolution Proposal.pdf
+Sprint 0 Technical Design Package.pdf
+
+              34 File(s)         89,867 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib
+
+[.]    [..]   [core] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core
+
+[.]      [..]     [data]   [domain] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\data
+
+[.]                      [engines]                seed_dataset.dart
+[..]                     fake_repositories.dart   
+               2 File(s)         10,016 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\data\engines
+
+[.]                          gi_engine.dart
+[..]                         gl_engine.dart
+confidence_engine.dart       source_trust_engine.dart
+explainability_engine.dart   
+fake_engine_provider.dart    
+               6 File(s)          8,275 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain
+
+[.]             [engines]       [enums]         [repositories]  [value_objects]
+[..]            [entities]      [errors]        [validation]    
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain\engines
+
+[.]                            i_gi_engine.dart
+[..]                           i_gl_engine.dart
+i_confidence_engine.dart       i_source_trust_engine.dart
+i_explainability_engine.dart   
+               5 File(s)          1,454 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain\entities
+
+[.]                     food.dart               product.dart
+[..]                    glycemic_profile.dart   source.dart
+evidence.dart           ingredient.dart         
+               6 File(s)         12,132 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain\enums
+
+[.]                     food_category.dart      
+[..]                    processing_level.dart   
+evidence_level.dart     source_type.dart        
+               4 File(s)          4,745 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain\errors
+
+[.]                         missing_gi_error.dart
+[..]                        validation_error.dart
+domain_error.dart           
+low_confidence_error.dart   
+               4 File(s)          1,348 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain\repositories
+
+[.]                                  i_ingredient_repository.dart
+[..]                                 i_product_repository.dart
+i_evidence_repository.dart           i_source_repository.dart
+i_food_repository.dart               
+i_glycemic_profile_repository.dart   
+               6 File(s)          1,676 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain\validation
+
+[.]               [..]              validators.dart   
+               1 File(s)          2,260 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\lib\core\domain\value_objects
+
+[.]                     gi_value.dart           trust_score.dart
+[..]                    gl_value.dart           
+confidence_score.dart   impact_score.dart       
+               5 File(s)          4,354 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\test
+
+[.]      [..]     [domain] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\test\domain
+
+[.]                       [errors]                  value_objects_test.dart
+[..]                      [validation]              
+[entities]                validation_test.dart      
+entities_test.dart        [value_objects]           
+               3 File(s)         11,614 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\test\domain\entities
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\test\domain\errors
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\test\domain\validation
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of D:\Rana\AI Crafft Works\Git\glylens\test\domain\value_objects
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+             456 File(s)        286,076 bytes
+             703 Dir(s)  121,416,302,592 bytes free

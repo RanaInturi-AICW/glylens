@@ -1,0 +1,165 @@
+# Repository Structure
+
+This document shows the current project folders and source files in the repository, excluding `.git`, `build`, `.dart_tool`, and `.idea`.
+
+- `README.md`
+- `pubspec.yaml`
+- `DOMAIN_LAYER_STRUCTURE.md`
+- `glylens_folders.txt`
+- `docs/`
+  - `adr/`
+    - `GlyLens_ADR_Repository_v1.md`
+    - `README.md`
+  - `architecture/`
+    - `GlyLens_Architecture_Blueprint_v1.md`
+    - `GlyLens_Food_Intelligence_Graph_v1_1.md`
+    - `README.md`
+  - `archive/`
+    - `GlyLens_ADR_Repository_v1 (1).md`
+    - `GlyLens_Architecture_Blueprint_v1 (1).md`
+    - `GlyLens_Architecture_Blueprint_v1 (2).md`
+    - `GlyLens_Cursor_Engineering_Constitution_v1_1 (1).md`
+    - `GlyLens_Food_Intelligence_Graph_v1_1 (1).md`
+    - `GlyLens_Food_Intelligence_Graph_v1_1 (2).md`
+    - `GlyLens_Food_Intelligence_Graph_v1_1 (3).md`
+    - `GlyLens_Sprint0_Specification_v1 (1).md`
+    - `GlyLens_Sprint0_Specification_v1 (2).md`
+    - `README.md`
+  - `product/`
+    - `GlyLens_Developer_Onboarding_Guide_v1.md`
+    - `GlyLens_MVP_Success_Metrics_v1.md`
+    - `GlyLens_Sprint0_Specification_v1.md`
+    - `README.md`
+  - `prompts/`
+    - `GlyLens_Codex_Ultra_Prompt_v1.md`
+    - `GlyLens_Cursor_Codex_Prompt_Library_v1.md`
+    - `README.md`
+  - `GlyLens_30_Day_Execution_Plan_v1.md`
+  - `GlyLens_Codex_Feasibility_Assessment_v1.md`
+  - `GlyLens_Codex_Kickoff_Package_v1.md`
+  - `GlyLens_Cursor_Engineering_Constitution_v1_1.md`
+  - `GlyLens_Data_Acquisition_FIG_Seeding_Strategy_v1.md`
+  - `GlyLens_Firebase_Security_Rules_Spec_v1.md`
+  - `GlyLens_Firestore_Physical_Schema_v1.md`
+  - `GlyLens_Food_Benchmark_Dataset_Framework_v1.md`
+  - `GlyLens_First_Codex_Execution_Workflow_v1.md`
+  - `GlyLens_Flutter_Module_Blueprint_v1.md`
+  - `GlyLens_Master_Documentation_Index_v1.md`
+  - `repository_cleanup_plan.md`
+  - `corpus_build_package_v1.md`
+  - `corpus_gap_analysis_v1.md`
+  - `GI_Reference_Catalog_Framework_v1.md`
+  - `GlyLens_Reference_Catalog_v1.md`
+  - `Catalog_Enrichment_Plan_v1.md`
+  - `Corpus_Completion_Plan_M1.md`
+  - `Corpus_Population_Package_M1.md`
+  - `Nutritional_Completion_Package_M1.md`
+  - `Priority_Dataset_Expansion_M1.md`
+  - `GlyLens_README_v1.md`
+  - `GlyLens_Repository_Structure_v1.md`
+  - `GlyLens_Sprint0_Acceptance_Criteria_v1.md`
+  - `GlyLens_Sprint0_9_Authoritative_Data_Acquisition_Report_v1.md`
+  - `readme.md`
+  - `Sprint 0 Resolution Proposal.pdf`
+  - `Sprint 0 Technical Design Package.pdf`
+- `lib/`
+  - `core/`
+    - `application/`
+      - `use_cases/`
+        - `compare_foods_use_case.dart`
+        - `get_food_intelligence_use_case.dart`
+        - `lookup_food_use_case.dart`
+    - `benchmark/`
+      - `benchmark_food_dataset.dart`
+      - `benchmark_report.dart`
+      - `benchmark_validator.dart`
+    - `data/`
+      - `engines/`
+        - `confidence_engine.dart`
+        - `explainability_engine.dart`
+        - `fake_engine_provider.dart`
+        - `gi_engine.dart`
+        - `gl_engine.dart`
+        - `source_trust_engine.dart`
+      - `fake_repositories.dart`
+      - `seed_dataset.dart`
+    - `domain/`
+      - `dtos/`
+        - `confidence_score_dto.dart`
+        - `evidence_dto.dart`
+        - `food_dto.dart`
+        - `gi_value_dto.dart`
+        - `glycemic_profile_dto.dart`
+        - `gl_value_dto.dart`
+        - `impact_score_dto.dart`
+        - `ingredient_dto.dart`
+        - `product_dto.dart`
+        - `source_dto.dart`
+        - `trust_score_dto.dart`
+      - `entities/`
+        - `evidence.dart`
+        - `food.dart`
+        - `glycemic_profile.dart`
+        - `ingredient.dart`
+        - `product.dart`
+        - `source.dart`
+      - `enums/`
+        - `evidence_level.dart`
+        - `food_category.dart`
+        - `processing_level.dart`
+        - `source_type.dart`
+      - `errors/`
+        - `domain_error.dart`
+        - `low_confidence_error.dart`
+        - `missing_gi_error.dart`
+        - `validation_error.dart`
+      - `engines/`
+        - `i_confidence_engine.dart`
+        - `i_explainability_engine.dart`
+        - `i_gi_engine.dart`
+        - `i_gl_engine.dart`
+        - `i_source_trust_engine.dart`
+      - `repositories/`
+        - `i_evidence_repository.dart`
+        - `i_food_repository.dart`
+        - `i_glycemic_profile_repository.dart`
+        - `i_ingredient_repository.dart`
+        - `i_product_repository.dart`
+        - `i_source_repository.dart`
+      - `validation/`
+        - `validators.dart`
+      - `value_objects/`
+        - `confidence_score.dart`
+        - `gl_value.dart`
+        - `gi_value.dart`
+        - `impact_score.dart`
+        - `trust_score.dart`
+    - `infrastructure/`
+      - `datasources/`
+        - `datasource_abstractions.dart`
+      - `mappers/`
+        - `mapper_abstractions.dart`
+      - `repositories/`
+        - `repository_contracts.dart`
+    - `policy/`
+      - `confidence_policy.dart`
+      - `refusal_policy.dart`
+      - `source_trust_policy.dart`
+- `test/`
+  - `application/`
+    - `use_cases_test.dart`
+  - `benchmark/`
+    - `benchmark_validator_test.dart`
+  - `data/`
+    - `engines/`
+      - `confidence_explainability_test.dart`
+      - `engine_test.dart`
+  - `domain/`
+    - `dtos_test.dart`
+    - `entities_test.dart`
+    - `validation_test.dart`
+    - `value_objects_test.dart`
+  - `infrastructure/`
+    - `infrastructure_skeleton_test.dart`
+  - `policy/`
+    - `policy_test.dart`
