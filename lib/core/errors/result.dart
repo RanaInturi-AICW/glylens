@@ -37,7 +37,6 @@ Failure mapExceptionToFailure(AppException exception) {
     CacheException() => CacheFailure(exception.message, code: exception.code),
     AuthException() => AuthFailure(exception.message, code: exception.code),
     ConfigurationException() => ConfigurationFailure(exception.message, code: exception.code),
-    AppException() => UnknownFailure(exception.message, code: exception.code),
   };
 }
 

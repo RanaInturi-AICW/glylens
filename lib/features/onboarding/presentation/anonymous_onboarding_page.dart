@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../bootstrap/providers.dart';
-import '../../../core/cache/cache_store.dart';
 import '../../../core/constants/app_constants.dart';
 import '../../../features/auth/application/auth_controller.dart';
 import '../../../l10n/app_localizations.dart';
