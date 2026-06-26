@@ -1,0 +1,10 @@
+/// Secure storage abstraction for tokens and sensitive preferences.
+abstract interface class SecureStorageService {
+  Future<void> write({required String key, required String value});
+
+  Future<String?> read({required String key});
+
+  Future<void> delete({required String key});
+
+  Future<void> deleteAll();
+}

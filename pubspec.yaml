@@ -1,7 +1,60 @@
 name: glylens
-description: GlyLens domain package for Sprint 0
-version: 0.1.0
+description: GlyLens — Food Intelligence for Better Decisions
+publish_to: none
+version: 1.0.0+1
+
 environment:
-  sdk: '>=2.18.0 <4.0.0'
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management (ADR-approved; Constitution)
+  flutter_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Firebase Auth only (Build Program 1 — no Firestore)
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  google_sign_in: ^6.2.2
+  sign_in_with_apple: ^6.1.4
+
+  # Localization
+  intl: ^0.19.0
+
+  # Offline cache — Isar chosen over Hive: typed collections, indexes,
+  # async I/O, stronger query support for future corpus sync (see README).
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.5
+
+  # Security
+  flutter_secure_storage: ^9.2.4
+
+  # Logging (no print)
+  logger: ^2.5.0
+
+  # Utilities
+  equatable: ^2.0.7
+  meta: ^1.15.0
+
 dev_dependencies:
-  test: ^1.24.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+  isar_generator: ^3.1.0+1
+  mocktail: ^1.0.4
+  test: ^1.25.8
+
+flutter:
+  uses-material-design: true
+  generate: true
