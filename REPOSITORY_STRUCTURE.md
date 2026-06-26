@@ -1,6 +1,6 @@
 # Repository Structure
 
-_Last Updated: 2026-06-26_
+_Last Updated: 2026-06-26 (BP1.1 verification)_
 
 This document shows the current project folders and source files. See `docs/GlyLens_Repository_Manifest_v1.md` for authoritative artifact inventory and status.
 
@@ -105,3 +105,11 @@ This document shows the current project folders and source files. See `docs/GlyL
 - `docs/GlyLens_Build_Program_1_Flutter_Foundation_README_v1.md`
 - `docs/GlyLens_Build_Program_1_Architecture_Validation_v1.md`
 - `docs/GlyLens_Build_Program_1_Project_Structure_v1.md`
+
+## Build Program 1.1 — Engineering Verification
+
+- `docs/GlyLens_Build_Program_1_Engineering_Review_v1.md` — Production readiness review (REWORK REQUIRED)
+- `docs/GlyLens_Technical_Debt_Register_v1.md` — Prioritized technical debt (18 items)
+- `docs/GlyLens_Code_Quality_Report_v1.md` — CI/build/analyzer findings
+- `docs/GlyLens_Security_Review_v1.md` — Security assessment
+- `docs/GlyLens_Performance_Baseline_v1.md` — Cold-start and navigation baseline

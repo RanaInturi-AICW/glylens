@@ -1,5 +1,5 @@
 # GlyLens Master Documentation Index v1.0
-_Last Updated: 2026-06-26_
+_Last Updated: 2026-06-26 (BP1.1 verification)_
 
 ## Purpose
 
@@ -139,6 +139,14 @@ All AI agents (Claude, Codex, Cursor) must start here.
 - `lib/app/`, `lib/bootstrap/`, `lib/features/`, `lib/shared/` — **RUNTIME**
 - `lib/core/constants|config|errors|logging|cache|analytics|security|networking/` — **RUNTIME**
 - `.github/workflows/flutter_ci.yml` — **ACTIVE**
+
+## Build Program 1.1 — Engineering Verification (CANONICAL)
+
+- `docs/GlyLens_Build_Program_1_Engineering_Review_v1.md` — **CANONICAL** — Principal Engineer review; verdict **REWORK REQUIRED**
+- `docs/GlyLens_Technical_Debt_Register_v1.md` — **CANONICAL** — 18 debt items (3 Critical)
+- `docs/GlyLens_Code_Quality_Report_v1.md` — **CANONICAL** — Build/analyze/test findings
+- `docs/GlyLens_Security_Review_v1.md` — **CANONICAL** — Security assessment (71/100)
+- `docs/GlyLens_Performance_Baseline_v1.md` — **CANONICAL** — Architectural performance profile
 
 ## Archive and Legacy
 

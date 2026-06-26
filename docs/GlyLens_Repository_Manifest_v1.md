@@ -1,6 +1,6 @@
 # GlyLens Repository Manifest v1
 
-_Last Updated: 2026-06-26_  
+_Last Updated: 2026-06-26 (BP1.1 verification)_  
 _Status: CANONICAL_  
 _Owner: Chief Enterprise Architect_
 
@@ -107,6 +107,20 @@ Single inventory of every repository artifact. **One source of truth per concern
 | `lib/features/**` | Feature modules (BP1 shells + auth) | Flutter Architect | RUNTIME |
 | `.github/workflows/flutter_ci.yml` | CI/CD | DevOps | ACTIVE |
 | `docs/GlyLens_Build_Program_1_*` | BP1 docs | Flutter Architect | CANONICAL |
+
+---
+
+## 6b. Build Program 1.1 — Verification (CANONICAL)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `docs/GlyLens_Build_Program_1_Engineering_Review_v1.md` | Principal Engineer production readiness review | Principal Engineer | BP1 implementation | **CANONICAL** |
+| `docs/GlyLens_Technical_Debt_Register_v1.md` | Prioritized engineering debt (18 items) | Principal Engineer | Engineering Review | **CANONICAL** |
+| `docs/GlyLens_Code_Quality_Report_v1.md` | Build, analyze, test, dependency findings | Principal Engineer | CI, pubspec | **CANONICAL** |
+| `docs/GlyLens_Security_Review_v1.md` | Security assessment (score 71/100) | Principal Engineer | Security Rules Spec | **CANONICAL** |
+| `docs/GlyLens_Performance_Baseline_v1.md` | Cold-start and navigation baseline | Principal Engineer | BP1 bootstrap | **CANONICAL** |
+
+**BP1.1 Verdict:** REWORK REQUIRED — CI red; auth import defects; platform tests absent. Tag `v1.0.0-platform-foundation` not authorized.
 
 ---
 
