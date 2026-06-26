@@ -95,22 +95,18 @@ Single inventory of every repository artifact. **One source of truth per concern
 
 ---
 
-## 6. Implementation — Domain Package (RUNTIME)
+## 6. Implementation — Domain & Platform (RUNTIME)
 
-| Filename | Purpose | Owner | Dependencies | Status |
-|----------|---------|-------|--------------|--------|
-| `pubspec.yaml` | Dart package manifest | Flutter Architect | — | RUNTIME |
-| `lib/core/domain/entities/*.dart` | Domain entities | Solution Architect | FIG | RUNTIME |
-| `lib/core/domain/repositories/*.dart` | Repository interfaces | Solution Architect | Entities | RUNTIME |
-| `lib/core/domain/engines/*.dart` | Engine interfaces | AI Architect | FIG | RUNTIME |
-| `lib/core/data/engines/*.dart` | Engine implementations | AI Architect | Policies | RUNTIME |
-| `lib/core/data/fake_repositories.dart` | In-memory repositories | Solution Architect | SeedDataset | RUNTIME |
-| `lib/core/data/seed_dataset.dart` | Hardcoded seed (minimal) | CDO | FIG | RUNTIME |
-| `lib/core/application/use_cases/*.dart` | Use cases | Solution Architect | Repositories | RUNTIME |
-| `lib/core/policy/*.dart` | Confidence, refusal, trust | AI Architect | ADRs | RUNTIME |
-| `lib/core/benchmark/*.dart` | Benchmark validation | CDO | Framework | RUNTIME |
-| `lib/core/infrastructure/**` | Mapper/datasource skeletons | Solution Architect | — | RUNTIME |
-| `test/**` | Unit tests (10 files) | Flutter Architect | lib/core | RUNTIME |
+| Filename | Purpose | Owner | Status |
+|----------|---------|-------|--------|
+| `lib/main.dart` | Flutter entry | Flutter Architect | RUNTIME |
+| `lib/app/**` | App, router, shell, theme | Flutter Architect | RUNTIME |
+| `lib/bootstrap/**` | Init, DI providers | Solution Architect | RUNTIME |
+| `lib/core/platform layers` | config, errors, cache, security, analytics | Solution Architect | RUNTIME |
+| `lib/core/domain/**` | Food Intelligence Engine (Sprint 0) | AI Architect | RUNTIME |
+| `lib/features/**` | Feature modules (BP1 shells + auth) | Flutter Architect | RUNTIME |
+| `.github/workflows/flutter_ci.yml` | CI/CD | DevOps | ACTIVE |
+| `docs/GlyLens_Build_Program_1_*` | BP1 docs | Flutter Architect | CANONICAL |
 
 ---
 
@@ -203,7 +199,7 @@ Single inventory of every repository artifact. **One source of truth per concern
 | App Store Readiness Guide | Not created |
 | API Contracts | Not created |
 | Food Intelligence API Design | Not created |
-| `flutter_app/` | Not created |
+| `flutter_app/` | Implemented as root Flutter app (`lib/main.dart`) | Build Program 1 |
 | `firebase/` | Not created |
 | `data/raw/` acquisition storage | Not created |
 

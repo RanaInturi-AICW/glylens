@@ -17,6 +17,37 @@ This document shows the current project folders and source files. See `docs/GlyL
 - `scripts/convergence_repair.py` — Repair and validate seed JSON
 - `scripts/generate_backlog.py` — Generate acquisition backlog and sync CSV
 
+## Flutter Application (`lib/`)
+
+### Platform (Build Program 1 — RUNTIME)
+
+- `lib/main.dart` — Entry point
+- `lib/app/` — `GlyLensApp`, GoRouter, shell, theme
+- `lib/bootstrap/` — Firebase init, Riverpod providers, global errors
+- `lib/core/constants/`, `config/`, `errors/`, `logging/`, `cache/`, `analytics/`, `security/`, `networking/`
+- `lib/features/` — auth, splash, onboarding, home, search, scan, history, compare, premium, settings, legal, developer
+- `lib/shared/themes/`, `lib/shared/widgets/`
+- `lib/l10n/` — Localization (English)
+
+### Food Intelligence Engine (Sprint 0 — RUNTIME)
+
+- `lib/core/application/use_cases/` — lookup, intelligence, compare
+- `lib/core/benchmark/`, `lib/core/data/`, `lib/core/domain/`, `lib/core/infrastructure/`, `lib/core/policy/`
+
+## Tests
+
+- `test/core/`, `test/widget/`, `test/golden/` — Platform tests
+- `test/application/`, `test/domain/`, etc. — Intelligence engine tests
+- `integration_test/` — Integration harness
+
+## CI/CD
+
+- `.github/workflows/flutter_ci.yml`
+
+## Platform folders
+
+- `android/`, `ios/` — Created via `flutter create` (first run or CI)
+
 ## Documentation (`docs/`)
 
 ### Governance & Convergence (CANONICAL)
@@ -64,24 +95,13 @@ This document shows the current project folders and source files. See `docs/GlyL
 
 - `docs/archive/` — Superseded document copies (do not use)
 
-## Domain Package (`lib/core/`)
-
-- `application/use_cases/` — lookup, intelligence, compare
-- `benchmark/` — validator, dataset, report
-- `data/engines/` — GI, GL, confidence, explainability, trust
-- `data/fake_repositories.dart`, `data/seed_dataset.dart`
-- `domain/entities/` — ingredient, food, product, source, evidence, glycemic_profile
-- `domain/repositories/` — repository interfaces
-- `domain/engines/` — engine interfaces
-- `domain/policy/` — confidence, refusal, source trust
-- `infrastructure/` — mapper and datasource skeletons
-
-## Tests (`test/`)
-
-- `application/`, `benchmark/`, `data/`, `domain/`, `infrastructure/`, `policy/`
-
 ## Not Yet Present (Future)
 
-- `flutter_app/`
-- `firebase/`
-- `scripts/acquire/`
+- `firebase/` (Firestore rules — Build Program 3+)
+- `scripts/acquire/` (data acquisition automation)
+
+## Implementation (Build Program 1)
+
+- `docs/GlyLens_Build_Program_1_Flutter_Foundation_README_v1.md`
+- `docs/GlyLens_Build_Program_1_Architecture_Validation_v1.md`
+- `docs/GlyLens_Build_Program_1_Project_Structure_v1.md`

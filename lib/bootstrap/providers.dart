@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../core/analytics/analytics_service.dart';
 import '../core/analytics/crash_reporting_service.dart';
 import '../core/cache/cache_store.dart';
-import '../core/cache/isar_cache_store.dart';
+import '../core/cache/hive_cache_store.dart';
 import '../core/config/app_config.dart';
 import '../core/logging/app_logger.dart';
 import '../core/security/certificate_pinning_service.dart';
@@ -33,7 +33,7 @@ final tokenStorageProvider = Provider<TokenStorage>((ref) {
 });
 
 final cacheStoreProvider = Provider<CacheStore>((ref) {
-  return IsarCacheStore(ref.watch(appLoggerProvider));
+  return HiveCacheStore(ref.watch(appLoggerProvider));
 });
 
 final analyticsServiceProvider = Provider<AnalyticsService>((ref) {

@@ -130,6 +130,16 @@ All AI agents (Claude, Codex, Cursor) must start here.
 - `scripts/convergence_repair.py`
 - `scripts/generate_backlog.py`
 
+## Implementation (Build Program 1 — Sprint 1A)
+
+- `docs/GlyLens_Build_Program_1_Flutter_Foundation_README_v1.md` — **ACTIVE**
+- `docs/GlyLens_Build_Program_1_Architecture_Validation_v1.md` — **CANONICAL**
+- `docs/GlyLens_Build_Program_1_Project_Structure_v1.md` — **CANONICAL**
+- `lib/main.dart` — **RUNTIME**
+- `lib/app/`, `lib/bootstrap/`, `lib/features/`, `lib/shared/` — **RUNTIME**
+- `lib/core/constants|config|errors|logging|cache|analytics|security|networking/` — **RUNTIME**
+- `.github/workflows/flutter_ci.yml` — **ACTIVE**
+
 ## Archive and Legacy
 
 - `docs/archive/` contains duplicate versions and deprecated vendor-specific docs.
