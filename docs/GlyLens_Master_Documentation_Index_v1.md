@@ -1,5 +1,5 @@
 # GlyLens Master Documentation Index v1.0
-_Last Updated: 2026-06-26 (BP1.1 verification)_
+_Last Updated: 2026-06-26 (BP1.2 platform)_
 
 ## Purpose
 
@@ -147,6 +147,23 @@ All AI agents (Claude, Codex, Cursor) must start here.
 - `docs/GlyLens_Code_Quality_Report_v1.md` — **CANONICAL** — Build/analyze/test findings
 - `docs/GlyLens_Security_Review_v1.md` — **CANONICAL** — Security assessment (71/100)
 - `docs/GlyLens_Performance_Baseline_v1.md` — **CANONICAL** — Architectural performance profile
+
+## Build Program 1.2 — Enterprise Developer Platform (CANONICAL)
+
+- `platform/README.md` — **CANONICAL** — Platform entry point
+- `platform/GlyLens_Engineering_BOM_v1.md` — **CANONICAL** — Tool versions (Flutter 3.27.4)
+- `platform/GlyLens_Platform_Contract_v1.md` — **CANONICAL** — Supported stack
+- `platform/GlyLens_Developer_Onboarding_Guide_v1.md` — **CANONICAL** — Workstation setup
+- `platform/GlyLens_AI_Engineering_Standards_v1.md` — **CANONICAL** — AI tool governance
+- `platform/GlyLens_Local_Quality_Gates_v1.md` — **CANONICAL** — Pre-commit policy
+- `platform/GlyLens_DevOps_Foundation_v1.md` — **CANONICAL** — CI/CD, semver, branch protection
+- `platform/GlyLens_Docker_Strategy_v1.md` — **CANONICAL** — Container policy
+- `platform/GlyLens_Platform_Readiness_Assessment_v1.md` — **CANONICAL** — Verdict: **PARTIALLY READY**
+- `scripts/platform/` — Audit, validate, repair, quality-gate PowerShell scripts
+- `docker/` — Compose stack (emulator, mock API, corpus tools)
+- `.github/dependabot.yml` — Dependency updates
+- `.github/workflows/codeql.yml` — Security analysis
+- `.github/workflows/release.yml` — Semver releases
 
 ## Archive and Legacy
 

@@ -1,6 +1,6 @@
 # Repository Structure
 
-_Last Updated: 2026-06-26 (BP1.1 verification)_
+_Last Updated: 2026-06-26 (BP1.2 platform)_
 
 This document shows the current project folders and source files. See `docs/GlyLens_Repository_Manifest_v1.md` for authoritative artifact inventory and status.
 
@@ -16,6 +16,7 @@ This document shows the current project folders and source files. See `docs/GlyL
 
 - `scripts/convergence_repair.py` — Repair and validate seed JSON
 - `scripts/generate_backlog.py` — Generate acquisition backlog and sync CSV
+- `scripts/platform/` — BP1.2 environment audit, validate, repair, quality gates (PowerShell)
 
 ## Flutter Application (`lib/`)
 
@@ -42,7 +43,31 @@ This document shows the current project folders and source files. See `docs/GlyL
 
 ## CI/CD
 
-- `.github/workflows/flutter_ci.yml`
+- `.github/workflows/flutter_ci.yml` — Flutter CI (pinned 3.27.4)
+- `.github/workflows/codeql.yml` — CodeQL security
+- `.github/workflows/release.yml` — Release on semver tags
+- `.github/dependabot.yml` — Weekly dependency PRs
+
+## Platform (Build Program 1.2)
+
+- `platform/README.md` — Platform entry point
+- `platform/GlyLens_Engineering_BOM_v1.md` — Engineering Bill of Materials
+- `platform/GlyLens_Platform_Contract_v1.md` — Supported stack contract
+- `platform/GlyLens_Developer_Onboarding_Guide_v1.md` — Developer setup guide
+- `platform/GlyLens_AI_Engineering_Standards_v1.md` — AI tool standards
+- `platform/GlyLens_Local_Quality_Gates_v1.md` — Pre-commit quality policy
+- `platform/GlyLens_DevOps_Foundation_v1.md` — DevOps hardening
+- `platform/GlyLens_Docker_Strategy_v1.md` — Docker usage policy
+- `platform/GlyLens_Platform_Readiness_Assessment_v1.md` — Readiness verdict
+
+## Docker (`docker/`)
+
+- `docker-compose.dev.yml` — Dev infrastructure stack
+- `docker/firebase-emulator/` — Firebase Auth emulator (prepare only)
+- `docker/mock-api/` — Stub REST API for BP2
+- `docker/python-utils/` — Corpus script runner
+- `docker/corpus-validator/` — Seed JSON validation
+- `docker/README.md`
 
 ## Platform folders
 

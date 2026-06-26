@@ -1,0 +1,69 @@
+# GlyLens development infrastructure — supporting services only.
+# Flutter/Android builds run natively on Windows (see platform/GlyLens_Platform_Contract_v1.md).
+
+services:
+  firebase-emulator:
+    build:
+      context: ./firebase-emulator
+      dockerfile: Dockerfile
+    container_name: glylens-firebase-emulator
+    ports:
+      - "${FIREBASE_UI_PORT:-4000}:4000"
+      - "${FIREBASE_AUTH_PORT:-9099}:9099"
+      - "${FIREBASE_FIRESTORE_PORT:-8080}:8080"
+      - "${FIREBASE_STORAGE_PORT:-9199}:9199"
+    volumes:
+      - glylens-firebase-data:/firebase/data
+      - ./firebase-emulator/firebase.json:/firebase/firebase.json:ro
+    environment:
+      - FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID:-glylens-dev}
+    networks:
+      - glylens-dev
+  mock-api:
+    build:
+      context: ./mock-api
+      dockerfile: Dockerfile
+    container_name: glylens-mock-api
+    ports:
+      - "${MOCK_API_PORT:-3000}:3000"
+    environment:
+      - MOCK_API_PORT=3000
+      - GLYLENS_ENV=development
+    networks:
+      - glylens-dev
+    profiles:
+      - full
+  python-utils:
+    build:
+      context: ./python-utils
+      dockerfile: Dockerfile
+    container_name: glylens-python-utils
+    volumes:
+      - ../docs/seed_data:/data/seed:ro
+      - ../scripts:/app/scripts:ro
+    working_dir: /app
+    networks:
+      - glylens-dev
+    entrypoint: ["python"]
+    profiles:
+      - tools
+  corpus-validator:
+    build:
+      context: ./corpus-validator
+      dockerfile: Dockerfile
+    container_name: glylens-corpus-validator
+    volumes:
+      - ../docs/seed_data:/data/seed:ro
+    networks:
+      - glylens-dev
+    profiles:
+      - tools
+
+networks:
+  glylens-dev:
+    driver: bridge
+    name: glylens-dev
+
+volumes:
+  glylens-firebase-data:
+    name: glylens-firebase-data

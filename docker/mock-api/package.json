@@ -1,0 +1,10 @@
+{
+  "name": "glylens-mock-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GlyLens stub API for BP2 integration testing",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

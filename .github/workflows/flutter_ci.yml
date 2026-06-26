@@ -5,6 +5,11 @@ on:
     branches: [main, develop]
   pull_request:
     branches: [main, develop]
+  workflow_dispatch:
+
+concurrency:
+  group: flutter-ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   analyze-test-build:
@@ -14,8 +19,14 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
+          flutter-version: "3.27.4"
           channel: stable
           cache: true
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
 
       - name: Ensure Flutter platform folders
         run: |
@@ -32,6 +43,9 @@ jobs:
       - name: Analyze
         run: flutter analyze --fatal-infos
 
+      - name: Dart analyze
+        run: dart analyze --fatal-infos lib test integration_test
+
       - name: Unit & widget tests
         run: flutter test
 
@@ -46,3 +60,15 @@ jobs:
         with:
           name: glylens-android-debug
           path: build/app/outputs/flutter-apk/app-debug.apk
+          retention-days: 30
+
+  corpus-validate:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate seed JSON
+        run: |
+          docker build -t glylens-corpus-validator ./docker/corpus-validator
+          docker run --rm -v "$PWD/docs/seed_data:/data/seed:ro" glylens-corpus-validator

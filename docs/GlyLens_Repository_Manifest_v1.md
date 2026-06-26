@@ -1,6 +1,6 @@
 # GlyLens Repository Manifest v1
 
-_Last Updated: 2026-06-26 (BP1.1 verification)_  
+_Last Updated: 2026-06-26 (BP1.2 platform)_  
 _Status: CANONICAL_  
 _Owner: Chief Enterprise Architect_
 
@@ -121,6 +121,34 @@ Single inventory of every repository artifact. **One source of truth per concern
 | `docs/GlyLens_Performance_Baseline_v1.md` | Cold-start and navigation baseline | Principal Engineer | BP1 bootstrap | **CANONICAL** |
 
 **BP1.1 Verdict:** REWORK REQUIRED — CI red; auth import defects; platform tests absent. Tag `v1.0.0-platform-foundation` not authorized.
+
+---
+
+## 6c. Build Program 1.2 — Enterprise Platform (CANONICAL)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `platform/README.md` | Platform entry point | Platform Engineering | — | **CANONICAL** |
+| `platform/GlyLens_Engineering_BOM_v1.md` | Tool versions (EBOM) | Platform Engineering | — | **CANONICAL** |
+| `platform/GlyLens_Platform_Contract_v1.md` | Supported stack | Platform Engineering | EBOM | **CANONICAL** |
+| `platform/GlyLens_Developer_Onboarding_Guide_v1.md` | Workstation setup | DevEx | EBOM, Contract | **CANONICAL** |
+| `platform/GlyLens_AI_Engineering_Standards_v1.md` | AI governance | Platform Engineering | Master Index | **CANONICAL** |
+| `platform/GlyLens_Local_Quality_Gates_v1.md` | Pre-commit policy | Platform Engineering | CI | **CANONICAL** |
+| `platform/GlyLens_DevOps_Foundation_v1.md` | CI/CD, semver | DevOps | — | **CANONICAL** |
+| `platform/GlyLens_Docker_Strategy_v1.md` | Container policy | DevOps | — | **CANONICAL** |
+| `platform/GlyLens_Platform_Readiness_Assessment_v1.md` | Readiness verdict | Platform Engineering | All BP1.2 | **CANONICAL** |
+| `scripts/platform/*.ps1` | Audit, validate, repair, gates | DevOps | EBOM | **ACTIVE** |
+| `docker/docker-compose.dev.yml` | Dev infrastructure | DevOps | Docker Strategy | **ACTIVE** |
+| `docker/firebase-emulator/` | Auth emulator image | DevOps | — | **ACTIVE** |
+| `docker/mock-api/` | Stub API | DevOps | — | **ACTIVE** |
+| `docker/python-utils/` | Python runner | DevOps | scripts/ | **ACTIVE** |
+| `docker/corpus-validator/` | Seed JSON validator | CDO | seed_data | **ACTIVE** |
+| `.github/dependabot.yml` | Dependency updates | DevOps | — | **ACTIVE** |
+| `.github/workflows/codeql.yml` | Security scanning | DevOps | — | **ACTIVE** |
+| `.github/workflows/release.yml` | Semver releases | DevOps | — | **ACTIVE** |
+| `.gitignore` | Git exclusions | DevOps | — | **ACTIVE** |
+
+**BP1.2 Verdict:** PARTIALLY READY — platform docs and automation complete; Flutter not installed locally; BP1.1 compile blockers remain.
 
 ---
 
