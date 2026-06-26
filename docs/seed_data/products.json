@@ -16,7 +16,10 @@
         "evidenceLevel": "C",
         "source": "Manufacturer nutrition label / product composition",
         "trustScore": 75,
-        "confidence": "70-76"
+        "confidence": "70-76",
+        "entityId": "wave1-prod-coke-zero",
+        "sourceId": "src-manufacturer-label",
+        "sourceStatus": "ASSIGNED"
     },
     {
         "brand": "PepsiCo",
@@ -35,7 +38,10 @@
         "evidenceLevel": "C",
         "source": "Manufacturer nutrition label / product composition",
         "trustScore": 75,
-        "confidence": "70-76"
+        "confidence": "70-76",
+        "entityId": "wave1-prod-pepsi-zero",
+        "sourceId": "src-manufacturer-label",
+        "sourceStatus": "ASSIGNED"
     },
     {
         "brand": "Britannia",
@@ -54,7 +60,10 @@
         "evidenceLevel": "C",
         "source": "Manufacturer nutrition label",
         "trustScore": 75,
-        "confidence": "70-76"
+        "confidence": "70-76",
+        "entityId": "wave1-prod-britannia-nutrichoice",
+        "sourceId": "src-manufacturer-label",
+        "sourceStatus": "ASSIGNED"
     },
     {
         "brand": "RiteBite",
@@ -73,7 +82,10 @@
         "evidenceLevel": "C",
         "source": "Manufacturer nutrition label",
         "trustScore": 75,
-        "confidence": "70-76"
+        "confidence": "70-76",
+        "entityId": "wave1-prod-ritebite-protein-bar",
+        "sourceId": "src-manufacturer-label",
+        "sourceStatus": "ASSIGNED"
     },
     {
         "brand": "Yoga Bar",
@@ -92,6 +104,9 @@
         "evidenceLevel": "C",
         "source": "Manufacturer nutrition label",
         "trustScore": 75,
-        "confidence": "70-76"
+        "confidence": "70-76",
+        "entityId": "wave1-prod-yoga-bar-protein-bar",
+        "sourceId": "src-manufacturer-label",
+        "sourceStatus": "ASSIGNED"
     }
 ]

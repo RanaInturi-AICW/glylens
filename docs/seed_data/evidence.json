@@ -1,0 +1,167 @@
+[
+    {
+        "evidenceId": "evid-001",
+        "entityId": "ingr-001",
+        "entityName": "Basmati Rice",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "evidenceLevel": "A",
+        "trustScore": 92,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-002",
+        "entityId": "ingr-002",
+        "entityName": "Brown Rice",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "evidenceLevel": "A",
+        "trustScore": 91,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-003",
+        "entityId": "ingr-003",
+        "entityName": "Rolled Oats",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "evidenceLevel": "A",
+        "trustScore": 90,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-004",
+        "entityId": "ingr-004",
+        "entityName": "Whole Wheat Flour",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "evidenceLevel": "B",
+        "trustScore": 88,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-005",
+        "entityId": "ingr-005",
+        "entityName": "Chickpea",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "evidenceLevel": "A",
+        "trustScore": 92,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-006",
+        "entityId": "ingr-006",
+        "entityName": "Red Lentil",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "evidenceLevel": "A",
+        "trustScore": 93,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-007",
+        "entityId": "food-001",
+        "entityName": "Idli",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "evidenceLevel": "B",
+        "trustScore": 85,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-008",
+        "entityId": "food-006",
+        "entityName": "Khichdi",
+        "fieldName": "giValue",
+        "sourceId": "src-open-food-facts",
+        "evidenceLevel": "C",
+        "trustScore": 75,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-009",
+        "entityId": null,
+        "entityName": "Greek Yogurt Parfait",
+        "fieldName": "giValue",
+        "sourceId": "src-open-food-facts",
+        "evidenceLevel": "C",
+        "trustScore": 75,
+        "validationStatus": "PENDING_VALIDATION",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-010",
+        "entityId": "prod-001",
+        "entityName": "Quaker Oats Old Fashioned",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "evidenceLevel": "A",
+        "trustScore": 91,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-011",
+        "entityId": "prod-007",
+        "entityName": "Amul Paneer",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "evidenceLevel": "C",
+        "trustScore": 75,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-012",
+        "entityId": "prod-010",
+        "entityName": "Patanjali Multigrain Atta",
+        "fieldName": "giValue",
+        "sourceId": "src-local-fc-research",
+        "evidenceLevel": "B",
+        "trustScore": 75,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-013",
+        "entityId": "ingr-019",
+        "entityName": "Apple",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "evidenceLevel": "A",
+        "trustScore": 85,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-014",
+        "entityId": "ingr-016",
+        "entityName": "Spinach",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "evidenceLevel": "A",
+        "trustScore": 90,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    },
+    {
+        "evidenceId": "evid-015",
+        "entityId": "food-011",
+        "entityName": "Lentil Soup",
+        "fieldName": "giValue",
+        "sourceId": "src-open-food-facts",
+        "evidenceLevel": "C",
+        "trustScore": 70,
+        "validationStatus": "VALIDATED",
+        "acquisitionDate": "2026-06-20"
+    }
+]

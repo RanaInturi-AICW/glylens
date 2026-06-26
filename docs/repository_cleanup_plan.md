@@ -2,6 +2,9 @@
 
 _Last Updated: 2026-06-20_
 
+> **Repository Status: SUPERSEDED (2026-06-26)**  
+> Superseded by Sprint 0 convergence: `GlyLens_Repository_Manifest_v1.md`, `GlyLens_Repository_Synchronization_Report_v1.md`.
+
 ## Purpose
 
 This plan defines the repository cleanup approach for GlyLens, including document consolidation, archive creation, and master index updates.

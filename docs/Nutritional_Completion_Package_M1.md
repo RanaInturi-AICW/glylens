@@ -1,6 +1,10 @@
 # GlyLens Nutritional Completion Package M1
 _Last Updated: 2026-06-20_
 
+> **Repository Status: ACTIVE (Acquisition Draft — NOT CANONICAL)**  
+> Published runtime values remain in `docs/GlyLens_Reference_Catalog_v1.md` until validated and published via `docs/GlyLens_Corpus_Acquisition_Workflow_v1.md`.  
+> Do not treat this document as runtime truth without workflow Stage 6 publication.
+
 This package completes the nutrition profile for the Top 10 Ingredients already included in the GlyLens M1 corpus population.
 
 It is based on:

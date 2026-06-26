@@ -1,6 +1,6 @@
-brand,productName,productCategory,barcode,nutritionSource,marketingClaims,availableCarbohydrates,GI,GL,GIStatus,evidenceLevel,source,trustScore,confidence
-Coca-Cola,Coke Zero,Beverage,placeholder-0001,Manufacturer nutrition label,"zero sugar|zero calories",0,0,0,Published,C,"Manufacturer nutrition label / product composition",75,"70-76"
-PepsiCo,Pepsi Zero,Beverage,placeholder-0002,Manufacturer nutrition label,"zero sugar|zero calories",0,0,0,Published,C,"Manufacturer nutrition label / product composition",75,"70-76"
-Britannia,Britannia NutriChoice,Snack,placeholder-0003,Manufacturer nutrition label,"high fiber|whole grain",unavailable,unavailable,unavailable,Estimated,C,Manufacturer nutrition label,75,"70-76"
-RiteBite,RiteBite Protein Bar,Snack,placeholder-0004,Manufacturer nutrition label,"high protein|low sugar",unavailable,unavailable,unavailable,Estimated,C,Manufacturer nutrition label,75,"70-76"
-Yoga Bar,Yoga Bar Protein Bar,Snack,placeholder-0005,Manufacturer nutrition label,"high protein|low sugar",unavailable,unavailable,unavailable,Estimated,C,Manufacturer nutrition label,75,"70-76"
+entityId,brand,productName,productCategory,barcode,nutritionSource,marketingClaims,availableCarbohydrates,GI,GL,GIStatus,evidenceLevel,sourceId,sourceStatus,trustScore,confidence
+wave1-prod-coke-zero,Coca-Cola,Coke Zero,Beverage,placeholder-0001,Manufacturer nutrition label,zero sugar|zero calories,0,0,0,Published,C,src-manufacturer-label,ASSIGNED,75,70-76
+wave1-prod-pepsi-zero,PepsiCo,Pepsi Zero,Beverage,placeholder-0002,Manufacturer nutrition label,zero sugar|zero calories,0,0,0,Published,C,src-manufacturer-label,ASSIGNED,75,70-76
+wave1-prod-britannia-nutrichoice,Britannia,Britannia NutriChoice,Snack,placeholder-0003,Manufacturer nutrition label,high fiber|whole grain,unavailable,unavailable,unavailable,Estimated,C,src-manufacturer-label,ASSIGNED,75,70-76
+wave1-prod-ritebite-protein-bar,RiteBite,RiteBite Protein Bar,Snack,placeholder-0004,Manufacturer nutrition label,high protein|low sugar,unavailable,unavailable,unavailable,Estimated,C,src-manufacturer-label,ASSIGNED,75,70-76
+wave1-prod-yoga-bar-protein-bar,Yoga Bar,Yoga Bar Protein Bar,Snack,placeholder-0005,Manufacturer nutrition label,high protein|low sugar,unavailable,unavailable,unavailable,Estimated,C,src-manufacturer-label,ASSIGNED,75,70-76

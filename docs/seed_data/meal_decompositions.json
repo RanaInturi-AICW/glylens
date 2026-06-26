@@ -29,7 +29,11 @@
         "evidenceLevel": "B",
         "source": "India Food Composition Tables (IFCT) / National Institute of Nutrition India (expected)",
         "trustScore": 88,
-        "confidence": "80-86"
+        "confidence": "80-86",
+        "mealId": "meal-001",
+        "foodId": "wave1-food-chicken-biryani",
+        "sourceId": "src-ifct",
+        "sourceStatus": "EXPECTED"
     },
     {
         "itemName": "Masala Dosa",
@@ -57,7 +61,11 @@
         "evidenceLevel": "B",
         "source": "India Food Composition Tables (IFCT) / FAO/WHO Glycemic Index tables (expected)",
         "trustScore": 88,
-        "confidence": "80-86"
+        "confidence": "80-86",
+        "mealId": "meal-002",
+        "foodId": "wave1-food-masala-dosa",
+        "sourceId": "src-ifct",
+        "sourceStatus": "EXPECTED"
     },
     {
         "itemName": "Pongal",
@@ -85,6 +93,10 @@
         "evidenceLevel": "B",
         "source": "India Food Composition Tables (IFCT) / National Institute of Nutrition India (expected)",
         "trustScore": 88,
-        "confidence": "80-86"
+        "confidence": "80-86",
+        "mealId": "meal-003",
+        "foodId": "wave1-food-pongal",
+        "sourceId": "src-ifct",
+        "sourceStatus": "EXPECTED"
     }
 ]

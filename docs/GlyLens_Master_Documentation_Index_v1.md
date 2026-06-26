@@ -1,5 +1,5 @@
 # GlyLens Master Documentation Index v1.0
-_Last Updated: 2026-06-20_
+_Last Updated: 2026-06-26_
 
 ## Purpose
 
@@ -19,6 +19,9 @@ All AI agents (Claude, Codex, Cursor) must start here.
 6. Security Rules
 7. Prompt Library
 8. Execution Plan
+9. Repository Manifest
+10. Sprint 0 Definition of Done
+11. Sprint 1 Gate Decision
 
 ---
 
@@ -57,11 +60,36 @@ All AI agents (Claude, Codex, Cursor) must start here.
 
 ## Engineering
 
-- `GlyLens_Cursor_Engineering_Constitution_v1_1.md`
+- `docs/GlyLens_Cursor_Engineering_Constitution_v1_1.md`
 
 ## Security
 
-- `GlyLens_Firebase_Security_Rules_Spec_v1.md` (archive candidate)
+- `docs/GlyLens_Firebase_Security_Rules_Spec_v1.md`
+
+## Governance & Convergence (CANONICAL)
+
+- `docs/GlyLens_Repository_Manifest_v1.md`
+- `docs/GlyLens_Repository_Synchronization_Report_v1.md`
+- `docs/GlyLens_Canonical_Source_Registry_v1.md`
+- `docs/GlyLens_Citation_Registry_v1.md`
+- `docs/GlyLens_Corpus_Acquisition_Workflow_v1.md`
+- `docs/GlyLens_Acquisition_Backlog_v1.md`
+- `docs/GlyLens_Sprint0_Definition_of_Done_v1.md`
+- `docs/GlyLens_Implementation_Readiness_Assessment_v1.md`
+- `docs/GlyLens_Executive_Gap_Matrix_v1.md`
+- `docs/GlyLens_Sprint1_Gate_Decision_v1.md`
+- `docs/GlyLens_Repository_Audit_And_Compliance_Report_v1.md`
+- `docs/GlyLens_Runtime_Asset_Corrections_v1.md`
+
+## Validation Framework
+
+- `docs/GlyLens_Food_Benchmark_Dataset_Framework_v1.md`
+- `docs/GI_Reference_Catalog_Framework_v1.md`
+
+## Infrastructure Schemas
+
+- `docs/GlyLens_Firestore_Physical_Schema_v1.md`
+- `docs/GlyLens_Flutter_Module_Blueprint_v1.md`
 
 ## Prompts
 
@@ -70,20 +98,37 @@ All AI agents (Claude, Codex, Cursor) must start here.
 
 ## Planning
 
-- `GlyLens_30_Day_Execution_Plan_v1.md`
-- `repository_cleanup_plan.md`
-- `corpus_build_package_v1.md`
-- `corpus_gap_analysis_v1.md`
-- `GI_Reference_Catalog_Framework_v1.md`
-- `GlyLens_Reference_Catalog_v1.md`
-- `Catalog_Enrichment_Plan_v1.md`
-- `Corpus_Completion_Plan_M1.md`
-- `Corpus_Population_Package_M1.md`
-- `Nutritional_Completion_Package_M1.md`
-- `Priority_Dataset_Expansion_M1.md`
-- `M1_Seed_Dataset_Generation_Plan_v1.md`
-- `GlyLens_Sprint0_7_Implementation_Blueprint_v1.md`
+- `docs/GlyLens_30_Day_Execution_Plan_v1.md`
+- `docs/corpus_build_package_v1.md`
+- `docs/corpus_gap_analysis_v1.md`
+- `docs/GlyLens_Reference_Catalog_v1.md` (**CANONICAL nutritional baseline**)
+- `docs/Catalog_Enrichment_Plan_v1.md`
+- `docs/Corpus_Completion_Plan_M1.md`
+- `docs/Corpus_Population_Package_M1.md` (SUPERSEDED — see Manifest)
+- `docs/Nutritional_Completion_Package_M1.md` (ACTIVE acquisition draft — not runtime canonical)
+- `docs/Priority_Dataset_Expansion_M1.md`
+- `docs/M1_Seed_Dataset_Generation_Plan_v1.md`
+- `docs/GlyLens_Sprint0_7_Implementation_Blueprint_v1.md`
 - `docs/GlyLens_Sprint0_9_Authoritative_Data_Acquisition_Report_v1.md`
+- `docs/GlyLens_Sprint0_Acceptance_Criteria_v1.md`
+- `docs/GlyLens_Data_Acquisition_FIG_Seeding_Strategy_v1.md`
+- `docs/repository_cleanup_plan.md` (SUPERSEDED — see Manifest)
+
+## Runtime Seed Data
+
+- `docs/seed_data/README.md`
+- `docs/seed_data/sources.json`
+- `docs/seed_data/citations.json`
+- `docs/seed_data/evidence.json`
+- `docs/seed_data/ingredients.json`
+- `docs/seed_data/products.json`
+- `docs/seed_data/foods.json`
+- `docs/seed_data/meal_decompositions.json`
+
+## Scripts
+
+- `scripts/convergence_repair.py`
+- `scripts/generate_backlog.py`
 
 ## Archive and Legacy
 
@@ -104,8 +149,9 @@ Every new document must:
 
 # Future Documents
 
-- Firestore Physical Schema
-- Flutter Module Blueprint
 - App Store Readiness Guide
 - API Contracts
 - Food Intelligence API Design
+- `flutter_app/` application scaffold
+- `firebase/` infrastructure scaffold
+- `scripts/acquire/` acquisition automation

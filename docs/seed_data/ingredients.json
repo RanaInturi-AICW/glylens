@@ -14,7 +14,10 @@
         "evidenceLevel": "B",
         "source": "India Food Composition Tables (IFCT) / National Institute of Nutrition India (expected)",
         "trustScore": 88,
-        "confidence": "80-86"
+        "confidence": "80-86",
+        "entityId": "wave1-ing-jamun",
+        "sourceId": "src-ifct",
+        "sourceStatus": "EXPECTED"
     },
     {
         "canonicalName": "Banana",
@@ -30,7 +33,10 @@
         "evidenceLevel": "A",
         "source": "USDA FoodData Central / FAO/WHO Glycemic Index tables (expected)",
         "trustScore": 90,
-        "confidence": "85-89"
+        "confidence": "85-89",
+        "entityId": "wave1-ing-banana",
+        "sourceId": "src-usda-fdc",
+        "sourceStatus": "EXPECTED"
     },
     {
         "canonicalName": "White Rice",
@@ -47,7 +53,10 @@
         "evidenceLevel": "A",
         "source": "FAO/WHO Glycemic Index tables / USDA FoodData Central (expected)",
         "trustScore": 91,
-        "confidence": "86-90"
+        "confidence": "86-90",
+        "entityId": "wave1-ing-white-rice",
+        "sourceId": "src-usda-fdc",
+        "sourceStatus": "EXPECTED"
     },
     {
         "canonicalName": "Brown Rice",
@@ -63,7 +72,10 @@
         "evidenceLevel": "A",
         "source": "FAO/WHO Glycemic Index tables",
         "trustScore": 91,
-        "confidence": "86-90"
+        "confidence": "86-90",
+        "entityId": "ingr-002",
+        "sourceId": "src-fao-who-gi",
+        "sourceStatus": "ASSIGNED"
     },
     {
         "canonicalName": "Oats",
@@ -80,7 +92,10 @@
         "evidenceLevel": "A",
         "source": "USDA FoodData Central",
         "trustScore": 90,
-        "confidence": "85-89"
+        "confidence": "85-89",
+        "entityId": "ingr-003",
+        "sourceId": "src-usda-fdc",
+        "sourceStatus": "ASSIGNED"
     },
     {
         "canonicalName": "Chickpea",
@@ -96,6 +111,9 @@
         "evidenceLevel": "A",
         "source": "FAO/WHO Glycemic Index tables",
         "trustScore": 92,
-        "confidence": "88-92"
+        "confidence": "88-92",
+        "entityId": "ingr-005",
+        "sourceId": "src-fao-who-gi",
+        "sourceStatus": "ASSIGNED"
     }
 ]

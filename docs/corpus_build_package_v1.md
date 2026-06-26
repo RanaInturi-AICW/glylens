@@ -1,6 +1,8 @@
 # GlyLens Corpus Build Package v1.0
 _Last Updated: 2026-06-20_
 
+> **Note:** §6 Source Registry and §8 Evidence Registry seed prose are **superseded** by `docs/GlyLens_Canonical_Source_Registry_v1.md`, `docs/GlyLens_Citation_Registry_v1.md`, and `docs/seed_data/evidence.json`. Remaining sections remain ACTIVE planning context.
+
 This package captures the Sprint 0.5 Corpus Build plan for GlyLens. It is aligned to the approved architecture, validation report, and current ADRs: vendor-neutral, evidence-first, explainable, and ingredient-first.
 
 ## 1. Initial 50 Ingredient Dataset

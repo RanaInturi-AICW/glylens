@@ -1,0 +1,2252 @@
+[
+    {
+        "citationId": "cite-0001",
+        "entityId": "ingr-001",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0002",
+        "entityId": "ingr-001",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0003",
+        "entityId": "ingr-001",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0004",
+        "entityId": "ingr-002",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0005",
+        "entityId": "ingr-002",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0006",
+        "entityId": "ingr-002",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0007",
+        "entityId": "ingr-003",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0008",
+        "entityId": "ingr-003",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0009",
+        "entityId": "ingr-003",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0010",
+        "entityId": "ingr-004",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "78-86"
+    },
+    {
+        "citationId": "cite-0011",
+        "entityId": "ingr-004",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "78-86"
+    },
+    {
+        "citationId": "cite-0012",
+        "entityId": "ingr-004",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "78-86"
+    },
+    {
+        "citationId": "cite-0013",
+        "entityId": "ingr-005",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0014",
+        "entityId": "ingr-005",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0015",
+        "entityId": "ingr-005",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0016",
+        "entityId": "ingr-006",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "89-93"
+    },
+    {
+        "citationId": "cite-0017",
+        "entityId": "ingr-006",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "89-93"
+    },
+    {
+        "citationId": "cite-0018",
+        "entityId": "ingr-006",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "89-93"
+    },
+    {
+        "citationId": "cite-0019",
+        "entityId": "ingr-007",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0020",
+        "entityId": "ingr-007",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0021",
+        "entityId": "ingr-007",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0022",
+        "entityId": "ingr-008",
+        "fieldName": "giValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0023",
+        "entityId": "ingr-008",
+        "fieldName": "glValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0024",
+        "entityId": "ingr-008",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0025",
+        "entityId": "ingr-009",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0026",
+        "entityId": "ingr-009",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0027",
+        "entityId": "ingr-009",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0028",
+        "entityId": "ingr-010",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0029",
+        "entityId": "ingr-010",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0030",
+        "entityId": "ingr-010",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0031",
+        "entityId": "ingr-011",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0032",
+        "entityId": "ingr-011",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0033",
+        "entityId": "ingr-011",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "88-92"
+    },
+    {
+        "citationId": "cite-0034",
+        "entityId": "ingr-012",
+        "fieldName": "giValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0035",
+        "entityId": "ingr-012",
+        "fieldName": "glValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0036",
+        "entityId": "ingr-012",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0037",
+        "entityId": "ingr-013",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0038",
+        "entityId": "ingr-013",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0039",
+        "entityId": "ingr-013",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0040",
+        "entityId": "ingr-014",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0041",
+        "entityId": "ingr-014",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0042",
+        "entityId": "ingr-014",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0043",
+        "entityId": "ingr-015",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0044",
+        "entityId": "ingr-015",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0045",
+        "entityId": "ingr-015",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0046",
+        "entityId": "ingr-016",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0047",
+        "entityId": "ingr-016",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0048",
+        "entityId": "ingr-016",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0049",
+        "entityId": "ingr-017",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0050",
+        "entityId": "ingr-017",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0051",
+        "entityId": "ingr-017",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0052",
+        "entityId": "ingr-018",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0053",
+        "entityId": "ingr-018",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0054",
+        "entityId": "ingr-018",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0055",
+        "entityId": "ingr-019",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0056",
+        "entityId": "ingr-019",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0057",
+        "entityId": "ingr-019",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0058",
+        "entityId": "ingr-020",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0059",
+        "entityId": "ingr-020",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0060",
+        "entityId": "ingr-020",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0061",
+        "entityId": "ingr-021",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "B",
+        "confidence": "82-88"
+    },
+    {
+        "citationId": "cite-0062",
+        "entityId": "ingr-021",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-88"
+    },
+    {
+        "citationId": "cite-0063",
+        "entityId": "ingr-021",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-88"
+    },
+    {
+        "citationId": "cite-0064",
+        "entityId": "ingr-022",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0065",
+        "entityId": "ingr-022",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0066",
+        "entityId": "ingr-022",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0067",
+        "entityId": "ingr-023",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "90-92"
+    },
+    {
+        "citationId": "cite-0068",
+        "entityId": "ingr-023",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "90-92"
+    },
+    {
+        "citationId": "cite-0069",
+        "entityId": "ingr-023",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "90-92"
+    },
+    {
+        "citationId": "cite-0070",
+        "entityId": "ingr-024",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0071",
+        "entityId": "ingr-024",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0072",
+        "entityId": "ingr-024",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0073",
+        "entityId": "ingr-025",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0074",
+        "entityId": "ingr-025",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0075",
+        "entityId": "ingr-025",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0076",
+        "entityId": "food-001",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0077",
+        "entityId": "food-001",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0078",
+        "entityId": "food-001",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0079",
+        "entityId": "food-002",
+        "fieldName": "giValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0080",
+        "entityId": "food-002",
+        "fieldName": "glValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0081",
+        "entityId": "food-002",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0082",
+        "entityId": "food-003",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0083",
+        "entityId": "food-003",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0084",
+        "entityId": "food-003",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0085",
+        "entityId": "food-004",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0086",
+        "entityId": "food-004",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0087",
+        "entityId": "food-004",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0088",
+        "entityId": "food-005",
+        "fieldName": "giValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0089",
+        "entityId": "food-005",
+        "fieldName": "glValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0090",
+        "entityId": "food-005",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0091",
+        "entityId": "food-006",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0092",
+        "entityId": "food-006",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0093",
+        "entityId": "food-006",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0094",
+        "entityId": "food-007",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0095",
+        "entityId": "food-007",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0096",
+        "entityId": "food-007",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0097",
+        "entityId": "food-008",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "84-88"
+    },
+    {
+        "citationId": "cite-0098",
+        "entityId": "food-008",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "84-88"
+    },
+    {
+        "citationId": "cite-0099",
+        "entityId": "food-008",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "84-88"
+    },
+    {
+        "citationId": "cite-0100",
+        "entityId": "food-009",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0101",
+        "entityId": "food-009",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0102",
+        "entityId": "food-009",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0103",
+        "entityId": "food-010",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0104",
+        "entityId": "food-010",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0105",
+        "entityId": "food-010",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0106",
+        "entityId": "food-011",
+        "fieldName": "giValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0107",
+        "entityId": "food-011",
+        "fieldName": "glValue",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0108",
+        "entityId": "food-011",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-fao-who-gi",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0109",
+        "entityId": "food-012",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-86"
+    },
+    {
+        "citationId": "cite-0110",
+        "entityId": "food-012",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-86"
+    },
+    {
+        "citationId": "cite-0111",
+        "entityId": "food-012",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-86"
+    },
+    {
+        "citationId": "cite-0112",
+        "entityId": "food-013",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-86"
+    },
+    {
+        "citationId": "cite-0113",
+        "entityId": "food-013",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-86"
+    },
+    {
+        "citationId": "cite-0114",
+        "entityId": "food-013",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "82-86"
+    },
+    {
+        "citationId": "cite-0115",
+        "entityId": "food-014",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "84-88"
+    },
+    {
+        "citationId": "cite-0116",
+        "entityId": "food-014",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "84-88"
+    },
+    {
+        "citationId": "cite-0117",
+        "entityId": "food-014",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "84-88"
+    },
+    {
+        "citationId": "cite-0118",
+        "entityId": "food-015",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0119",
+        "entityId": "food-015",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0120",
+        "entityId": "food-015",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0121",
+        "entityId": "food-016",
+        "fieldName": "giValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0122",
+        "entityId": "food-016",
+        "fieldName": "glValue",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0123",
+        "entityId": "food-016",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-nin-india",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0124",
+        "entityId": "food-017",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0125",
+        "entityId": "food-017",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0126",
+        "entityId": "food-017",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0127",
+        "entityId": "food-018",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "89-92"
+    },
+    {
+        "citationId": "cite-0128",
+        "entityId": "food-018",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "89-92"
+    },
+    {
+        "citationId": "cite-0129",
+        "entityId": "food-018",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "89-92"
+    },
+    {
+        "citationId": "cite-0130",
+        "entityId": "food-019",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0131",
+        "entityId": "food-019",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0132",
+        "entityId": "food-019",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0133",
+        "entityId": "food-020",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0134",
+        "entityId": "food-020",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0135",
+        "entityId": "food-020",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0136",
+        "entityId": "food-021",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0137",
+        "entityId": "food-021",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0138",
+        "entityId": "food-021",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0139",
+        "entityId": "food-022",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0140",
+        "entityId": "food-022",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0141",
+        "entityId": "food-022",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "80-86"
+    },
+    {
+        "citationId": "cite-0142",
+        "entityId": "food-023",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0143",
+        "entityId": "food-023",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0144",
+        "entityId": "food-023",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0145",
+        "entityId": "food-024",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0146",
+        "entityId": "food-024",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0147",
+        "entityId": "food-024",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0148",
+        "entityId": "food-025",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0149",
+        "entityId": "food-025",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0150",
+        "entityId": "food-025",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "83-87"
+    },
+    {
+        "citationId": "cite-0151",
+        "entityId": "prod-001",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0152",
+        "entityId": "prod-001",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0153",
+        "entityId": "prod-001",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0154",
+        "entityId": "prod-002",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0155",
+        "entityId": "prod-002",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0156",
+        "entityId": "prod-002",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "86-90"
+    },
+    {
+        "citationId": "cite-0157",
+        "entityId": "prod-003",
+        "fieldName": "giValue",
+        "sourceId": null,
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "74-82"
+    },
+    {
+        "citationId": "cite-0158",
+        "entityId": "prod-003",
+        "fieldName": "glValue",
+        "sourceId": null,
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "74-82"
+    },
+    {
+        "citationId": "cite-0159",
+        "entityId": "prod-003",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": null,
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "74-82"
+    },
+    {
+        "citationId": "cite-0160",
+        "entityId": "prod-004",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "68-76"
+    },
+    {
+        "citationId": "cite-0161",
+        "entityId": "prod-004",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "68-76"
+    },
+    {
+        "citationId": "cite-0162",
+        "entityId": "prod-004",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "68-76"
+    },
+    {
+        "citationId": "cite-0163",
+        "entityId": "prod-005",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "90-92"
+    },
+    {
+        "citationId": "cite-0164",
+        "entityId": "prod-005",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "90-92"
+    },
+    {
+        "citationId": "cite-0165",
+        "entityId": "prod-005",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "90-92"
+    },
+    {
+        "citationId": "cite-0166",
+        "entityId": "prod-006",
+        "fieldName": "giValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0167",
+        "entityId": "prod-006",
+        "fieldName": "glValue",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0168",
+        "entityId": "prod-006",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-usda-fdc",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "85-89"
+    },
+    {
+        "citationId": "cite-0169",
+        "entityId": "prod-007",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0170",
+        "entityId": "prod-007",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0171",
+        "entityId": "prod-007",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "79-85"
+    },
+    {
+        "citationId": "cite-0172",
+        "entityId": "prod-008",
+        "fieldName": "giValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": "2026-06-20",
+        "validationStatus": "VALIDATED",
+        "evidenceLevel": "A",
+        "confidence": "82-88"
+    },
+    {
+        "citationId": "cite-0173",
+        "entityId": "prod-008",
+        "fieldName": "glValue",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "82-88"
+    },
+    {
+        "citationId": "cite-0174",
+        "entityId": "prod-008",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-ifct",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "A",
+        "confidence": "82-88"
+    },
+    {
+        "citationId": "cite-0175",
+        "entityId": "prod-009",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "68-76"
+    },
+    {
+        "citationId": "cite-0176",
+        "entityId": "prod-009",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "68-76"
+    },
+    {
+        "citationId": "cite-0177",
+        "entityId": "prod-009",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "68-76"
+    },
+    {
+        "citationId": "cite-0178",
+        "entityId": "prod-010",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0179",
+        "entityId": "prod-010",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0180",
+        "entityId": "prod-010",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0181",
+        "entityId": "prod-011",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0182",
+        "entityId": "prod-011",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0183",
+        "entityId": "prod-011",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0184",
+        "entityId": "prod-012",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0185",
+        "entityId": "prod-012",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0186",
+        "entityId": "prod-012",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0187",
+        "entityId": "prod-013",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0188",
+        "entityId": "prod-013",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0189",
+        "entityId": "prod-013",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0190",
+        "entityId": "prod-014",
+        "fieldName": "giValue",
+        "sourceId": null,
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "60-70"
+    },
+    {
+        "citationId": "cite-0191",
+        "entityId": "prod-014",
+        "fieldName": "glValue",
+        "sourceId": null,
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "60-70"
+    },
+    {
+        "citationId": "cite-0192",
+        "entityId": "prod-014",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": null,
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "60-70"
+    },
+    {
+        "citationId": "cite-0193",
+        "entityId": "prod-015",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-74"
+    },
+    {
+        "citationId": "cite-0194",
+        "entityId": "prod-015",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-74"
+    },
+    {
+        "citationId": "cite-0195",
+        "entityId": "prod-015",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-74"
+    },
+    {
+        "citationId": "cite-0196",
+        "entityId": "prod-016",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0197",
+        "entityId": "prod-016",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0198",
+        "entityId": "prod-016",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0199",
+        "entityId": "prod-017",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "67-75"
+    },
+    {
+        "citationId": "cite-0200",
+        "entityId": "prod-017",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "67-75"
+    },
+    {
+        "citationId": "cite-0201",
+        "entityId": "prod-017",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "67-75"
+    },
+    {
+        "citationId": "cite-0202",
+        "entityId": "prod-018",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0203",
+        "entityId": "prod-018",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0204",
+        "entityId": "prod-018",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-78"
+    },
+    {
+        "citationId": "cite-0205",
+        "entityId": "prod-019",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-79"
+    },
+    {
+        "citationId": "cite-0206",
+        "entityId": "prod-019",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-79"
+    },
+    {
+        "citationId": "cite-0207",
+        "entityId": "prod-019",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-79"
+    },
+    {
+        "citationId": "cite-0208",
+        "entityId": "prod-020",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-79"
+    },
+    {
+        "citationId": "cite-0209",
+        "entityId": "prod-020",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-79"
+    },
+    {
+        "citationId": "cite-0210",
+        "entityId": "prod-020",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "72-79"
+    },
+    {
+        "citationId": "cite-0211",
+        "entityId": "prod-021",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "71-78"
+    },
+    {
+        "citationId": "cite-0212",
+        "entityId": "prod-021",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "71-78"
+    },
+    {
+        "citationId": "cite-0213",
+        "entityId": "prod-021",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "71-78"
+    },
+    {
+        "citationId": "cite-0214",
+        "entityId": "prod-022",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "66-74"
+    },
+    {
+        "citationId": "cite-0215",
+        "entityId": "prod-022",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "66-74"
+    },
+    {
+        "citationId": "cite-0216",
+        "entityId": "prod-022",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "66-74"
+    },
+    {
+        "citationId": "cite-0217",
+        "entityId": "prod-023",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-73"
+    },
+    {
+        "citationId": "cite-0218",
+        "entityId": "prod-023",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-73"
+    },
+    {
+        "citationId": "cite-0219",
+        "entityId": "prod-023",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-73"
+    },
+    {
+        "citationId": "cite-0220",
+        "entityId": "prod-024",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-73"
+    },
+    {
+        "citationId": "cite-0221",
+        "entityId": "prod-024",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-73"
+    },
+    {
+        "citationId": "cite-0222",
+        "entityId": "prod-024",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "C",
+        "confidence": "65-73"
+    },
+    {
+        "citationId": "cite-0223",
+        "entityId": "prod-025",
+        "fieldName": "giValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "71-78"
+    },
+    {
+        "citationId": "cite-0224",
+        "entityId": "prod-025",
+        "fieldName": "glValue",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "71-78"
+    },
+    {
+        "citationId": "cite-0225",
+        "entityId": "prod-025",
+        "fieldName": "availableCarbohydrates",
+        "sourceId": "src-manufacturer-label",
+        "retrievalDate": null,
+        "validationStatus": "PENDING_ACQUISITION",
+        "evidenceLevel": "B",
+        "confidence": "71-78"
+    }
+]

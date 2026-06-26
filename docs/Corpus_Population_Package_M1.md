@@ -1,6 +1,11 @@
 # GlyLens Corpus Population Package M1
 _Last Updated: 2026-06-20_
 
+> **Repository Status: SUPERSEDED**  
+> Runtime nutritional values are canonical in `docs/GlyLens_Reference_Catalog_v1.md`.  
+> This package is retained as historical acquisition context only.  
+> See `docs/GlyLens_Repository_Manifest_v1.md`.
+
 This package captures the first corpus population update for the highest-priority M1 records.
 It is built from:
 - `docs/GlyLens_Reference_Catalog_v1.md`

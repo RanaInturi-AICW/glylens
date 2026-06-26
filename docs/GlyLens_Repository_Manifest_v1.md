@@ -1,0 +1,212 @@
+# GlyLens Repository Manifest v1
+
+_Last Updated: 2026-06-26_  
+_Status: CANONICAL_  
+_Owner: Chief Enterprise Architect_
+
+Single inventory of every repository artifact. **One source of truth per concern** — see Status column.
+
+**Status legend:** CANONICAL | ACTIVE | SUPERSEDED | ARCHIVED | GENERATED | RUNTIME
+
+---
+
+## 1. Governance & Convergence (CANONICAL)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `docs/GlyLens_Master_Documentation_Index_v1.md` | Documentation entry point | CPO | All docs | CANONICAL |
+| `docs/GlyLens_Repository_Manifest_v1.md` | This manifest | Chief Architect | — | CANONICAL |
+| `docs/GlyLens_Repository_Synchronization_Report_v1.md` | Conflict resolution log | Chief Architect | Manifest | CANONICAL |
+| `docs/GlyLens_Canonical_Source_Registry_v1.md` | Authoritative source list | Data Governance | ADR-0005, ADR-0008 | CANONICAL |
+| `docs/GlyLens_Citation_Registry_v1.md` | Field-level provenance | Data Governance | Source Registry | CANONICAL |
+| `docs/GlyLens_Corpus_Acquisition_Workflow_v1.md` | Acquire→Publish workflow | CDO | Registries | CANONICAL |
+| `docs/GlyLens_Acquisition_Backlog_v1.md` | Per-entity acquisition tasks | CDO | Reference Catalog | CANONICAL |
+| `docs/GlyLens_Sprint0_Definition_of_Done_v1.md` | Sprint 0 completion criteria | PRB | All sections | CANONICAL |
+| `docs/GlyLens_Implementation_Readiness_Assessment_v1.md` | Readiness by capability | ARB | DoD | CANONICAL |
+| `docs/GlyLens_Executive_Gap_Matrix_v1.md` | Prioritized gaps | ARB | Audit, Sync Report | CANONICAL |
+| `docs/GlyLens_Sprint1_Gate_Decision_v1.md` | Sprint 1 GO/NO-GO | PRB | DoD, Backlog | CANONICAL |
+| `docs/GlyLens_Repository_Audit_And_Compliance_Report_v1.md` | Pre-convergence audit | ARB | — | CANONICAL |
+| `docs/GlyLens_Runtime_Asset_Corrections_v1.md` | Seed JSON repair log | Solution Architect | seed_data | CANONICAL |
+
+---
+
+## 2. Approved Architecture (CANONICAL — Frozen)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `docs/adr/GlyLens_ADR_Repository_v1.md` | ADR-0001–0011 | ARB | — | CANONICAL |
+| `docs/architecture/GlyLens_Architecture_Blueprint_v1.md` | System architecture | Chief Architect | ADRs | CANONICAL |
+| `docs/architecture/GlyLens_Food_Intelligence_Graph_v1_1.md` | Entity model, FIG | KG Architect | ADRs | CANONICAL |
+| `docs/GI_Reference_Catalog_Framework_v1.md` | GI/GL schema framework | CDO | FIG | CANONICAL |
+| `docs/GlyLens_Food_Benchmark_Dataset_Framework_v1.md` | Validation benchmark set | CDO | FIG | CANONICAL |
+| `docs/GlyLens_Firestore_Physical_Schema_v1.md` | Firestore layout | Solution Architect | FIG | CANONICAL |
+| `docs/GlyLens_Flutter_Module_Blueprint_v1.md` | Flutter module structure | Flutter Architect | Architecture | CANONICAL |
+| `docs/GlyLens_Firebase_Security_Rules_Spec_v1.md` | Security rules spec | Security | ADR-0004 | CANONICAL |
+| `docs/GlyLens_Cursor_Engineering_Constitution_v1_1.md` | Engineering rules | Flutter Architect | ADRs, FIG | CANONICAL |
+
+---
+
+## 3. Product & Sprint (CANONICAL / ACTIVE)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `docs/product/GlyLens_Sprint0_Specification_v1.md` | Sprint 0 scope | CPO | ADRs, FIG | CANONICAL |
+| `docs/GlyLens_Sprint0_Acceptance_Criteria_v1.md` | Sprint 0 acceptance | CPO | Sprint 0 spec | CANONICAL |
+| `docs/product/GlyLens_MVP_Success_Metrics_v1.md` | MVP metrics | CPO | — | CANONICAL |
+| `docs/product/GlyLens_Developer_Onboarding_Guide_v1.md` | Developer onboarding | CPO | Master Index | CANONICAL |
+| `docs/GlyLens_30_Day_Execution_Plan_v1.md` | Execution timeline | CPO | Sprint specs | ACTIVE |
+| `docs/GlyLens_Sprint0_7_Implementation_Blueprint_v1.md` | Sprint 0.7 plan | CPO | Corpus docs | ACTIVE |
+| `docs/GlyLens_Sprint0_9_Authoritative_Data_Acquisition_Report_v1.md` | Acquisition assessment | CDO | Reference Catalog | CANONICAL |
+
+---
+
+## 4. Corpus & Data (CANONICAL / ACTIVE / SUPERSEDED)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `docs/GlyLens_Reference_Catalog_v1.md` | **Published nutritional baseline** (75 entities) | CDO | GI Framework | **CANONICAL** |
+| `docs/Nutritional_Completion_Package_M1.md` | Top-10 acquisition **draft** | CDO | Reference Catalog | ACTIVE (not runtime) |
+| `docs/Corpus_Completion_Plan_M1.md` | M1 completion roadmap | CDO | Reference Catalog | ACTIVE |
+| `docs/Corpus_Population_Package_M1.md` | Top-10 snapshot (June 2026) | CDO | Reference Catalog | **SUPERSEDED** by Reference Catalog |
+| `docs/Priority_Dataset_Expansion_M1.md` | Wave 1 expansion list | CDO | Gap analysis | ACTIVE |
+| `docs/corpus_gap_analysis_v1.md` | Gap analysis | CDO | Corpus build | ACTIVE |
+| `docs/Catalog_Enrichment_Plan_v1.md` | Enrichment to 50/50/50 | CDO | Reference Catalog | ACTIVE |
+| `docs/corpus_build_package_v1.md` | Sprint 0.5 corpus plan | CDO | FIG | ACTIVE (§6,§8 superseded by registries) |
+| `docs/M1_Seed_Dataset_Generation_Plan_v1.md` | Seed schema & Wave 1 | CDO | Reference Catalog | CANONICAL |
+| `docs/GlyLens_Data_Acquisition_FIG_Seeding_Strategy_v1.md` | Seeding strategy | CDO | FIG | ACTIVE |
+
+---
+
+## 5. Runtime Seed Data (RUNTIME / GENERATED)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `docs/seed_data/README.md` | Import order & roles | CDO | M1 Seed Plan | CANONICAL |
+| `docs/seed_data/sources.json` | Source registry runtime | Data Governance | Canonical Source Registry | RUNTIME |
+| `docs/seed_data/citations.json` | Citation records (225) | Data Governance | Reference Catalog | GENERATED |
+| `docs/seed_data/evidence.json` | Evidence records (15) | Data Governance | corpus_build §8 | GENERATED |
+| `docs/seed_data/ingredients.json` | Wave 1 ingredients (6) | CDO | sources.json | RUNTIME |
+| `docs/seed_data/products.json` | Wave 1 products (5) | CDO | sources.json | RUNTIME |
+| `docs/seed_data/foods.json` | Food index (3) | CDO | meal_decompositions | RUNTIME |
+| `docs/seed_data/meal_decompositions.json` | Meal detail (3) | KG Architect | ingredients | RUNTIME |
+| `docs/seed_data/ingredients.csv` | Human-readable mirror | CDO | ingredients.json | GENERATED |
+| `docs/seed_data/products.csv` | Human-readable mirror | CDO | products.json | GENERATED |
+| `docs/seed_data/foods.csv` | Human-readable mirror | CDO | foods.json | GENERATED |
+
+---
+
+## 6. Implementation — Domain Package (RUNTIME)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `pubspec.yaml` | Dart package manifest | Flutter Architect | — | RUNTIME |
+| `lib/core/domain/entities/*.dart` | Domain entities | Solution Architect | FIG | RUNTIME |
+| `lib/core/domain/repositories/*.dart` | Repository interfaces | Solution Architect | Entities | RUNTIME |
+| `lib/core/domain/engines/*.dart` | Engine interfaces | AI Architect | FIG | RUNTIME |
+| `lib/core/data/engines/*.dart` | Engine implementations | AI Architect | Policies | RUNTIME |
+| `lib/core/data/fake_repositories.dart` | In-memory repositories | Solution Architect | SeedDataset | RUNTIME |
+| `lib/core/data/seed_dataset.dart` | Hardcoded seed (minimal) | CDO | FIG | RUNTIME |
+| `lib/core/application/use_cases/*.dart` | Use cases | Solution Architect | Repositories | RUNTIME |
+| `lib/core/policy/*.dart` | Confidence, refusal, trust | AI Architect | ADRs | RUNTIME |
+| `lib/core/benchmark/*.dart` | Benchmark validation | CDO | Framework | RUNTIME |
+| `lib/core/infrastructure/**` | Mapper/datasource skeletons | Solution Architect | — | RUNTIME |
+| `test/**` | Unit tests (10 files) | Flutter Architect | lib/core | RUNTIME |
+
+---
+
+## 7. Scripts (ACTIVE)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `scripts/convergence_repair.py` | Repair seed JSON | Solution Architect | seed_data | ACTIVE |
+| `scripts/generate_backlog.py` | Generate backlog + CSV | CDO | Reference Catalog | ACTIVE |
+
+---
+
+## 8. Prompts & Planning (ACTIVE)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `docs/prompts/GlyLens_Cursor_Codex_Prompt_Library_v1.md` | Cursor prompts | CPO | Constitution | ACTIVE |
+| `docs/prompts/GlyLens_Codex_Ultra_Prompt_v1.md` | Codex prompts | CPO | — | ACTIVE |
+| `docs/GlyLens_Codex_Kickoff_Package_v1.md` | Codex kickoff | CPO | — | ACTIVE |
+| `docs/GlyLens_Codex_Feasibility_Assessment_v1.md` | Feasibility | CPO | — | ACTIVE |
+| `docs/GlyLens_First_Codex_Execution_Workflow_v1.md` | Codex workflow | CPO | — | ACTIVE |
+| `docs/repository_cleanup_plan.md` | Pre-convergence cleanup | CPO | — | **SUPERSEDED** by convergence |
+
+---
+
+## 9. Root & Meta (ACTIVE)
+
+| Filename | Purpose | Owner | Dependencies | Status |
+|----------|---------|-------|--------------|--------|
+| `README.md` | Project readme | CPO | — | ACTIVE |
+| `REPOSITORY_STRUCTURE.md` | Structure index | Chief Architect | Manifest | CANONICAL |
+| `DOMAIN_LAYER_STRUCTURE.md` | Domain layer map | Solution Architect | lib/core | ACTIVE |
+| `docs/GlyLens_README_v1.md` | Docs readme | CPO | Master Index | ACTIVE |
+| `docs/GlyLens_Repository_Structure_v1.md` | Planned structure | Chief Architect | — | ACTIVE |
+| `glylens_folders.txt` | Folder listing | — | — | GENERATED |
+
+---
+
+## 10. Archive (ARCHIVED)
+
+| Filename | Purpose | Status |
+|----------|---------|--------|
+| `docs/archive/GlyLens_ADR_Repository_v1.md` | Legacy ADR copy | ARCHIVED |
+| `docs/archive/GlyLens_Architecture_Blueprint_v1.md` | Legacy blueprint | ARCHIVED |
+| `docs/archive/GlyLens_Food_Intelligence_Graph_v1_1.md` | Legacy FIG | ARCHIVED |
+| `docs/archive/GlyLens_Sprint0_Specification_v1.md` | Legacy sprint spec | ARCHIVED |
+| `docs/archive/GlyLens_Cursor_Engineering_Constitution_v1_1.md` | Legacy constitution | ARCHIVED |
+| `docs/archive/README.md` | Archive policy | ARCHIVED |
+
+---
+
+## Duplicate Artifacts
+
+| Duplicate | Canonical Replacement |
+|-----------|----------------------|
+| `docs/archive/*` (5 docs) | `docs/adr/`, `docs/architecture/`, `docs/product/`, `docs/GlyLens_Cursor_Engineering_Constitution_v1_1.md` |
+| `corpus_build_package_v1.md` §6 Source Registry | `GlyLens_Canonical_Source_Registry_v1.md` |
+| `corpus_build_package_v1.md` §8 Evidence seed prose | `docs/seed_data/evidence.json` |
+| Legacy `src-001`–`src-004` | `src-usda-fdc`, etc. |
+| `Corpus_Population_Package_M1.md` top-10 snapshot | `GlyLens_Reference_Catalog_v1.md` |
+| Pre-convergence `foods.json` full decomposition | `meal_decompositions.json` + lightweight `foods.json` |
+
+---
+
+## Obsolete Artifacts
+
+| Artifact | Reason |
+|----------|--------|
+| `docs/repository_cleanup_plan.md` | Superseded by convergence deliverables |
+| `Corpus_Population_Package_M1.md` as runtime source | Absorbed into Reference Catalog |
+| Archive copies | Superseded by canonical paths |
+
+---
+
+## Orphan Artifacts
+
+| Artifact | Issue | Action |
+|----------|-------|--------|
+| `docs/Sprint 0 Resolution Proposal.pdf` | Not indexed, not markdown | Index as ARCHIVED reference or relocate |
+| `docs/Sprint 0 Technical Design Package.pdf` | Not indexed | Index as ARCHIVED reference |
+| `docs/readme.md` | Duplicate lowercase readme | Orphan; use `GlyLens_README_v1.md` |
+| `lib/core/data/seed_dataset.dart` | Disconnected from `docs/seed_data/` | Wire in Sprint 1 prep (EG-04) |
+
+---
+
+## Missing Artifacts (Future)
+
+| Expected | Status |
+|----------|--------|
+| App Store Readiness Guide | Not created |
+| API Contracts | Not created |
+| Food Intelligence API Design | Not created |
+| `flutter_app/` | Not created |
+| `firebase/` | Not created |
+| `data/raw/` acquisition storage | Not created |
+
+---
+
+_End of Manifest_
