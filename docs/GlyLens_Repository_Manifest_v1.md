@@ -1,6 +1,6 @@
 # GlyLens Repository Manifest v1
 
-_Last Updated: 2026-06-26 (BP1.3 workstation)_  
+_Last Updated: 2026-06-26 (BP1.4 RC1)_  
 _Status: CANONICAL_  
 _Owner: Chief Enterprise Architect_
 
@@ -166,7 +166,23 @@ Single inventory of every repository artifact. **One source of truth per concern
 | `scripts/platform/verify-*.ps1` | Component verification (7 scripts) | DevOps | **ACTIVE** |
 | `scripts/platform/verify-complete-environment.ps1` | Full environment runner | DevOps | **ACTIVE** |
 
-**BP1.3 Verdict:** NOT READY — Flutter, Android Studio, JDK 17, PS7 not installed; Docker daemon stopped.
+**BP1.3 Verdict:** READY — Flutter 3.44.4, JDK 17, Android SDK 36, PS7 quality gates operational.
+
+---
+
+## 6e. Build Program 1.4 — Release Stabilization RC1 (CANONICAL)
+
+| Filename | Purpose | Owner | Status |
+|----------|---------|-------|--------|
+| `platform/GlyLens_Release_Checklist_v1.md` | RC1 release gate checklist | Release Engineering | **CANONICAL** |
+| `platform/GlyLens_Release_Candidate_Report_v1.md` | RC1 verdict and release notes | Release Engineering | **CANONICAL** |
+| `platform/GlyLens_Build_Health_Report_v1.md` | Quality gate results | Release Engineering | **CANONICAL** |
+| `platform/GlyLens_Dependency_Audit_v1.md` | pubspec/lock audit | Release Engineering | **CANONICAL** |
+| `platform/GlyLens_Code_Health_Report_v1.md` | Analyzer and test health | Release Engineering | **CANONICAL** |
+| `android/`, `ios/` | Flutter platform folders | Flutter Architect | **RUNTIME** |
+| `pubspec.lock` | Locked dependency graph | DevOps | **ACTIVE** |
+
+**BP1.4 Verdict:** CONDITIONAL RC — code gates GREEN (analyze 0, test 83/83); local APK blocked by JDK SSL; tag `v1.0.0-platform-ready` pending CI APK.
 
 ---
 

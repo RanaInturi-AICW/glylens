@@ -35,7 +35,7 @@ class SourceTrustEngine implements ISourceTrustEngine {
     final base = _sourceTypeBase(type);
     final normalized = rawTrust.clamp(0, 100);
     final weighted = ((normalized * 0.7) + (base * 0.3)).round();
-    return weighted.clamp(0, 100) as int;
+    return weighted.clamp(0, 100);
   }
 
   int _sourceTypeBase(SourceType type) {
@@ -48,6 +48,10 @@ class SourceTrustEngine implements ISourceTrustEngine {
         return 82;
       case SourceType.industry:
         return 75;
+      case SourceType.aiAssisted:
+        return 72;
+      case SourceType.userSubmission:
+        return 68;
       case SourceType.unknown:
         return 50;
     }

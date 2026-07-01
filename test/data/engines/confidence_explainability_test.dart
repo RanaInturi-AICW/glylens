@@ -139,7 +139,7 @@ void main() {
         giValue: GIValue(value: 60, sourceType: 'measured', confidence: 75),
         glValue: GLValue(value: 18, confidence: 75),
         impactScore: ImpactScore(value: 65, category: 'moderate'),
-        confidenceScore: ConfidenceScore(value: 72, evidenceLevel: EvidenceLevel.c),
+        confidenceScore: ConfidenceScore(value: 69, evidenceLevel: EvidenceLevel.c),
         evidenceLevel: EvidenceLevel.c,
         sourceIds: ['source_off'],
       );

@@ -101,7 +101,7 @@ class ExplainabilityEngine implements IExplainabilityEngine {
     String? refusalReason,
   ) {
     final buffer = StringBuffer();
-    buffer.write('The profile uses ${sourceCount} source(s) with an average trust of ${averageTrust.value}. ');
+    buffer.write('The profile uses $sourceCount source(s) with an average trust of ${averageTrust.value}. ');
     buffer.write('Evidence level ${glycemicProfile.evidenceLevel.name} was applied with confidence ${glycemicProfile.confidenceScore.value}. ');
 
     if (status == 'accepted') {

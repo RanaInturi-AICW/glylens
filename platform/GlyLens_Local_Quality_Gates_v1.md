@@ -52,7 +52,7 @@ Enforcement:
 
 ## CI Parity
 
-Local gates must match CI. Flutter version pin: **3.27.4** (see EBOM).
+Local gates must match CI. Flutter version pin: **3.44.4** (see Version Compatibility Matrix).
 
 ---
 

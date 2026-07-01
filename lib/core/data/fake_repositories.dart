@@ -1,3 +1,4 @@
+import '../domain/value_objects/trust_score.dart';
 import '../domain/entities/evidence.dart';
 import '../domain/entities/food.dart';
 import '../domain/entities/ingredient.dart';
@@ -13,12 +14,21 @@ import '../domain/repositories/i_glycemic_profile_repository.dart';
 import '../domain/repositories/i_evidence_repository.dart';
 import 'seed_dataset.dart';
 
+T? _firstWhereOrNull<T>(Iterable<T> items, bool Function(T) test) {
+  for (final item in items) {
+    if (test(item)) {
+      return item;
+    }
+  }
+  return null;
+}
+
 class FakeIngredientRepository implements IIngredientRepository {
   @override
   Future<Ingredient?> getById(String ingredientId) async {
-    return SeedDataset.ingredients.firstWhere(
+    return _firstWhereOrNull(
+      SeedDataset.ingredients,
       (ingredient) => ingredient.ingredientId == ingredientId,
-      orElse: () => null,
     );
   }
 
@@ -43,9 +53,9 @@ class FakeIngredientRepository implements IIngredientRepository {
 class FakeFoodRepository implements IFoodRepository {
   @override
   Future<Food?> getById(String foodId) async {
-    return SeedDataset.foods.firstWhere(
+    return _firstWhereOrNull(
+      SeedDataset.foods,
       (food) => food.foodId == foodId,
-      orElse: () => null,
     );
   }
 
@@ -68,17 +78,17 @@ class FakeFoodRepository implements IFoodRepository {
 class FakeProductRepository implements IProductRepository {
   @override
   Future<Product?> getByBarcode(String barcode) async {
-    return SeedDataset.products.firstWhere(
+    return _firstWhereOrNull(
+      SeedDataset.products,
       (product) => product.barcode == barcode,
-      orElse: () => null,
     );
   }
 
   @override
   Future<Product?> getById(String productId) async {
-    return SeedDataset.products.firstWhere(
+    return _firstWhereOrNull(
+      SeedDataset.products,
       (product) => product.productId == productId,
-      orElse: () => null,
     );
   }
 
@@ -99,9 +109,9 @@ class FakeProductRepository implements IProductRepository {
 class FakeSourceRepository implements ISourceRepository {
   @override
   Future<Source?> getById(String sourceId) async {
-    return SeedDataset.sources.firstWhere(
+    return _firstWhereOrNull(
+      SeedDataset.sources,
       (source) => source.sourceId == sourceId,
-      orElse: () => null,
     );
   }
 
@@ -126,9 +136,9 @@ class FakeEvidenceRepository implements IEvidenceRepository {
 
   @override
   Future<Evidence?> getById(String evidenceId) async {
-    return SeedDataset.evidence.firstWhere(
+    return _firstWhereOrNull(
+      SeedDataset.evidence,
       (evidence) => evidence.evidenceId == evidenceId,
-      orElse: () => null,
     );
   }
 
@@ -146,9 +156,9 @@ class FakeEvidenceRepository implements IEvidenceRepository {
 class FakeGlycemicProfileRepository implements IGlycemicProfileRepository {
   @override
   Future<GlycemicProfile?> getById(String glycemicProfileId) async {
-    return SeedDataset.glycemicProfiles.firstWhere(
+    return _firstWhereOrNull(
+      SeedDataset.glycemicProfiles,
       (profile) => profile.glycemicProfileId == glycemicProfileId,
-      orElse: () => null,
     );
   }
 

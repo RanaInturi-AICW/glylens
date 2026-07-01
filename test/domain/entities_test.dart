@@ -44,7 +44,7 @@ void main() {
           nutritionProfileId: 'nutri_1',
           glycemicProfileId: 'glycemic_1',
         ),
-        throwsA(isA<ArgumentError>()),
+        throwsA(isA<ValidationError>()),
       );
     });
   });

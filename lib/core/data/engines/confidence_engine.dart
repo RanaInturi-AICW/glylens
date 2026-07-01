@@ -22,7 +22,7 @@ class ConfidenceEngine implements IConfidenceEngine {
         (portionCertainty * 0.20) +
         evidenceBonus;
 
-    final calculatedValue = rawValue.round().clamp(0, 100) as int;
+    final calculatedValue = rawValue.round().clamp(0, 100);
     final minThreshold = _minimumThreshold(evidenceLevel);
     final maxThreshold = _maximumThreshold(evidenceLevel);
 
@@ -30,7 +30,7 @@ class ConfidenceEngine implements IConfidenceEngine {
       throw LowConfidenceError(confidenceScore: calculatedValue, evidenceLevel: evidenceLevel);
     }
 
-    final boundedValue = calculatedValue.clamp(minThreshold, maxThreshold) as int;
+    final boundedValue = calculatedValue.clamp(minThreshold, maxThreshold);
     return ConfidenceScore(value: boundedValue, evidenceLevel: evidenceLevel);
   }
 

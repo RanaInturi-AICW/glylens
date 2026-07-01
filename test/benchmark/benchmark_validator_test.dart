@@ -24,7 +24,7 @@ void main() {
             category: FoodCategory.grain,
             region: 'global',
             ingredientIds: ['ingredient_1'],
-            portionProfiles: [{'size': 'cup', 'grams': 156}],
+            portionProfiles: [{'serving': 'cup', 'grams': 156}],
             foodVariantIds: [],
             glycemicProfileId: 'profile_1',
           ),

@@ -1,6 +1,6 @@
 # Repository Structure
 
-_Last Updated: 2026-06-26 (BP1.3 workstation)_
+_Last Updated: 2026-06-26 (BP1.4 RC1)_
 
 This document shows the current project folders and source files. See `docs/GlyLens_Repository_Manifest_v1.md` for authoritative artifact inventory and status.
 
@@ -8,6 +8,8 @@ This document shows the current project folders and source files. See `docs/GlyL
 
 - `README.md`
 - `pubspec.yaml`
+- `pubspec.lock`
+- `android/`, `ios/` — Flutter platform projects (BP1.4)
 - `DOMAIN_LAYER_STRUCTURE.md`
 - `REPOSITORY_STRUCTURE.md` (this file)
 - `glylens_folders.txt`
@@ -43,7 +45,7 @@ This document shows the current project folders and source files. See `docs/GlyL
 
 ## CI/CD
 
-- `.github/workflows/flutter_ci.yml` — Flutter CI (pinned 3.27.4)
+- `.github/workflows/flutter_ci.yml` — Flutter CI (pinned 3.44.4)
 - `.github/workflows/codeql.yml` — CodeQL security
 - `.github/workflows/release.yml` — Release on semver tags
 - `.github/dependabot.yml` — Weekly dependency PRs

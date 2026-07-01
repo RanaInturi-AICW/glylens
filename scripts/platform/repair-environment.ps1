@@ -128,12 +128,12 @@ if ($ShowGuidance) {
     Write-Host ''
     Write-Host '--- Guided Remediation (manual installs) ---' -ForegroundColor Cyan
     Write-Host ''
-    Write-Host '1. Flutter 3.27.4 stable' -ForegroundColor White
-    Write-Host '   git clone https://github.com/flutter/flutter.git -b 3.27.4 C:\src\flutter'
+    Write-Host "1. Flutter $($GlyLensBom.FlutterVersion) stable" -ForegroundColor White
+    Write-Host "   git clone https://github.com/flutter/flutter.git -b $($GlyLensBom.FlutterVersion) D:\glylens-dev\flutter"
     Write-Host '   Add C:\src\flutter\bin to User PATH'
     Write-Host ''
     Write-Host '2. Android Studio 2024.2.2' -ForegroundColor White
-    Write-Host '   Install → SDK Manager → API 35+ platform, Build-Tools 37.0.0, Command-line Tools'
+    Write-Host '   Install → SDK Manager → API 36+ platform, Build-Tools 37.0.0, Command-line Tools'
     Write-Host '   sdkmanager --licenses'
     Write-Host ''
     Write-Host '3. JDK 17 (Temurin)' -ForegroundColor White

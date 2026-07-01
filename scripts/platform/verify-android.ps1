@@ -5,8 +5,9 @@ Write-GlyLensHeader 'Verify Android'
 Write-GlyLensPathBanner
 $paths = Get-GlyLensDevPaths
 $ok = $true
-$minApi = $GlyLensBom.AndroidApiLevel
+$minApi = $GlyLensBom.AndroidMinApiLevel
 $preferredBt = $GlyLensBom.AndroidBuildToolsVersion
+$minBt = $GlyLensBom.AndroidBuildToolsMin
 
 $sdk = Resolve-GlyLensAndroidSdk
 if ($sdk) {
@@ -46,15 +47,17 @@ if ($sdk) {
     $btDetail = $preferredBt
     if (-not $btOk) {
         $installedBt = @(Get-GlyLensInstalledBuildTools -SdkRoot $sdk)
-        $bestBt = $installedBt | Select-Object -First 1
-        if ($bestBt -and $bestBt.Version.Major -ge 35) {
-            Write-Host ('[INFO] build-tools {0} found ({1} preferred)' -f $bestBt.Folder, $preferredBt) -ForegroundColor Cyan
+        $bestBt = $installedBt | Where-Object { $_.Version -ge [version]$minBt } | Select-Object -First 1
+        if ($bestBt) {
+            if ($bestBt.Folder -ne $preferredBt) {
+                Write-Host ('[INFO] build-tools {0} found ({1} preferred)' -f $bestBt.Folder, $preferredBt) -ForegroundColor Cyan
+            }
             $btOk = $true
             $btDetail = $bestBt.Folder
         }
     }
     $ok = (Test-GlyLensExit $btOk 'Android SDK Build-Tools' -PassDetail $btDetail `
-        -Remediation ("SDK Manager: install Build-Tools {0}" -f $preferredBt)) -and $ok
+        -Remediation ("SDK Manager: install Build-Tools {0} (min {1})" -f $preferredBt, $minBt)) -and $ok
 }
 
 if ($adb) {

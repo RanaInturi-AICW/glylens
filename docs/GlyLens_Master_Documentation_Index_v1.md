@@ -1,5 +1,5 @@
 # GlyLens Master Documentation Index v1.0
-_Last Updated: 2026-06-26 (BP1.3 workstation)_
+_Last Updated: 2026-06-26 (BP1.4 RC1)_
 
 ## Purpose
 
@@ -151,7 +151,9 @@ All AI agents (Claude, Codex, Cursor) must start here.
 ## Build Program 1.2 — Enterprise Developer Platform (CANONICAL)
 
 - `platform/README.md` — **CANONICAL** — Platform entry point
-- `platform/GlyLens_Engineering_BOM_v1.md` — **CANONICAL** — Tool versions (Flutter 3.27.4)
+- `platform/GlyLens_Version_Compatibility_Matrix.md` — **CANONICAL SSOT** — Flutter 3.44.4 + AGP 9.0.1 + JDK 17 matrix
+- `scripts/platform/glylens-toolchain.matrix.ps1` — programmatic matrix (scripts/CI)
+- `platform/GlyLens_Engineering_BOM_v1.md` — Host OS, Docker, tooling (mobile chain defers to matrix)
 - `platform/GlyLens_Platform_Contract_v1.md` — **CANONICAL** — Supported stack
 - `platform/GlyLens_Developer_Onboarding_Guide_v1.md` — **CANONICAL** — Workstation setup
 - `platform/GlyLens_AI_Engineering_Standards_v1.md` — **CANONICAL** — AI tool governance
@@ -163,10 +165,10 @@ All AI agents (Claude, Codex, Cursor) must start here.
 ## Build Program 1.3 — Windows Workstation Stand-Up (CANONICAL)
 
 - `platform/Machine_Discovery_Report.md` — **CANONICAL** — Live machine audit
-- `platform/GlyLens_Version_Compatibility_Matrix.md` — **CANONICAL** — Flutter 3.27.4 + AGP 8.7.3 + JDK 17 matrix
+- `platform/GlyLens_Version_Compatibility_Matrix.md` — **CANONICAL SSOT** — Flutter 3.44.4 + AGP 9.0.1 + JDK 17
 - `platform/GlyLens_Installation_Guide.md` — **CANONICAL** — Manual install steps (no auto-install)
 - `platform/GlyLens_Developer_Checklist.md` — **CANONICAL** — Stand-up tick-list
-- `platform/GlyLens_Environment_Readiness_Report.md` — **CANONICAL** — Verdict: **NOT READY**
+- `platform/GlyLens_Environment_Readiness_Report.md` — **CANONICAL** — Verdict: **READY**
 - `scripts/platform/install-prerequisite-check.ps1` — Prerequisites
 - `scripts/platform/configure-path.ps1` — PATH/env (confirmed changes)
 - `scripts/platform/verify-*.ps1` — Per-component verification
@@ -176,6 +178,18 @@ All AI agents (Claude, Codex, Cursor) must start here.
 - `.github/dependabot.yml` — Dependency updates
 - `.github/workflows/codeql.yml` — Security analysis
 - `.github/workflows/release.yml` — Semver releases
+
+## Build Program 1.4 — Release Stabilization RC1 (CANONICAL)
+
+- `platform/GlyLens_Release_Checklist_v1.md` — **CANONICAL** — RC gate checklist
+- `platform/GlyLens_Release_Candidate_Report_v1.md` — **CANONICAL** — Verdict: **CONDITIONAL RC**
+- `platform/GlyLens_Build_Health_Report_v1.md` — **CANONICAL** — Quality gate results
+- `platform/GlyLens_Dependency_Audit_v1.md` — **CANONICAL** — Dependency audit
+- `platform/GlyLens_Code_Health_Report_v1.md` — **CANONICAL** — Code/test health
+- `android/`, `ios/` — **RUNTIME** — Flutter platform projects (AGP 9.0.1)
+- `pubspec.lock` — **ACTIVE** — Locked dependencies
+
+**BP1.4 Verdict:** CODE GREEN — `flutter analyze` 0 issues, 83/83 tests; local APK pending SSL remediation; tag `v1.0.0-platform-ready` after CI APK.
 
 ## Archive and Legacy
 

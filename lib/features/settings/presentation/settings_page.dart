@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 
 import '../../../app/theme/theme_controller.dart';
 import '../../../bootstrap/providers.dart';
-import '../../../core/config/app_config.dart';
 import '../../../features/auth/application/auth_controller.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../../shared/themes/app_theme.dart';
@@ -15,7 +14,7 @@ class SettingsPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
     final themePref = ref.watch(themeModeProvider);
     final config = ref.watch(appConfigProvider);
 

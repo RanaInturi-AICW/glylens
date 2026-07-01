@@ -6,11 +6,7 @@ class GIValue {
   final String sourceType;
   final int confidence;
 
-  GIValue({required this.value, required this.sourceType, required this.confidence})
-      : assert(value >= 0 && value <= 100),
-        value = value,
-        sourceType = sourceType,
-        confidence = confidence {
+  GIValue({required this.value, required this.sourceType, required this.confidence}) {
     Validators.validateGiRange('gi', value);
     Validators.validateConfidenceRange('confidence', confidence);
     if (sourceType.trim().isEmpty) {

@@ -29,9 +29,9 @@ _Use: Tick each item during workstation stand-up_
 
 ## Phase C — Flutter
 
-- [ ] Flutter **3.27.4** cloned to `C:\src\flutter`
-- [ ] `C:\src\flutter\bin` on User PATH
-- [ ] `flutter --version` → 3.27.4 / Dart 3.6.2
+- [ ] Flutter **3.44.4** cloned to `D:\glylens-dev\flutter`
+- [ ] `D:\glylens-dev\flutter\bin` on User PATH
+- [ ] `flutter --version` → 3.44.4 / Dart 3.12.2
 - [ ] `verify-flutter.ps1` passes
 - [ ] `flutter doctor -v` — no critical `[✗]` on Android toolchain
 
@@ -46,7 +46,7 @@ _Use: Tick each item during workstation stand-up_
 - [ ] `flutter doctor --android-licenses` accepted
 - [ ] `verify-android.ps1` passes
 - [ ] `android/` generated in repo (`flutter create`)
-- [ ] Emulator created (Pixel 7 API 35) and launches
+- [ ] Emulator created (Pixel 7 API 36+) and launches
 - [ ] Physical device shows in `adb devices` (optional but recommended)
 
 ---

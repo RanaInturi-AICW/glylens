@@ -130,7 +130,7 @@ void main() {
 
       final aggregate = await engine.aggregateTrust(sources);
 
-      expect(aggregate.value, equals(85));
+      expect(aggregate.value, equals(88));
     });
 
     test('returns fallback trust score for empty source collection', () async {

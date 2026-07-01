@@ -6,19 +6,26 @@ class ConfidenceScore {
   final int value;
   final EvidenceLevel evidenceLevel;
 
-  ConfidenceScore({required this.value, required this.evidenceLevel})
-      : assert(value >= 0 && value <= 100),
-        value = value,
-        evidenceLevel = evidenceLevel {
+  ConfidenceScore({required this.value, required this.evidenceLevel}) {
     Validators.validateConfidenceRange('confidence', value);
-    Validators.validateEvidenceLevel('evidenceLevel', evidenceLevel);
-    final impliedLevel = _impliedEvidenceLevel(value);
-    if (impliedLevel != evidenceLevel) {
-      throw ValidationError(
-        field: 'evidenceLevel',
-        message: 'Confidence score $value does not match evidence level ${evidenceLevel.name}.',
-        code: 'inconsistent',
-      );
+    if (evidenceLevel == EvidenceLevel.unknown) {
+      if (value >= 50) {
+        throw ValidationError(
+          field: 'evidenceLevel',
+          message: 'Confidence score $value is too high for unknown evidence level.',
+          code: 'inconsistent',
+        );
+      }
+    } else {
+      Validators.validateEvidenceLevel('evidenceLevel', evidenceLevel);
+      final impliedLevel = _impliedEvidenceLevel(value);
+      if (impliedLevel != evidenceLevel) {
+        throw ValidationError(
+          field: 'evidenceLevel',
+          message: 'Confidence score $value does not match evidence level ${evidenceLevel.name}.',
+          code: 'inconsistent',
+        );
+      }
     }
   }
 

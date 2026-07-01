@@ -16,7 +16,7 @@ _Status: CANONICAL_
 
 ### CI Hardening (BP1.2)
 
-- Flutter **pinned to 3.27.4** (matches EBOM)
+- Flutter **pinned to 3.44.4** (see Version Compatibility Matrix)
 - `concurrency` groups cancel stale runs
 - `workflow_dispatch` for manual runs
 - Java 17 for Android builds

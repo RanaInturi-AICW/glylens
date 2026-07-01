@@ -1,5 +1,4 @@
 import '../../domain/entities/food.dart';
-import '../../domain/entities/glycemic_profile.dart';
 import '../../domain/repositories/i_food_repository.dart';
 import '../../domain/repositories/i_glycemic_profile_repository.dart';
 import '../../domain/value_objects/confidence_score.dart';

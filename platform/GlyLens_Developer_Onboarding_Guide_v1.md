@@ -83,7 +83,7 @@ docker compose version
 ```powershell
 mkdir C:\src
 cd C:\src
-git clone https://github.com/flutter/flutter.git -b 3.27.4 --depth 1
+git clone https://github.com/flutter/flutter.git -b 3.44.4 --depth 1
 ```
 
 Add to **User PATH:** `C:\src\flutter\bin`
@@ -91,7 +91,7 @@ Add to **User PATH:** `C:\src\flutter\bin`
 ```powershell
 flutter doctor
 flutter --version
-# Flutter 3.27.4 • Dart 3.6.2
+# Flutter 3.44.4 • Dart 3.12.2
 ```
 
 ---
@@ -100,7 +100,7 @@ flutter --version
 
 1. Install [Android Studio 2024.2.2](https://developer.android.com/studio)
 2. SDK Manager → install:
-   - Android SDK Platform **API 35**
+   - Android SDK Platform **API 36+**
    - Android SDK Build-Tools **35.0.0**
    - Android SDK Command-line Tools **16.0**
    - Android Emulator
@@ -187,7 +187,7 @@ flutter pub get
 
 Android Studio → Device Manager → Create Virtual Device:
 - **Pixel 7**
-- System image: **API 35**
+- System image: **API 36+**
 - RAM: 4096 MB minimum
 
 ```powershell

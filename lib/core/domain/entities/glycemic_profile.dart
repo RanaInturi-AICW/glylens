@@ -24,7 +24,6 @@ class GlycemicProfile {
     this.sourceIds = const [],
   }) {
     Validators.validateId('glycemicProfileId', glycemicProfileId);
-    Validators.validateEvidenceLevel('evidenceLevel', evidenceLevel);
     if (confidenceScore.evidenceLevel != evidenceLevel) {
       throw ArgumentError('Confidence score evidence level must match glycemic profile evidence level.');
     }

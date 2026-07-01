@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 
 import '../../../bootstrap/providers.dart';
 import '../../../l10n/app_localizations.dart';
-import '../../../shared/widgets/responsive_layout.dart';
 
 class SplashPage extends ConsumerStatefulWidget {
   const SplashPage({super.key});
@@ -35,7 +34,7 @@ class _SplashPageState extends ConsumerState<SplashPage> {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
     return Scaffold(
       body: Center(
         child: Column(

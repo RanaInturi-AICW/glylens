@@ -48,7 +48,7 @@ class _AnonymousOnboardingPageState extends ConsumerState<AnonymousOnboardingPag
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
     return AppScreen(
       title: l10n.continueAnonymously,
       child: Column(

@@ -8,7 +8,7 @@ class HistoryPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
     return AppScreen(
       title: l10n.historyTitle,
       child: Center(child: Text(l10n.historyEmpty)),

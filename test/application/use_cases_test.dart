@@ -73,7 +73,7 @@ void main() {
     category: FoodCategory.grain,
     region: 'global',
     ingredientIds: ['ingredient_1'],
-    portionProfiles: [{'size': 'cup', 'grams': 195}],
+    portionProfiles: [{'serving': 'cup', 'grams': 195}],
     foodVariantIds: [],
     glycemicProfileId: 'profile_1',
   );
@@ -83,7 +83,7 @@ void main() {
     giValue: GIValue(value: 55, sourceType: 'measured', confidence: 90),
     glValue: GLValue(value: 16, confidence: 88),
     impactScore: ImpactScore(value: 60, category: 'moderate'),
-    confidenceScore: ConfidenceScore(value: 88, evidenceLevel: EvidenceLevel.a),
+    confidenceScore: ConfidenceScore(value: 92, evidenceLevel: EvidenceLevel.a),
     evidenceLevel: EvidenceLevel.a,
     sourceIds: ['source_1'],
   );
@@ -147,7 +147,7 @@ void main() {
       category: FoodCategory.grain,
       region: 'global',
       ingredientIds: ['ingredient_a'],
-      portionProfiles: [{'size': 'cup', 'grams': 185}],
+      portionProfiles: [{'serving': 'cup', 'grams': 185}],
       foodVariantIds: [],
       glycemicProfileId: 'profile_left',
     );
@@ -158,7 +158,7 @@ void main() {
       category: FoodCategory.grain,
       region: 'global',
       ingredientIds: ['ingredient_b'],
-      portionProfiles: [{'size': 'cup', 'grams': 195}],
+      portionProfiles: [{'serving': 'cup', 'grams': 195}],
       foodVariantIds: [],
       glycemicProfileId: 'profile_right',
     );

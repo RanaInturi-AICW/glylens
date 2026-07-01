@@ -21,6 +21,9 @@ class ConfidencePolicy {
   ConfidenceScore normalize(ConfidenceScore confidenceScore) {
     final threshold = requiredMinimum(confidenceScore.evidenceLevel);
     final bounded = confidenceScore.value.clamp(threshold, 100);
-    return ConfidenceScore(bounded, evidenceLevel: confidenceScore.evidenceLevel);
+    return ConfidenceScore(
+      value: bounded,
+      evidenceLevel: confidenceScore.evidenceLevel,
+    );
   }
 }

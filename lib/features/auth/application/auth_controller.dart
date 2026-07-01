@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/errors/result.dart';
 import '../domain/entities/auth_user.dart';
 import '../domain/repositories/auth_repository.dart';
-import 'auth_providers.dart';
+import '../infrastructure/auth_providers.dart';
 
 /// Auth actions — auth state is observed via [authStateProvider].
 class AuthController {

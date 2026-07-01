@@ -25,9 +25,9 @@ This contract defines what GlyLens officially supports. Work outside this contra
 
 | SDK | Supported Versions | Notes |
 |-----|-------------------|-------|
-| Flutter | **3.27.4** (pinned); min **3.24.0** | Native Windows install |
+| Flutter | **3.44.4** (pinned); min **3.44.0** | Native Windows install |
 | Dart | Bundled with Flutter | No standalone Dart SDK |
-| Android SDK | API **34–35** | API 35 recommended |
+| Android SDK | API **36+** | Matches compileSdk 36 |
 | Java | **17** (Temurin) | Required for Android builds |
 | Node.js | **22 LTS** | Firebase CLI only |
 | Python | **3.12** | Corpus scripts; Docker optional |

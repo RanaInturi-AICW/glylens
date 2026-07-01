@@ -28,7 +28,7 @@ class GIEngine implements IGIEngine {
     final baseGi = 30.0 + processingModifier;
 
     final rawGi = (baseGi + evidenceConfidence * 0.2 + trustScore.value * 0.18 + evidenceWeight * 14.0).round();
-    final normalizedGi = rawGi.clamp(0, 100) as int;
+    final normalizedGi = rawGi.clamp(0, 100);
 
     final sourceType = evidence.isEmpty
         ? 'estimated'
@@ -49,7 +49,7 @@ class GIEngine implements IGIEngine {
   ) {
     final evidenceBonus = evidence.isEmpty ? 0.0 : evidenceWeight * 12.0;
     final rawConfidence = (evidenceConfidence * 0.45) + (trustScore.value * 0.3) + evidenceBonus;
-    return rawConfidence.round().clamp(0, 100) as int;
+    return rawConfidence.round().clamp(0, 100);
   }
 
   double _evidenceLevelWeight(EvidenceLevel level) {

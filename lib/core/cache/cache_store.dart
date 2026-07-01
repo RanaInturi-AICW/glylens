@@ -1,5 +1,3 @@
-import '../errors/exceptions.dart';
-
 /// Offline-first cache abstraction (vendor-neutral).
 abstract interface class CacheStore {
   Future<void> initialize();

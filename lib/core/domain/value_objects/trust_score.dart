@@ -4,7 +4,7 @@ import '../validation/validators.dart';
 class TrustScore {
   final int value;
 
-  TrustScore(this.value) : assert(value >= 0 && value <= 100), value = value {
+  TrustScore(this.value) {
     Validators.validateTrustScoreRange('trustScore', value);
   }
 

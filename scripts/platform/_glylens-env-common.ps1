@@ -2,18 +2,31 @@
 # Sourced by audit, validate, and repair scripts. Do not run directly.
 
 . (Join-Path $PSScriptRoot 'glylens-paths.config.ps1')
+. (Join-Path $PSScriptRoot 'glylens-toolchain.matrix.ps1')
+
+$script:GlyLensMatrix = Get-GlyLensToolchainMatrix
 
 $script:GlyLensBom = @{
-    FlutterVersion     = '3.27.4'
-    DartVersion        = '3.6.2'
-    JavaVersion        = '17'
-    NodeVersion        = '22'
-    UbuntuVersion      = '24.04'
-    PowerShellMin      = [version]'7.4.0'
-    GitMin             = [version]'2.40.0'
-    GhMin              = [version]'2.40.0'
-    AndroidApiLevel          = 35   # compileSdk / targetSdk in app (minimum)
-    AndroidBuildToolsVersion = '37.0.0'
+    FlutterVersion           = $script:GlyLensMatrix.FlutterVersion
+    DartVersion              = $script:GlyLensMatrix.DartVersion
+    JavaVersion              = $script:GlyLensMatrix.JavaVersion
+    AgpVersion               = $script:GlyLensMatrix.AgpVersion
+    GradleVersion            = $script:GlyLensMatrix.GradleVersion
+    KotlinVersion            = $script:GlyLensMatrix.KotlinVersion
+    NodeVersion              = '22'
+    UbuntuVersion            = '24.04'
+    PowerShellMin            = [version]'7.4.0'
+    GitMin                   = [version]'2.40.0'
+    GhMin                    = [version]'2.40.0'
+    CompileSdk               = $script:GlyLensMatrix.CompileSdk
+    TargetSdk                = $script:GlyLensMatrix.TargetSdk
+    MinSdk                   = $script:GlyLensMatrix.MinSdk
+    AndroidApiLevel          = $script:GlyLensMatrix.AndroidApiLevel
+    AndroidMinApiLevel       = $script:GlyLensMatrix.AndroidMinApiLevel
+    AndroidBuildToolsMin     = $script:GlyLensMatrix.AndroidBuildToolsMin
+    AndroidBuildToolsVersion = $script:GlyLensMatrix.AndroidBuildToolsVersion
+    AndroidNdkVersion        = $script:GlyLensMatrix.AndroidNdkVersion
+    IntlVersion              = $script:GlyLensMatrix.IntlVersion
     RepoUrl                  = 'https://github.com/RanaInturi-AICW/glylens'
 }
 

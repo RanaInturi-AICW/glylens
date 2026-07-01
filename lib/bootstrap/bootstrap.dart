@@ -4,8 +4,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../core/analytics/crash_reporting_service.dart';
-import '../core/logging/app_logger.dart';
 import 'providers.dart';
 
 Future<void> runGlyLensApp(Widget app) async {

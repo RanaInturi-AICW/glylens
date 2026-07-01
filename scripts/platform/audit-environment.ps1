@@ -59,7 +59,7 @@ else {
 $flutterVer = Get-CommandVersion 'flutter' '--version'
 if ($null -eq $flutterVer) {
     $results += New-GlyLensCheckResult -Name 'Flutter' -Status 'Missing' `
-        -Remediation 'Clone stable 3.27.4 to C:\src\flutter; add bin to PATH. See platform/GlyLens_Developer_Onboarding_Guide_v1.md'
+        -Remediation "Clone stable $($GlyLensBom.FlutterVersion) to D:\glylens-dev\flutter; add bin to PATH. See platform/GlyLens_Installation_Guide.md"
     $results += New-GlyLensCheckResult -Name 'Dart' -Status 'Missing' -Remediation 'Installed with Flutter SDK.'
 }
 else {
@@ -79,20 +79,20 @@ if (-not $androidHome) { $androidHome = Join-Path $env:LOCALAPPDATA 'Android\Sdk
 $sdkExists = Test-Path $androidHome
 $results += New-GlyLensCheckResult -Name 'Android SDK' -Status $(if ($sdkExists) { 'Installed' } else { 'Missing' }) `
     -Detail $(if ($sdkExists) { $androidHome } else { 'ANDROID_HOME not set / SDK not found' }) `
-    -Remediation 'Install Android Studio; SDK Manager → API 35+ platform + Build-Tools 37.0.0; set ANDROID_HOME.'
+    -Remediation 'Install Android Studio; SDK Manager → API 36+ platform + Build-Tools 37.0.0; set ANDROID_HOME.'
 
 if ($sdkExists) {
     $adb = Join-Path $androidHome 'platform-tools\adb.exe'
     $results += New-GlyLensCheckResult -Name 'Android platform-tools (adb)' -Status $(if (Test-Path $adb) { 'Installed' } else { 'Missing' }) `
         -Remediation 'sdkmanager "platform-tools"'
-    $platformCheck = Test-GlyLensAndroidPlatformMeetsMinimum -SdkRoot $androidHome -MinApi $GlyLensBom.AndroidApiLevel
-    $platformName = "Android API platform (>= $($GlyLensBom.AndroidApiLevel))"
+    $platformCheck = Test-GlyLensAndroidPlatformMeetsMinimum -SdkRoot $androidHome -MinApi $GlyLensBom.AndroidMinApiLevel
+    $platformName = "Android API platform (>= $($GlyLensBom.AndroidMinApiLevel))"
     $results += New-GlyLensCheckResult -Name $platformName -Status $(if ($platformCheck.Ok) { 'Installed' } else { 'Missing' }) `
         -Detail $(if ($platformCheck.Ok) { $platformCheck.Best.Folder } else { 'No platform at or above minimum API' }) `
-        -Remediation "sdkmanager `"platforms;android-$($GlyLensBom.AndroidApiLevel)`" (or newer)"
+        -Remediation "sdkmanager `"platforms;android-$($GlyLensBom.AndroidMinApiLevel)`" (or newer)"
     $preferredBt = Join-Path $androidHome "build-tools\$($GlyLensBom.AndroidBuildToolsVersion)"
     $btInstalled = Get-GlyLensInstalledBuildTools -SdkRoot $androidHome
-    $btOk = (Test-Path $preferredBt) -or (($btInstalled | Select-Object -First 1).Version.Major -ge 35)
+    $btOk = (Test-Path $preferredBt) -or (($btInstalled | Where-Object { $_.Version -ge [version]$GlyLensBom.AndroidBuildToolsMin } | Select-Object -First 1))
     $btDetail = if (Test-Path $preferredBt) { $GlyLensBom.AndroidBuildToolsVersion } else { ($btInstalled | Select-Object -First 1).Folder }
     $results += New-GlyLensCheckResult -Name 'Android SDK Build-Tools' -Status $(if ($btOk) { 'Installed' } else { 'Missing' }) `
         -Detail $btDetail `
@@ -210,7 +210,7 @@ if (Get-Command adb -ErrorAction SilentlyContinue) {
             -Remediation 'Enable USB debugging; install Google USB driver if needed; adb devices'
         $results += New-GlyLensCheckResult -Name 'Android Emulator' -Status $(if ($emulator -gt 0) { 'Installed' } else { 'Missing' }) `
             -Detail "$emulator emulator(s) running" `
-            -Remediation 'Android Studio → Device Manager → Create Pixel 7 API 35 AVD; start emulator.'
+            -Remediation 'Android Studio → Device Manager → Create Pixel 7 API 36+ AVD; start emulator.'
     }
     catch {
         $results += New-GlyLensCheckResult -Name 'Android adb' -Status 'Misconfigured' -Detail $_.Exception.Message

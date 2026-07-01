@@ -3,7 +3,6 @@ import 'gl_value_dto.dart';
 import 'gi_value_dto.dart';
 import 'impact_score_dto.dart';
 import '../enums/evidence_level.dart';
-import 'trust_score_dto.dart';
 
 class GlycemicProfileDto {
   final String glycemicProfileId;

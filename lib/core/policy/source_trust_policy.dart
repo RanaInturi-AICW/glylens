@@ -8,7 +8,8 @@ class SourceTrustPolicy {
     SourceType.academic: 0.95,
     SourceType.openData: 0.9,
     SourceType.industry: 0.85,
-    SourceType.userGenerated: 0.7,
+    SourceType.userSubmission: 0.7,
+    SourceType.aiAssisted: 0.75,
     SourceType.unknown: 0.6,
   };
 

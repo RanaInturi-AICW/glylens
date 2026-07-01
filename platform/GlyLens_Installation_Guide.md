@@ -57,7 +57,7 @@ GlyLens installs all heavy tooling on **`D:\glylens-dev`** by default (not `C:`)
 | 0 | Prerequisite check | ✅ |
 | 1 | PowerShell 7 | ✅ |
 | 2 | JDK 17 (Temurin) | ✅ |
-| 3 | Flutter 3.27.4 stable | ✅ |
+| 3 | Flutter 3.44.4 stable | ✅ |
 | 4 | Android Studio Meerkat | ✅ |
 | 5 | Android SDK components | ✅ |
 | 6 | PATH & environment variables | ✅ |
@@ -126,7 +126,7 @@ Remove or deprioritize JDK 21 on PATH for Android builds. Android Studio → Set
 
 ---
 
-## Step 3 — Flutter 3.27.4 Stable
+## Step 3 — Flutter 3.44.4 Stable
 
 | | |
 |-|-|
@@ -136,7 +136,7 @@ Remove or deprioritize JDK 21 on PATH for Android builds. Android Studio → Set
 ```powershell
 .\scripts\platform\initialize-dev-root.ps1
 cd D:\glylens-dev
-git clone https://github.com/flutter/flutter.git -b 3.27.4 --depth 1 flutter
+git clone https://github.com/flutter/flutter.git -b 3.44.4 --depth 1 flutter
 ```
 
 Add **User PATH:** `D:\glylens-dev\flutter\bin`
@@ -145,8 +145,19 @@ Add **User PATH:** `D:\glylens-dev\flutter\bin`
 flutter config --no-analytics
 flutter doctor
 flutter --version
-# Expected: Flutter 3.27.4 • channel stable • Dart 3.6.2
+# Expected: Flutter 3.44.4 • channel stable • Dart 3.12.2
 ```
+
+**Upgrading an existing shallow clone** (if `git checkout 3.44.4` says *pathspec did not match*):
+
+```powershell
+cd D:\glylens-dev\flutter
+git fetch origin tag 3.44.4
+git checkout 3.44.4
+flutter --version
+```
+
+`git fetch` alone does not download tags from a `--depth 1` clone; you must fetch the tag explicitly.
 
 **Optional (not required for GlyLens mobile):**
 
@@ -185,8 +196,8 @@ Android Studio → **SDK Manager**:
 
 | Tab | Install |
 |-----|---------|
-| SDK Platforms | Android **API 35 or newer** (e.g. API 36 — you have `android-36.1`) |
-| SDK Tools | Android SDK Build-Tools **37.0.0** (or latest stable) |
+| SDK Platforms | Android **API 36 or newer** (e.g. `android-36.1`) |
+| SDK Tools | Android SDK Build-Tools **37.0.0** (min 36.0.0 for AGP 9) |
 | SDK Tools | Android SDK Command-line Tools **16.0** |
 | SDK Tools | Android Emulator |
 | SDK Tools | Google USB Driver (physical device) |
@@ -244,7 +255,7 @@ Android Studio → Device Manager → Create Device:
 | Setting | Value |
 |---------|-------|
 | Device | Pixel 7 |
-| System image | API **35+** (Google APIs) x86_64 — use latest installed (e.g. API 36) |
+| System image | API **36+** (Google APIs) x86_64 |
 | RAM | 4096 MB |
 
 ```powershell

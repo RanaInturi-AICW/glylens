@@ -1,6 +1,6 @@
 # GlyLens Engineering Bill of Materials (EBOM) v1
 
-_Last Updated: 2026-06-26_  
+_Last Updated: 2026-06-26 (mobile toolchain defers to Version Compatibility Matrix v2)_  
 _Build Program: 1.2 — Enterprise Developer Platform_  
 _Status: CANONICAL_  
 _Owner: Platform Engineering_
@@ -35,34 +35,38 @@ The EBOM defines **exact recommended versions** for the official GlyLens enginee
 
 ## 3. Flutter & Dart
 
+**Mobile toolchain versions are defined in `GlyLens_Version_Compatibility_Matrix.md` (canonical).**  
+Programmatic source: `scripts/platform/glylens-toolchain.matrix.ps1`.
+
 | Component | Recommended Version | Minimum (pubspec) | Notes |
 |-----------|-------------------|-------------------|-------|
-| **Flutter** | **3.27.4** (stable) | >= 3.24.0 | Pin in CI; matches `intl 0.20.2` |
-| **Dart** | **3.6.2** (bundled) | ^3.5.0 | Ships with Flutter 3.27.4 |
+| **Flutter** | **3.44.4** (stable) | >= 3.44.0 | Pin in CI |
+| **Dart** | **3.12.2** (bundled) | ^3.12.0 | Ships with Flutter 3.44.4 |
 | **Flutter channel** | `stable` | stable | No beta/master for production work |
 
 ```bash
-# Verify
 flutter --version
-# Expected: Flutter 3.27.4 • channel stable • Dart 3.6.2
+# Expected: Flutter 3.44.4 • channel stable • Dart 3.12.2
 ```
 
 ---
 
 ## 4. Android Toolchain
 
+**See `GlyLens_Version_Compatibility_Matrix.md` for the full resolved chain.**
+
 | Component | Recommended Version | Minimum | Notes |
 |-----------|-------------------|---------|-------|
-| **Android Studio** | **2024.2.2** (Ladybug) Patch 2 | 2024.1 | IDE + SDK Manager |
-| **Android SDK Platform** | **≥ API 35** | API 34 | `platforms;android-35` or newer (e.g. `android-36.1`) |
-| **Android SDK Build-Tools** | **37.0.0** | 35.0.0 | Backward-compatible with compileSdk 35 |
-| **Android SDK Command-line Tools** | **16.0** | 13.0 | |
-| **Android Emulator** | **35.2.10** | 34.x | Pixel 7 API 35 image |
-| **NDK** | **27.2.12479018** | Optional for BP1 | Required for some plugins later |
-| **Java (JDK)** | **17.0.13** (Temurin) | 17 | `JAVA_HOME` must point to JDK 17 |
-| **Gradle (wrapper)** | **8.10.2** | 8.7 | Set when `android/` committed |
-| **Android Gradle Plugin** | **8.7.3** | 8.5 | Via Flutter template |
-| **Kotlin** | **2.0.21** | 1.9+ | Via Flutter template |
+| **Android Studio** | **2025.2.3+** (Otter 3 Feature Drop) | 2025.2.3 | AGP 9 support |
+| **Android SDK Platform** | **API 36+** | API 36 | e.g. `android-36.1` |
+| **Android SDK Build-Tools** | **37.0.0** | 36.0.0 | AGP 9 minimum 36.0.0 |
+| **Android Gradle Plugin** | **9.0.1** | 9.0.0 | Via Flutter 3.44 template |
+| **Gradle (wrapper)** | **9.1.0** | 9.1.0 | AGP 9 requirement |
+| **Kotlin** | **2.3.20** (template) | — | Built-in via AGP 9 |
+| **compileSdk / targetSdk** | **36** | 36 | Flutter template default |
+| **minSdk** | **24** | 24 | Android 7.0+ |
+| **Java (JDK)** | **17.0.19** (Temurin) | 17 | `JAVA_HOME` → JDK 17 |
+| **NDK** | **28.2.13676358** | — | When required by plugins |
 
 ---
 
@@ -166,7 +170,7 @@ GitHub Actions `ubuntu-latest` must use the same Flutter pin as local BOM:
 
 | CI Component | Version |
 |--------------|---------|
-| Flutter (pinned) | **3.27.4** |
+| Flutter (pinned) | **3.44.4** |
 | Java | **17** (actions/setup-java) |
 | Node (Firebase jobs) | **22** |
 

@@ -17,7 +17,7 @@ class GLEngine implements IGLEngine {
     final glEstimate = ((giValue.value * availableCarbohydrates) / 100.0).round();
     final confidencePenalty = _carbohydrateConfidencePenalty(availableCarbohydrates);
     final rawConfidence = (giValue.confidence * (1 - confidencePenalty)).round();
-    final confidence = rawConfidence.clamp(0, 100) as int;
+    final confidence = rawConfidence.clamp(0, 100);
 
     return GLValue(value: glEstimate, confidence: confidence);
   }

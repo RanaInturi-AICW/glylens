@@ -1,6 +1,3 @@
-import '../domain/entities/food.dart';
-import '../domain/entities/glycemic_profile.dart';
-import '../domain/entities/source.dart';
 import 'benchmark_food_dataset.dart';
 import 'benchmark_report.dart';
 

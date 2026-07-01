@@ -26,13 +26,24 @@ foreach ($s in $scripts) {
 if (-not $SkipQualityGates -and (Get-Command flutter -ErrorAction SilentlyContinue)) {
     $qg = Join-Path $PSScriptRoot 'run-quality-gates.ps1'
     if (Test-Path $qg) {
+        $pwshCandidates = @(
+            (Get-Command pwsh -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source)
+            'D:\Program Files\PowerShell\7\pwsh.exe'
+            "$env:ProgramFiles\PowerShell\7\pwsh.exe"
+        ) | Where-Object { $_ -and (Test-Path $_) } | Select-Object -First 1
         Write-Host "`n--- Running run-quality-gates.ps1 ---`n" -ForegroundColor DarkCyan
-        & $qg
-        if ($LASTEXITCODE -ne 0) { $failed += 'run-quality-gates.ps1' }
+        if ($pwshCandidates) {
+            & $pwshCandidates -NoProfile -File $qg
+            if ($LASTEXITCODE -ne 0) { $failed += 'run-quality-gates.ps1' }
+        }
+        else {
+            Write-Host '[WARN] Quality gates require PowerShell 7 (pwsh) - install from https://aka.ms/powershell' -ForegroundColor Yellow
+            Write-Host '       Skipping run-quality-gates.ps1 in environment verification.' -ForegroundColor DarkGray
+        }
     }
 }
 elseif (-not $SkipQualityGates) {
-    Write-Host '[SKIP] Quality gates — Flutter not installed' -ForegroundColor Yellow
+    Write-Host '[SKIP] Quality gates - Flutter not installed' -ForegroundColor Yellow
 }
 
 Write-Host ''
@@ -43,8 +54,8 @@ if ($failed.Count -eq 0) {
     exit 0
 }
 
-Write-Host "ENVIRONMENT: NOT READY — $($failed.Count) check(s) failed:" -ForegroundColor Red
-$failed | ForEach-Object { Write-Host "  - $_" -ForegroundColor Red }
+Write-Host ('ENVIRONMENT: NOT READY - {0} check(s) failed:' -f $failed.Count) -ForegroundColor Red
+$failed | ForEach-Object { Write-Host ('  - {0}' -f $_) -ForegroundColor Red }
 Write-Host ''
 Write-Host 'Remediation: platform/GlyLens_Installation_Guide.md'
 Write-Host '             platform/GlyLens_Environment_Readiness_Report.md'

@@ -50,12 +50,12 @@ void main() {
     final policy = ConfidencePolicy();
 
     test('accepts A-level confidence at threshold', () {
-      final score = ConfidenceScore(value: 85, evidenceLevel: EvidenceLevel.a);
+      final score = ConfidenceScore(value: 90, evidenceLevel: EvidenceLevel.a);
       expect(policy.isAcceptable(score), isTrue);
     });
 
-    test('rejects C-level confidence below required minimum', () {
-      final score = ConfidenceScore(value: 50, evidenceLevel: EvidenceLevel.c);
+    test('rejects unknown-level confidence below required minimum', () {
+      final score = ConfidenceScore(value: 44, evidenceLevel: EvidenceLevel.unknown);
       expect(policy.isAcceptable(score), isFalse);
     });
   });
@@ -70,7 +70,7 @@ void main() {
         giValue: GIValue(value: 60, sourceType: 'estimated', confidence: 50),
         glValue: GLValue(value: 12, confidence: 50),
         impactScore: ImpactScore(value: 50, category: 'low'),
-        confidenceScore: ConfidenceScore(value: 50, evidenceLevel: EvidenceLevel.unknown),
+        confidenceScore: ConfidenceScore(value: 44, evidenceLevel: EvidenceLevel.unknown),
         evidenceLevel: EvidenceLevel.unknown,
         sourceIds: [],
       );
@@ -86,7 +86,7 @@ void main() {
         giValue: GIValue(value: 60, sourceType: 'estimated', confidence: 60),
         glValue: GLValue(value: 30, confidence: 60),
         impactScore: ImpactScore(value: 55, category: 'moderate'),
-        confidenceScore: ConfidenceScore(value: 60, evidenceLevel: EvidenceLevel.b),
+        confidenceScore: ConfidenceScore(value: 80, evidenceLevel: EvidenceLevel.b),
         evidenceLevel: EvidenceLevel.b,
         sourceIds: [],
       );

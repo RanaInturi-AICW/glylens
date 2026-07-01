@@ -84,8 +84,8 @@ void main() {
 
   group('GLValue', () {
     test('creates valid GL value', () {
-      final gl = GLValue(value: 10, confidence: 85);
-      expect(gl.value, 10);
+      final gl = GLValue(value: 9, confidence: 85);
+      expect(gl.value, 9);
       expect(gl.confidence, 85);
       expect(gl.isLow, isTrue);
     });

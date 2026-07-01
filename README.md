@@ -4,9 +4,24 @@
 
 Enterprise Flutter platform + Food Intelligence Engine (domain layer).
 
+## Build Program 1.4 — Release Stabilization (RC1)
+
+**Status: CODE GREEN** — analyzer 0 issues, 83/83 tests pass.  
+**Local APK:** blocked by JDK SSL (Gradle wrapper PKIX) — see [Release Candidate Report](platform/GlyLens_Release_Candidate_Report_v1.md).
+
+| Report | Link |
+|--------|------|
+| Release Checklist | [GlyLens_Release_Checklist_v1.md](platform/GlyLens_Release_Checklist_v1.md) |
+| Build Health | [GlyLens_Build_Health_Report_v1.md](platform/GlyLens_Build_Health_Report_v1.md) |
+| Dependency Audit | [GlyLens_Dependency_Audit_v1.md](platform/GlyLens_Dependency_Audit_v1.md) |
+| Code Health | [GlyLens_Code_Health_Report_v1.md](platform/GlyLens_Code_Health_Report_v1.md) |
+| RC Verdict | [GlyLens_Release_Candidate_Report_v1.md](platform/GlyLens_Release_Candidate_Report_v1.md) |
+
+**Target tag:** `v1.0.0-platform-ready` (after CI APK green).
+
 ## Build Program 1.3 — Workstation Stand-Up
 
-**Status: NOT READY** — see [Environment Readiness Report](platform/GlyLens_Environment_Readiness_Report.md)
+**Status: READY** — see [Environment Readiness Report](platform/GlyLens_Environment_Readiness_Report.md)
 
 ```powershell
 .\scripts\platform\install-prerequisite-check.ps1
@@ -14,7 +29,7 @@ Enterprise Flutter platform + Food Intelligence Engine (domain layer).
 .\scripts\platform\verify-complete-environment.ps1
 ```
 
-| Matrix | Flutter 3.27.4 · Dart 3.6.2 · JDK 17 · AGP 8.7.3 · API 35 |
+| Matrix | Flutter 3.44.4 · Dart 3.12.2 · JDK 17 · AGP 9.0.1 · API 36 |
 |--------|-------------------------------------------------------------|
 | Guide | [Installation Guide](platform/GlyLens_Installation_Guide.md) |
 | Checklist | [Developer Checklist](platform/GlyLens_Developer_Checklist.md) |
@@ -113,8 +128,8 @@ flutter test
 
 | Tool | Version |
 |------|---------|
-| Flutter | 3.27.4 |
-| Dart | 3.6.2 |
+| Flutter | 3.44.4 |
+| Dart | 3.12.2 |
 | Java | 17 |
 
-Full list: [Engineering BOM](platform/GlyLens_Engineering_BOM_v1.md).
+Full matrix: [Version Compatibility Matrix](platform/GlyLens_Version_Compatibility_Matrix.md).

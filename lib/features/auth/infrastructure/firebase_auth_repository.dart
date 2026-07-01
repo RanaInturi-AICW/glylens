@@ -5,18 +5,16 @@ import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import '../../../../core/errors/exceptions.dart';
 import '../../../../core/logging/app_logger.dart';
 import '../../../../core/security/token_storage.dart';
-import '../entities/auth_user.dart';
-import '../repositories/auth_repository.dart';
+import '../domain/entities/auth_user.dart';
+import '../domain/repositories/auth_repository.dart';
 
 class FirebaseAuthRepository implements AuthRepository {
   FirebaseAuthRepository({
     required FirebaseAuth firebaseAuth,
-    required TokenStorage tokenStorage,
-    required AppLogger logger,
+    required this._tokenStorage,
+    required this._logger,
     GoogleSignIn? googleSignIn,
   })  : _auth = firebaseAuth,
-        _tokenStorage = tokenStorage,
-        _logger = logger,
         _googleSignIn = googleSignIn ?? GoogleSignIn();
 
   final FirebaseAuth _auth;
