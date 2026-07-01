@@ -13,7 +13,7 @@ This contract defines what GlyLens officially supports. Work outside this contra
 
 | OS | Role | Support Level |
 |----|------|---------------|
-| **Windows 11** (23H2+) | Primary developer workstation | **Fully Supported** |
+| **Windows 11 Professional** (23H2+) | Primary developer workstation | **Fully Supported** |
 | **Ubuntu 24.04 LTS** (WSL2) | Docker, Python utilities, emulators | **Fully Supported** |
 | **macOS 14+** | iOS CI builds only | **CI Only** (no local mandate) |
 | Windows 10 | — | **Not Supported** |
@@ -99,14 +99,22 @@ See `GlyLens_Engineering_BOM_v1.md` §11.
 
 ## 8. Environment Layout Contract
 
-### Windows (Native)
+### Windows (Native) — default `D:\glylens-dev`
 
 ```
-C:\src\flutter\          # Flutter SDK (NOT in OneDrive)
-C:\Users\<user>\AppData\Local\Android\Sdk\   # Android SDK
-C:\Program Files\Eclipse Adoptium\jdk-17...\  # JAVA_HOME
-D:\Rana\AI Crafft Works\Git\...\glylens\    # Repository clone
+D:\glylens-dev\
+  flutter\              # Flutter SDK
+  android\sdk\          # ANDROID_HOME
+  android-studio\       # Android Studio (optional)
+  jdk\                  # JDK 17
+  pub-cache\            # PUB_CACHE
+  docker\               # Docker Desktop disk image
+D:\Rana\AI Crafft Works\Git\...\glylens\   # Repository clone
 ```
+
+Override: set User env `GLYLENS_DEV_ROOT` or edit `scripts/platform/glylens-paths.config.ps1`.
+
+Legacy C: paths are still detected as fallback during migration.
 
 ### PATH Requirements (Windows)
 

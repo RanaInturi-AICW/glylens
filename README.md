@@ -4,9 +4,24 @@
 
 Enterprise Flutter platform + Food Intelligence Engine (domain layer).
 
+## Build Program 1.3 — Workstation Stand-Up
+
+**Status: NOT READY** — see [Environment Readiness Report](platform/GlyLens_Environment_Readiness_Report.md)
+
+```powershell
+.\scripts\platform\install-prerequisite-check.ps1
+# Follow platform/GlyLens_Installation_Guide.md
+.\scripts\platform\verify-complete-environment.ps1
+```
+
+| Matrix | Flutter 3.27.4 · Dart 3.6.2 · JDK 17 · AGP 8.7.3 · API 35 |
+|--------|-------------------------------------------------------------|
+| Guide | [Installation Guide](platform/GlyLens_Installation_Guide.md) |
+| Checklist | [Developer Checklist](platform/GlyLens_Developer_Checklist.md) |
+
 ## Build Program 1.2 — Enterprise Developer Platform
 
-Official engineering platform for Windows 11 + WSL2 + Docker + native Flutter.
+Official engineering platform for Windows 11 Professional + WSL2 + Docker + native Flutter.
 
 ### New developer? Start here
 

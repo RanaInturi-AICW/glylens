@@ -1,5 +1,5 @@
 # GlyLens Master Documentation Index v1.0
-_Last Updated: 2026-06-26 (BP1.2 platform)_
+_Last Updated: 2026-06-26 (BP1.3 workstation)_
 
 ## Purpose
 
@@ -159,6 +159,18 @@ All AI agents (Claude, Codex, Cursor) must start here.
 - `platform/GlyLens_DevOps_Foundation_v1.md` — **CANONICAL** — CI/CD, semver, branch protection
 - `platform/GlyLens_Docker_Strategy_v1.md` — **CANONICAL** — Container policy
 - `platform/GlyLens_Platform_Readiness_Assessment_v1.md` — **CANONICAL** — Verdict: **PARTIALLY READY**
+
+## Build Program 1.3 — Windows Workstation Stand-Up (CANONICAL)
+
+- `platform/Machine_Discovery_Report.md` — **CANONICAL** — Live machine audit
+- `platform/GlyLens_Version_Compatibility_Matrix.md` — **CANONICAL** — Flutter 3.27.4 + AGP 8.7.3 + JDK 17 matrix
+- `platform/GlyLens_Installation_Guide.md` — **CANONICAL** — Manual install steps (no auto-install)
+- `platform/GlyLens_Developer_Checklist.md` — **CANONICAL** — Stand-up tick-list
+- `platform/GlyLens_Environment_Readiness_Report.md` — **CANONICAL** — Verdict: **NOT READY**
+- `scripts/platform/install-prerequisite-check.ps1` — Prerequisites
+- `scripts/platform/configure-path.ps1` — PATH/env (confirmed changes)
+- `scripts/platform/verify-*.ps1` — Per-component verification
+- `scripts/platform/verify-complete-environment.ps1` — Full verification runner
 - `scripts/platform/` — Audit, validate, repair, quality-gate PowerShell scripts
 - `docker/` — Compose stack (emulator, mock API, corpus tools)
 - `.github/dependabot.yml` — Dependency updates

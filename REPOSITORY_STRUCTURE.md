@@ -1,6 +1,6 @@
 # Repository Structure
 
-_Last Updated: 2026-06-26 (BP1.2 platform)_
+_Last Updated: 2026-06-26 (BP1.3 workstation)_
 
 This document shows the current project folders and source files. See `docs/GlyLens_Repository_Manifest_v1.md` for authoritative artifact inventory and status.
 
@@ -16,7 +16,7 @@ This document shows the current project folders and source files. See `docs/GlyL
 
 - `scripts/convergence_repair.py` — Repair and validate seed JSON
 - `scripts/generate_backlog.py` — Generate acquisition backlog and sync CSV
-- `scripts/platform/` — BP1.2 environment audit, validate, repair, quality gates (PowerShell)
+- `scripts/platform/` — BP1.2 audit/validate/repair + **BP1.3 verify/install scripts**
 
 ## Flutter Application (`lib/`)
 
@@ -58,7 +58,20 @@ This document shows the current project folders and source files. See `docs/GlyL
 - `platform/GlyLens_Local_Quality_Gates_v1.md` — Pre-commit quality policy
 - `platform/GlyLens_DevOps_Foundation_v1.md` — DevOps hardening
 - `platform/GlyLens_Docker_Strategy_v1.md` — Docker usage policy
-- `platform/GlyLens_Platform_Readiness_Assessment_v1.md` — Readiness verdict
+- `platform/GlyLens_Platform_Readiness_Assessment_v1.md` — BP1.2 readiness verdict
+
+## Platform (Build Program 1.3 — Workstation Stand-Up)
+
+- `platform/Machine_Discovery_Report.md` — Live machine audit
+- `platform/GlyLens_Version_Compatibility_Matrix.md` — Official toolchain matrix
+- `platform/GlyLens_Installation_Guide.md` — Install order + rollback
+- `platform/GlyLens_Developer_Checklist.md` — Developer tick-list
+- `platform/GlyLens_Environment_Readiness_Report.md` — NOT READY verdict
+- `scripts/platform/install-prerequisite-check.ps1`
+- `scripts/platform/configure-path.ps1`
+- `scripts/platform/verify-flutter.ps1`, `verify-java.ps1`, `verify-android.ps1`
+- `scripts/platform/verify-docker.ps1`, `verify-wsl.ps1`, `verify-github.ps1`
+- `scripts/platform/verify-complete-environment.ps1`
 
 ## Docker (`docker/`)
 

@@ -5,7 +5,7 @@ _Build Program: 1.2 — Enterprise Developer Platform_
 _Audience: New developers and AI agents_  
 _Estimated setup time: 4–6 hours (first time)_
 
-This guide is the **only document required** to set up a GlyLens workstation from scratch on **Windows 11 + WSL2 + Docker**.
+This guide is the **only document required** to set up a GlyLens workstation from scratch on **Windows 11 Professional + WSL2 + Docker**.
 
 ---
 

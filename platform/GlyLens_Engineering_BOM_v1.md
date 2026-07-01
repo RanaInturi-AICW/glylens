@@ -14,7 +14,7 @@ The EBOM defines **exact recommended versions** for the official GlyLens enginee
 | Component | Recommended Version | Minimum | Notes |
 |-----------|-------------------|---------|-------|
 | **Windows** | Windows 11 **24H2** (Build 26100) | Windows 11 23H2 (Build 22631) | Primary dev host |
-| **Windows Edition** | Home or Pro | Home | WSL2 required |
+| **Windows Edition** | **Professional** | Home or Pro | WSL2 + Hyper-V (Pro recommended) |
 | **PowerShell** | **7.4.6** (pwsh) | 7.4.0 | Default shell for GlyLens scripts |
 | **Windows Terminal** | **1.22** | 1.20 | Optional but recommended |
 
@@ -54,8 +54,8 @@ flutter --version
 | Component | Recommended Version | Minimum | Notes |
 |-----------|-------------------|---------|-------|
 | **Android Studio** | **2024.2.2** (Ladybug) Patch 2 | 2024.1 | IDE + SDK Manager |
-| **Android SDK Platform** | **API 35** (Android 15) | API 34 | `platforms;android-35` |
-| **Android SDK Build-Tools** | **35.0.0** | 34.0.0 | |
+| **Android SDK Platform** | **≥ API 35** | API 34 | `platforms;android-35` or newer (e.g. `android-36.1`) |
+| **Android SDK Build-Tools** | **37.0.0** | 35.0.0 | Backward-compatible with compileSdk 35 |
 | **Android SDK Command-line Tools** | **16.0** | 13.0 | |
 | **Android Emulator** | **35.2.10** | 34.x | Pixel 7 API 35 image |
 | **NDK** | **27.2.12479018** | Optional for BP1 | Required for some plugins later |

@@ -1,6 +1,6 @@
 # GlyLens Repository Manifest v1
 
-_Last Updated: 2026-06-26 (BP1.2 platform)_  
+_Last Updated: 2026-06-26 (BP1.3 workstation)_  
 _Status: CANONICAL_  
 _Owner: Chief Enterprise Architect_
 
@@ -149,6 +149,24 @@ Single inventory of every repository artifact. **One source of truth per concern
 | `.gitignore` | Git exclusions | DevOps | — | **ACTIVE** |
 
 **BP1.2 Verdict:** PARTIALLY READY — platform docs and automation complete; Flutter not installed locally; BP1.1 compile blockers remain.
+
+---
+
+## 6d. Build Program 1.3 — Windows Workstation Stand-Up (CANONICAL)
+
+| Filename | Purpose | Owner | Status |
+|----------|---------|-------|--------|
+| `platform/Machine_Discovery_Report.md` | Live workstation audit | Platform Engineering | **CANONICAL** |
+| `platform/GlyLens_Version_Compatibility_Matrix.md` | Toolchain compatibility matrix | Build Engineer | **CANONICAL** |
+| `platform/GlyLens_Installation_Guide.md` | Manual install order + rollback | DevEx | **CANONICAL** |
+| `platform/GlyLens_Developer_Checklist.md` | Stand-up tick-list | DevEx | **CANONICAL** |
+| `platform/GlyLens_Environment_Readiness_Report.md` | Final NOT READY decision | Platform Engineering | **CANONICAL** |
+| `scripts/platform/install-prerequisite-check.ps1` | OS/RAM/disk prerequisites | DevOps | **ACTIVE** |
+| `scripts/platform/configure-path.ps1` | PATH/env with confirmation | DevOps | **ACTIVE** |
+| `scripts/platform/verify-*.ps1` | Component verification (7 scripts) | DevOps | **ACTIVE** |
+| `scripts/platform/verify-complete-environment.ps1` | Full environment runner | DevOps | **ACTIVE** |
+
+**BP1.3 Verdict:** NOT READY — Flutter, Android Studio, JDK 17, PS7 not installed; Docker daemon stopped.
 
 ---
 

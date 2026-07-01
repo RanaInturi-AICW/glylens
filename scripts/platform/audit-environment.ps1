@@ -79,15 +79,24 @@ if (-not $androidHome) { $androidHome = Join-Path $env:LOCALAPPDATA 'Android\Sdk
 $sdkExists = Test-Path $androidHome
 $results += New-GlyLensCheckResult -Name 'Android SDK' -Status $(if ($sdkExists) { 'Installed' } else { 'Missing' }) `
     -Detail $(if ($sdkExists) { $androidHome } else { 'ANDROID_HOME not set / SDK not found' }) `
-    -Remediation 'Install Android Studio; SDK Manager → API 35 + Build-Tools 35.0.0; set ANDROID_HOME.'
+    -Remediation 'Install Android Studio; SDK Manager → API 35+ platform + Build-Tools 37.0.0; set ANDROID_HOME.'
 
 if ($sdkExists) {
     $adb = Join-Path $androidHome 'platform-tools\adb.exe'
     $results += New-GlyLensCheckResult -Name 'Android platform-tools (adb)' -Status $(if (Test-Path $adb) { 'Installed' } else { 'Missing' }) `
         -Remediation 'sdkmanager "platform-tools"'
-    $apiDir = Join-Path $androidHome "platforms\android-$($GlyLensBom.AndroidApiLevel)"
-    $results += New-GlyLensCheckResult -Name "Android API $($GlyLensBom.AndroidApiLevel)" -Status $(if (Test-Path $apiDir) { 'Installed' } else { 'Missing' }) `
-        -Remediation "sdkmanager `"platforms;android-$($GlyLensBom.AndroidApiLevel)`""
+    $platformCheck = Test-GlyLensAndroidPlatformMeetsMinimum -SdkRoot $androidHome -MinApi $GlyLensBom.AndroidApiLevel
+    $platformName = "Android API platform (>= $($GlyLensBom.AndroidApiLevel))"
+    $results += New-GlyLensCheckResult -Name $platformName -Status $(if ($platformCheck.Ok) { 'Installed' } else { 'Missing' }) `
+        -Detail $(if ($platformCheck.Ok) { $platformCheck.Best.Folder } else { 'No platform at or above minimum API' }) `
+        -Remediation "sdkmanager `"platforms;android-$($GlyLensBom.AndroidApiLevel)`" (or newer)"
+    $preferredBt = Join-Path $androidHome "build-tools\$($GlyLensBom.AndroidBuildToolsVersion)"
+    $btInstalled = Get-GlyLensInstalledBuildTools -SdkRoot $androidHome
+    $btOk = (Test-Path $preferredBt) -or (($btInstalled | Select-Object -First 1).Version.Major -ge 35)
+    $btDetail = if (Test-Path $preferredBt) { $GlyLensBom.AndroidBuildToolsVersion } else { ($btInstalled | Select-Object -First 1).Folder }
+    $results += New-GlyLensCheckResult -Name 'Android SDK Build-Tools' -Status $(if ($btOk) { 'Installed' } else { 'Missing' }) `
+        -Detail $btDetail `
+        -Remediation "sdkmanager `"build-tools;$($GlyLensBom.AndroidBuildToolsVersion)`""
 }
 
 # --- Java ---

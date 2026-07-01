@@ -133,7 +133,7 @@ if ($ShowGuidance) {
     Write-Host '   Add C:\src\flutter\bin to User PATH'
     Write-Host ''
     Write-Host '2. Android Studio 2024.2.2' -ForegroundColor White
-    Write-Host '   Install → SDK Manager → API 35, Build-Tools 35.0.0, Command-line Tools'
+    Write-Host '   Install → SDK Manager → API 35+ platform, Build-Tools 37.0.0, Command-line Tools'
     Write-Host '   sdkmanager --licenses'
     Write-Host ''
     Write-Host '3. JDK 17 (Temurin)' -ForegroundColor White
