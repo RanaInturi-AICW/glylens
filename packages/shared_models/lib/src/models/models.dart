@@ -1,0 +1,11 @@
+export 'citation.dart';
+export 'evidence.dart';
+export 'food.dart';
+export 'food_variant.dart';
+export 'glycemic_profile.dart';
+export 'ingredient.dart';
+export 'meal.dart';
+export 'meal_component.dart';
+export 'nutrition_profile.dart';
+export 'product.dart';
+export 'source.dart';

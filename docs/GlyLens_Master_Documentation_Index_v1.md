@@ -1,5 +1,5 @@
 # GlyLens Master Documentation Index v1.0
-_Last Updated: 2026-06-26 (BP1.4 RC1)_
+_Last Updated: 2026-06-26 (BP2A domain foundation)_
 
 ## Purpose
 
@@ -189,7 +189,16 @@ All AI agents (Claude, Codex, Cursor) must start here.
 - `android/`, `ios/` — **RUNTIME** — Flutter platform projects (AGP 9.0.1)
 - `pubspec.lock` — **ACTIVE** — Locked dependencies
 
-**BP1.4 Verdict:** CODE GREEN — `flutter analyze` 0 issues, 83/83 tests; local APK pending SSL remediation; tag `v1.0.0-platform-ready` after CI APK.
+**BP1.4 Verdict:** CODE GREEN — tag `v1.0.0-platform-ready` applied.
+
+## Build Program 2A — Domain Foundation (CANONICAL)
+
+- `packages/shared_core/` — **CANONICAL** — Result, Failure, guards, clock/logger/config abstractions
+- `packages/shared_models/` — **CANONICAL** — Immutable FIG models + JSON + validation
+- `packages/food_domain/` — **CANONICAL** — Repository interfaces, specifications, domain value objects
+- `packages/shared_testing/` — **CANONICAL** — Object mothers, in-memory fakes, benchmark fixtures
+
+**BP2A Verdict:** GREEN — pure Dart; no Flutter/Firebase. Run `dart test` in each package directory.
 
 ## Archive and Legacy
 

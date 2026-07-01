@@ -1,0 +1,17 @@
+name: shared_models
+description: Immutable GlyLens domain models and value types.
+publish_to: none
+version: 1.1.0
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  equatable: ^2.0.7
+  meta: ^1.15.0
+  shared_core:
+    path: ../shared_core
+
+dev_dependencies:
+  lints: ^5.1.1
+  test: ^1.25.8

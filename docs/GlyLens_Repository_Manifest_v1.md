@@ -1,6 +1,6 @@
 # GlyLens Repository Manifest v1
 
-_Last Updated: 2026-06-26 (BP1.4 RC1)_  
+_Last Updated: 2026-06-26 (BP2A domain foundation)_  
 _Status: CANONICAL_  
 _Owner: Chief Enterprise Architect_
 
@@ -182,7 +182,20 @@ Single inventory of every repository artifact. **One source of truth per concern
 | `android/`, `ios/` | Flutter platform folders | Flutter Architect | **RUNTIME** |
 | `pubspec.lock` | Locked dependency graph | DevOps | **ACTIVE** |
 
-**BP1.4 Verdict:** CONDITIONAL RC — code gates GREEN (analyze 0, test 83/83); local APK blocked by JDK SSL; tag `v1.0.0-platform-ready` pending CI APK.
+**BP1.4 Verdict:** CONDITIONAL RC — code gates GREEN; tag `v1.0.0-platform-ready` applied.
+
+---
+
+## 6f. Build Program 2A — Domain Foundation (CANONICAL)
+
+| Filename | Purpose | Owner | Status |
+|----------|---------|-------|--------|
+| `packages/shared_core/` | Result, Failure, Entity/VO bases, guards, abstractions | Domain Architect | **CANONICAL** |
+| `packages/shared_models/` | Immutable FIG models (Ingredient, Food, Product, …) | Domain Architect | **CANONICAL** |
+| `packages/food_domain/` | Repository contracts, specifications, domain VOs | Domain Architect | **CANONICAL** |
+| `packages/shared_testing/` | Mothers, fakes, fixtures, matchers | Test Engineering | **CANONICAL** |
+
+**BP2A Verdict:** GREEN — pure Dart packages; no Flutter/Firebase; `dart analyze` + `dart test` pass per package. Recommend tag `v1.1.0-domain-foundation`.
 
 ---
 

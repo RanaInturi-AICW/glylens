@@ -1,6 +1,6 @@
 # Repository Structure
 
-_Last Updated: 2026-06-26 (BP1.4 RC1)_
+_Last Updated: 2026-06-26 (BP2A domain foundation)_
 
 This document shows the current project folders and source files. See `docs/GlyLens_Repository_Manifest_v1.md` for authoritative artifact inventory and status.
 
@@ -19,6 +19,22 @@ This document shows the current project folders and source files. See `docs/GlyL
 - `scripts/convergence_repair.py` — Repair and validate seed JSON
 - `scripts/generate_backlog.py` — Generate acquisition backlog and sync CSV
 - `scripts/platform/` — BP1.2 audit/validate/repair + **BP1.3 verify/install scripts**
+
+## Pure Dart Domain Packages (`packages/` — BP2A)
+
+- `packages/shared_core/` — Result, Failure, Entity/ValueObject bases, guards, abstractions
+- `packages/shared_models/` — Immutable models (Ingredient, Food, Product, Meal, Evidence, …)
+- `packages/food_domain/` — Repository contracts, specifications, domain value objects
+- `packages/shared_testing/` — Object mothers, in-memory fakes, fixtures, matchers
+
+Run quality gates per package:
+
+```bash
+cd packages/shared_core && dart pub get && dart analyze --fatal-infos && dart test
+cd packages/shared_models && dart pub get && dart analyze --fatal-infos && dart test
+cd packages/food_domain && dart pub get && dart analyze --fatal-infos && dart test
+cd packages/shared_testing && dart pub get && dart analyze --fatal-infos && dart test
+```
 
 ## Flutter Application (`lib/`)
 
